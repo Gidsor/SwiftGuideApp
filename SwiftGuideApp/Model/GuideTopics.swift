@@ -8,4 +8,6 @@
 
 import Foundation
 
-let guideTopics = [basicTopics, patternTopics]
+struct GuideTopics {
+    static let topics = [BasicTopics.topics, PatternTopics.topics]
+}

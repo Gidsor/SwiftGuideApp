@@ -18,7 +18,7 @@ class MainTableViewController: UITableViewController {
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return guideTopics.count
+        return GuideTopics.topics.count
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
@@ -29,13 +29,13 @@ class MainTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return guideTopics[section].count
+        return GuideTopics.topics[section].count
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
         
-        let name = guideTopics[indexPath.section][indexPath.row]
+        let name = GuideTopics.topics[indexPath.section][indexPath.row]
         
         cell.textLabel?.text = name
         

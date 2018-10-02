@@ -10,6 +10,7 @@
 		95C6169FD035BCDB2C3B1CC1 /* Pods_SwiftGuideApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAE841CFEB8B5D49417106C /* Pods_SwiftGuideApp.framework */; };
 		C01D88872163A41000F0F317 /* Xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D88862163A41000F0F317 /* Xcode.md */; };
 		C01D88892163A63600F0F317 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D88882163A63600F0F317 /* TutorialViewController.swift */; };
+		C01D888E2163C93A00F0F317 /* Playground.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D888D2163C93A00F0F317 /* Playground.md */; };
 		C05D3EEF2162935F00BD0268 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EEE2162935F00BD0268 /* MainTableViewController.swift */; };
 		C05D3EF121629F5300BD0268 /* CategoryTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EF021629F5300BD0268 /* CategoryTopics.swift */; };
 		C05D3EF421629FD700BD0268 /* BasicTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EF321629FD700BD0268 /* BasicTopics.swift */; };
@@ -30,6 +31,7 @@
 		7D3F85B1B3A5AFCCDBFEC662 /* Pods-SwiftGuideApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGuideApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGuideApp/Pods-SwiftGuideApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C01D88862163A41000F0F317 /* Xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Xcode.md; sourceTree = "<group>"; };
 		C01D88882163A63600F0F317 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		C01D888D2163C93A00F0F317 /* Playground.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Playground.md; sourceTree = "<group>"; };
 		C05D3EEE2162935F00BD0268 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		C05D3EF021629F5300BD0268 /* CategoryTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTopics.swift; sourceTree = "<group>"; };
 		C05D3EF321629FD700BD0268 /* BasicTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTopics.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				C01D88862163A41000F0F317 /* Xcode.md */,
+				C01D888D2163C93A00F0F317 /* Playground.md */,
 			);
 			path = Markdown;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				C0C824F721620DC800D8076F /* Assets.xcassets in Resources */,
 				C01D88872163A41000F0F317 /* Xcode.md in Resources */,
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,
+				C01D888E2163C93A00F0F317 /* Playground.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

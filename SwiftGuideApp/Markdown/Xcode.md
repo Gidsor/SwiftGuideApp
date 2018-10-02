@@ -2,11 +2,6 @@
 
 <b>Xcode</b> — интегрированная среда разработки (IDE) программного обеспечения для платформ macOS, iOS, watchOS и tvOS, разработанная корпорацией Apple.
 
-## Тест кода
+Xcode включает в себя большую часть документации разработчика от Apple и Interface Builder — приложение, использующееся для создания графических интерфейсов.
 
-```swift
-let path = Bundle.main.path(forResource: name, ofType: "md")!
-let url = URL(fileURLWithPath: path)
-let markdown = try! String(contentsOf: url, encoding: String.Encoding.utf8)
-md.load(markdown: markdown, enableImage: true)
-```
+<img src="https://user-images.githubusercontent.com/16274235/46360795-9eaeb580-c685-11e8-88d6-e7383c450fd2.jpg">

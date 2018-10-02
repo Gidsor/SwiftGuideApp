@@ -39,11 +39,6 @@ class MainTableViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: "toTutorialPage", sender: self)
-        print("ssss")
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "toTutorialPage" {
             if let cell = sender as? TopicCell {

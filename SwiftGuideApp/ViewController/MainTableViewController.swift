@@ -14,37 +14,28 @@ class MainTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupUI()
     }
 
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return GuideTopics.topics.count
+        return CategoryTopics.topics.count
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let label = UILabel()
-        label.text = GuideTopics.topics[section].header
+        label.text = CategoryTopics.topics[section].header
         label.backgroundColor = UIColor.orange
         return label
     }
     
+    
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return GuideTopics.topics[section].topics.count
+        return 1
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath)
-        
-        let name = GuideTopics.topics[indexPath.section].topics[indexPath.row]
-        
-        cell.textLabel?.text = name
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as! CategoryRow
+        cell.topics = CategoryTopics.topics[indexPath.section].topics
         return cell
-    }
-
-    private func setupUI() {
-        navigationItem.title = "Swift Guide"
-        tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellId)
     }
     
 }

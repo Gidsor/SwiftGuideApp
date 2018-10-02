@@ -1,5 +1,5 @@
 //
-//  GuideTopics.swift
+//  CategoryTopics.swift
 //  SwiftGuideApp
 //
 //  Created by Vadim Denisov on 01/10/2018.
@@ -8,6 +8,6 @@
 
 import Foundation
 
-class GuideTopics {
+class CategoryTopics {
     static let topics: [Topic] = [BasicTopics(), PatternTopics()]
 }

@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct PatternTopics: Topic {
-    static let header = "Паттерны"
-    static let topics = ["Одиночка", "Прототип", "Адаптер", "Мост", "Наблюдатель"]
+class PatternTopics: Topic {
+    let header = "Паттерны"
+    let topics = ["Одиночка", "Прототип", "Адаптер", "Мост", "Наблюдатель"]
 }

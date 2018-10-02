@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct BasicTopics: Topic {
-    static let header = "Основы"
-    static let topics = ["Xcode", "Playground", "Переменные", "Константы", "Опционалы"]
+class BasicTopics: Topic {
+    let header = "Основы"
+    let topics = ["Xcode", "Playground", "Переменные", "Константы", "Опционалы"]
 }

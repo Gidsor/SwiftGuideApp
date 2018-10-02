@@ -9,6 +9,6 @@
 import Foundation
 
 protocol Topic {
-    static var header: String { get }
-    static var topics: [String] { get }
+    var header: String { get }
+    var topics: [String] { get }
 }

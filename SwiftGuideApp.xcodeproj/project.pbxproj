@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		95C6169FD035BCDB2C3B1CC1 /* Pods_SwiftGuideApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAE841CFEB8B5D49417106C /* Pods_SwiftGuideApp.framework */; };
+		C01D88872163A41000F0F317 /* Xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D88862163A41000F0F317 /* Xcode.md */; };
+		C01D88892163A63600F0F317 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D88882163A63600F0F317 /* TutorialViewController.swift */; };
 		C05D3EEF2162935F00BD0268 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EEE2162935F00BD0268 /* MainTableViewController.swift */; };
 		C05D3EF121629F5300BD0268 /* CategoryTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EF021629F5300BD0268 /* CategoryTopics.swift */; };
 		C05D3EF421629FD700BD0268 /* BasicTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EF321629FD700BD0268 /* BasicTopics.swift */; };
@@ -26,6 +28,8 @@
 /* Begin PBXFileReference section */
 		6DAE841CFEB8B5D49417106C /* Pods_SwiftGuideApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGuideApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3F85B1B3A5AFCCDBFEC662 /* Pods-SwiftGuideApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGuideApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGuideApp/Pods-SwiftGuideApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C01D88862163A41000F0F317 /* Xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Xcode.md; sourceTree = "<group>"; };
+		C01D88882163A63600F0F317 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		C05D3EEE2162935F00BD0268 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		C05D3EF021629F5300BD0268 /* CategoryTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTopics.swift; sourceTree = "<group>"; };
 		C05D3EF321629FD700BD0268 /* BasicTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTopics.swift; sourceTree = "<group>"; };
@@ -73,6 +77,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C01D88852163A3B200F0F317 /* Markdown */ = {
+			isa = PBXGroup;
+			children = (
+				C01D88862163A41000F0F317 /* Xcode.md */,
+			);
+			path = Markdown;
+			sourceTree = "<group>";
+		};
 		C05D3EF221629F5C00BD0268 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				C05D3EEE2162935F00BD0268 /* MainTableViewController.swift */,
+				C01D88882163A63600F0F317 /* TutorialViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -129,6 +142,7 @@
 				C05D3EF52162A0B800BD0268 /* ViewController */,
 				C05D3EF221629F5C00BD0268 /* Model */,
 				C0C824EF21620DC700D8076F /* AppDelegate.swift */,
+				C01D88852163A3B200F0F317 /* Markdown */,
 				C0C824F621620DC800D8076F /* Assets.xcassets */,
 				C0C824FB21620DC800D8076F /* Info.plist */,
 				C0C824F821620DC800D8076F /* LaunchScreen.storyboard */,
@@ -198,6 +212,7 @@
 			files = (
 				C0C824FA21620DC800D8076F /* LaunchScreen.storyboard in Resources */,
 				C0C824F721620DC800D8076F /* Assets.xcassets in Resources */,
+				C01D88872163A41000F0F317 /* Xcode.md in Resources */,
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +280,7 @@
 				C05D3EEF2162935F00BD0268 /* MainTableViewController.swift in Sources */,
 				C05D3EFC216328BE00BD0268 /* CategoryRow.swift in Sources */,
 				C05D3EF121629F5300BD0268 /* CategoryTopics.swift in Sources */,
+				C01D88892163A63600F0F317 /* TutorialViewController.swift in Sources */,
 				C0C824F021620DC700D8076F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

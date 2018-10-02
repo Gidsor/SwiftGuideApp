@@ -14,7 +14,7 @@ class CategoryRow: UITableViewCell {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var topics: [String]? = nil {
+    var tutorials: [Tutorial]? = nil {
         didSet {
             collectionView.reloadData()
         }
@@ -23,13 +23,13 @@ class CategoryRow: UITableViewCell {
 
 extension CategoryRow: UICollectionViewDataSource {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return topics?.count ?? 0
+        return tutorials?.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! TopicCell
         cell.label.numberOfLines = 2
-        cell.label.text = topics?[indexPath.row]
+        cell.label.text = tutorials?[indexPath.row].name
         cell.contentView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
         return cell
     }

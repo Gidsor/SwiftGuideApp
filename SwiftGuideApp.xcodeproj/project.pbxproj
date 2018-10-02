@@ -11,15 +11,11 @@
 		C01D88872163A41000F0F317 /* Xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D88862163A41000F0F317 /* Xcode.md */; };
 		C01D88892163A63600F0F317 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D88882163A63600F0F317 /* TutorialViewController.swift */; };
 		C01D888E2163C93A00F0F317 /* Playground.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D888D2163C93A00F0F317 /* Playground.md */; };
+		C01D88902163D53500F0F317 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D888F2163D53500F0F317 /* Tutorial.swift */; };
 		C05D3EEF2162935F00BD0268 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EEE2162935F00BD0268 /* MainTableViewController.swift */; };
-		C05D3EF121629F5300BD0268 /* CategoryTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EF021629F5300BD0268 /* CategoryTopics.swift */; };
-		C05D3EF421629FD700BD0268 /* BasicTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EF321629FD700BD0268 /* BasicTopics.swift */; };
-		C05D3EF72162A2B000BD0268 /* PatternTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EF62162A2B000BD0268 /* PatternTopics.swift */; };
-		C05D3EF92162ACAA00BD0268 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EF82162ACAA00BD0268 /* Topic.swift */; };
+		C05D3EF121629F5300BD0268 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EF021629F5300BD0268 /* Categories.swift */; };
 		C05D3EFC216328BE00BD0268 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFB216328BE00BD0268 /* CategoryRow.swift */; };
 		C05D3EFE2163306B00BD0268 /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFD2163306B00BD0268 /* TopicCell.swift */; };
-		C05D3F002163491100BD0268 /* StyleGuideTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFF2163491100BD0268 /* StyleGuideTopics.swift */; };
-		C05D3F022163494900BD0268 /* MultithreadingTopics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3F012163494900BD0268 /* MultithreadingTopics.swift */; };
 		C0C824F021620DC700D8076F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C824EF21620DC700D8076F /* AppDelegate.swift */; };
 		C0C824F521620DC700D8076F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C824F321620DC700D8076F /* Main.storyboard */; };
 		C0C824F721620DC800D8076F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C824F621620DC800D8076F /* Assets.xcassets */; };
@@ -32,15 +28,11 @@
 		C01D88862163A41000F0F317 /* Xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Xcode.md; sourceTree = "<group>"; };
 		C01D88882163A63600F0F317 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		C01D888D2163C93A00F0F317 /* Playground.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Playground.md; sourceTree = "<group>"; };
+		C01D888F2163D53500F0F317 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		C05D3EEE2162935F00BD0268 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
-		C05D3EF021629F5300BD0268 /* CategoryTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTopics.swift; sourceTree = "<group>"; };
-		C05D3EF321629FD700BD0268 /* BasicTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTopics.swift; sourceTree = "<group>"; };
-		C05D3EF62162A2B000BD0268 /* PatternTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternTopics.swift; sourceTree = "<group>"; };
-		C05D3EF82162ACAA00BD0268 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		C05D3EF021629F5300BD0268 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		C05D3EFB216328BE00BD0268 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		C05D3EFD2163306B00BD0268 /* TopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
-		C05D3EFF2163491100BD0268 /* StyleGuideTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuideTopics.swift; sourceTree = "<group>"; };
-		C05D3F012163494900BD0268 /* MultithreadingTopics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultithreadingTopics.swift; sourceTree = "<group>"; };
 		C0C824EC21620DC700D8076F /* SwiftGuideApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGuideApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C824EF21620DC700D8076F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0C824F421620DC700D8076F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -91,12 +83,8 @@
 		C05D3EF221629F5C00BD0268 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				C05D3EF82162ACAA00BD0268 /* Topic.swift */,
-				C05D3EF021629F5300BD0268 /* CategoryTopics.swift */,
-				C05D3EF321629FD700BD0268 /* BasicTopics.swift */,
-				C05D3EF62162A2B000BD0268 /* PatternTopics.swift */,
-				C05D3EFF2163491100BD0268 /* StyleGuideTopics.swift */,
-				C05D3F012163494900BD0268 /* MultithreadingTopics.swift */,
+				C05D3EF021629F5300BD0268 /* Categories.swift */,
+				C01D888F2163D53500F0F317 /* Tutorial.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -275,15 +263,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C05D3EF72162A2B000BD0268 /* PatternTopics.swift in Sources */,
-				C05D3F002163491100BD0268 /* StyleGuideTopics.swift in Sources */,
-				C05D3F022163494900BD0268 /* MultithreadingTopics.swift in Sources */,
+				C01D88902163D53500F0F317 /* Tutorial.swift in Sources */,
 				C05D3EFE2163306B00BD0268 /* TopicCell.swift in Sources */,
-				C05D3EF92162ACAA00BD0268 /* Topic.swift in Sources */,
-				C05D3EF421629FD700BD0268 /* BasicTopics.swift in Sources */,
 				C05D3EEF2162935F00BD0268 /* MainTableViewController.swift in Sources */,
 				C05D3EFC216328BE00BD0268 /* CategoryRow.swift in Sources */,
-				C05D3EF121629F5300BD0268 /* CategoryTopics.swift in Sources */,
+				C05D3EF121629F5300BD0268 /* Categories.swift in Sources */,
 				C01D88892163A63600F0F317 /* TutorialViewController.swift in Sources */,
 				C0C824F021620DC700D8076F /* AppDelegate.swift in Sources */,
 			);

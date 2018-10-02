@@ -10,4 +10,6 @@ import UIKit
 
 class TopicCell: UICollectionViewCell {
     @IBOutlet weak var label: UILabel!
+    
+    var pathMark: String?
 }

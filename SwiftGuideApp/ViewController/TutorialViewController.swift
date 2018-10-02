@@ -10,14 +10,16 @@ import UIKit
 import MarkdownView
 
 class TutorialViewController: UIViewController {
-
+    
     let md = MarkdownView()
+    
+    var pathMark: String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         view.addSubview(md)
-        loadMarkdown(name: "Xcode")
+        loadMarkdown(name: pathMark)
     }
     
     func loadMarkdown(name: String) {

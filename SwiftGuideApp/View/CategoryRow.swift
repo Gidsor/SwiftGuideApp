@@ -30,6 +30,7 @@ extension CategoryRow: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! TopicCell
         cell.label.numberOfLines = 2
         cell.label.text = tutorials?[indexPath.row].name
+        cell.pathMark = tutorials?[indexPath.row].pathMark
         cell.contentView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
         return cell
     }

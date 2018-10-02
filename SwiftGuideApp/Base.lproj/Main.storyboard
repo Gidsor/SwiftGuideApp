@@ -58,7 +58,7 @@
                                                     </constraints>
                                                     <connections>
                                                         <outlet property="label" destination="zG0-UY-eif" id="T13-HP-o28"/>
-                                                        <segue destination="kMm-DF-teh" kind="show" id="4rt-CS-9BC"/>
+                                                        <segue destination="kMm-DF-teh" kind="show" identifier="toTutorialPage" id="4rt-CS-9BC"/>
                                                     </connections>
                                                 </collectionViewCell>
                                             </cells>

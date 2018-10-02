@@ -35,6 +35,7 @@ class MainTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as! CategoryRow
         cell.topics = CategoryTopics.topics[indexPath.section].topics
+        cell.contentView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
         return cell
     }
     

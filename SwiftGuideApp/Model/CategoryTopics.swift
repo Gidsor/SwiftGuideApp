@@ -9,5 +9,5 @@
 import Foundation
 
 class CategoryTopics {
-    static let topics: [Topic] = [BasicTopics(), PatternTopics()]
+    static let topics: [Topic] = [BasicTopics(), PatternTopics(), StyleGuideTopics(), MultithreadingTopics()]
 }

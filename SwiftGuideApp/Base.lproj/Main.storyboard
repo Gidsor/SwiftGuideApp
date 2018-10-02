@@ -11,6 +11,7 @@
         <!--Swift Guide-->
         <scene sceneID="O1i-dA-Ue4">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fhm-ox-HKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController id="QpS-k9-sfm" customClass="MainTableViewController" customModule="SwiftGuideApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lMn-yP-LfE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -41,15 +42,20 @@
                                                         <rect key="frame" x="0.0" y="0.0" width="165" height="114"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Название раздела" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zG0-UY-eif">
-                                                                <rect key="frame" x="4" y="14" width="148" height="21"/>
-                                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Название раздела" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zG0-UY-eif">
+                                                                <rect key="frame" x="5" y="5" width="155" height="104"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
                                                     </view>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="zG0-UY-eif" secondAttribute="trailing" constant="5" id="FNu-fF-PV1"/>
+                                                        <constraint firstItem="zG0-UY-eif" firstAttribute="top" secondItem="nvF-Hr-pzW" secondAttribute="top" constant="5" id="HrQ-iK-zsZ"/>
+                                                        <constraint firstAttribute="bottom" secondItem="zG0-UY-eif" secondAttribute="bottom" constant="5" id="mu3-ZE-LIt"/>
+                                                        <constraint firstItem="zG0-UY-eif" firstAttribute="leading" secondItem="nvF-Hr-pzW" secondAttribute="leading" constant="5" id="xbS-mk-Hae"/>
+                                                    </constraints>
                                                     <connections>
                                                         <outlet property="label" destination="zG0-UY-eif" id="T13-HP-o28"/>
                                                     </connections>
@@ -80,13 +86,13 @@
                     </tableView>
                     <navigationItem key="navigationItem" title="Swift Guide" id="EKv-Hw-cUk"/>
                 </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fhm-ox-HKs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1488.8" y="-483.50824587706148"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="9k5-jx-xH5">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JF9-xA-aUV" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="If2-YW-Zda" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Uqg-up-PkR">
@@ -98,7 +104,6 @@
                         <segue destination="QpS-k9-sfm" kind="relationship" relationship="rootViewController" id="HES-VJ-sRP"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="JF9-xA-aUV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="556" y="-482.60869565217394"/>
         </scene>

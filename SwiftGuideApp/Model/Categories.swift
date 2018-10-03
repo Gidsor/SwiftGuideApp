@@ -25,50 +25,50 @@ class Categories {
     }
     
     private func createBasicTutorials() -> [Tutorial] {
-        var topics: [Tutorial] = []
+        var tutorials: [Tutorial] = []
         
-        topics.append(Tutorial(header: "Основы", name: "Xcode", pathMark: "Xcode"))
-        topics.append(Tutorial(header: "Основы", name: "Playground", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Основы", name: "Переменные", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Основы", name: "Константы", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Основы", name: "Опционалы", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Xcode", pathMark: "Xcode"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Playground", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Переменные", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Константы", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Опционалы", pathMark: "Playground"))
         
-        return topics
+        return tutorials
     }
     
     private func createPatternTutorials() -> [Tutorial] {
-        var topics: [Tutorial] = []
+        var tutorials: [Tutorial] = []
         
-        topics.append(Tutorial(header: "Паттерны", name: "Одиночка", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Паттерны", name: "Прототип", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Паттерны", name: "Адаптер", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Паттерны", name: "Мост", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Паттерны", name: "Наблюдатель", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Паттерны", name: "Одиночка", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Паттерны", name: "Прототип", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Паттерны", name: "Адаптер", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Паттерны", name: "Мост", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Паттерны", name: "Наблюдатель", pathMark: "Playground"))
         
-        return topics
+        return tutorials
     }
     
     private func createStyleGuideTutorials() -> [Tutorial] {
-        var topics: [Tutorial] = []
+        var tutorials: [Tutorial] = []
         
-        topics.append(Tutorial(header: "Code Style", name: "Имена", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Code Style", name: "Пробелы и табуляция", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Code Style", name: "Классы и структуры", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Code Style", name: "Объявления функций", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Code Style", name: "Безымянные функции", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Code Style", name: "Имена", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Code Style", name: "Пробелы и табуляция", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Code Style", name: "Классы и структуры", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Code Style", name: "Объявления функций", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Code Style", name: "Безымянные функции", pathMark: "Playground"))
         
-        return topics
+        return tutorials
     }
     
     private func createMultithreadingTutorials() -> [Tutorial] {
-        var topics: [Tutorial] = []
+        var tutorials: [Tutorial] = []
         
-        topics.append(Tutorial(header: "Многопоточность", name: "Последовательные очереди", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Многопоточность", name: "Параллельные очереди", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Многопоточность", name: "Синхронное выполнение", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Многопоточность", name: "Асинхронное выполнение", pathMark: "Playground"))
-        topics.append(Tutorial(header: "Многопоточность", name: "Глобальные очереди", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Последовательные очереди", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Параллельные очереди", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Синхронное выполнение", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Асинхронное выполнение", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Глобальные очереди", pathMark: "Playground"))
         
-        return topics
+        return tutorials
     }
 }

@@ -9,6 +9,7 @@
 import UIKit
 
 class TopicCell: UICollectionViewCell {
+    @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var label: UILabel!
     
     var pathMark: String?

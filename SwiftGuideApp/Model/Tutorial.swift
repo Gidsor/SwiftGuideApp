@@ -9,12 +9,12 @@
 import Foundation
 
 class Tutorial {
-    var header: String = ""
+    var headerText: String = ""
     var name: String = ""
     var pathMark: String = ""
     
-    init(header: String, name: String, pathMark: String) {
-        self.header = header
+    init(headerText: String, name: String, pathMark: String) {
+        self.headerText = headerText
         self.name = name
         self.pathMark = pathMark
     }

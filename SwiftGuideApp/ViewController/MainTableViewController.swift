@@ -22,7 +22,7 @@ class MainTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let label = UILabel()
-        label.text = Categories.instance.categories[section][0].header
+        label.text = Categories.instance.categories[section][0].headerText
         label.backgroundColor = UIColor.orange
         return label
     }
@@ -35,7 +35,6 @@ class MainTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as! CategoryRow
         cell.tutorials = Categories.instance.categories[indexPath.section]
-        cell.contentView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
         return cell
     }
     

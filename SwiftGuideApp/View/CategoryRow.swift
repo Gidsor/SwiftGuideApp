@@ -28,20 +28,11 @@ extension CategoryRow: UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! TopicCell
-        cell.label.numberOfLines = 2
+//        cell.label.numberOfLines = 2
         cell.label.text = tutorials?[indexPath.row].name
+        cell.imageView.image = UIImage(named: "xcode-icon")
         cell.pathMark = tutorials?[indexPath.row].pathMark
-        cell.contentView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
+        //cell.contentView.systemLayoutSizeFitting(UIView.layoutFittingCompressedSize)
         return cell
     }
 }
-
-//extension CategoryRow: UICollectionViewDelegateFlowLayout {
-//    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-//        let itemsPerRow:CGFloat = 3
-//        let hardCodedPadding:CGFloat = 5
-//        let itemWidth = (collectionView.bounds.width / itemsPerRow) - hardCodedPadding
-//        let itemHeight = collectionView.bounds.height - (2 * hardCodedPadding)
-//        return CGSize(width: itemWidth, height: itemHeight)
-//    }
-//}

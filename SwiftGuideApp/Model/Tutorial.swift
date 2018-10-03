@@ -9,13 +9,16 @@
 import Foundation
 
 class Tutorial {
-    var headerText: String = ""
-    var name: String = ""
-    var pathMark: String = ""
+    var headerText: String!
+    var name: String!
+    var pathMark: String!
+    var image: String!
     
-    init(headerText: String, name: String, pathMark: String) {
+    
+    init(headerText: String, name: String, pathMark: String, image: String) {
         self.headerText = headerText
         self.name = name
         self.pathMark = pathMark
+        self.image = image
     }
 }

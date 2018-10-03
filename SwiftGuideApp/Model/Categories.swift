@@ -27,11 +27,11 @@ class Categories {
     private func createBasicTutorials() -> [Tutorial] {
         var tutorials: [Tutorial] = []
         
-        tutorials.append(Tutorial(headerText: "Основы", name: "Xcode", pathMark: "Xcode"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Playground", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Переменные", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Константы", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Опционалы", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Xcode", pathMark: "Xcode", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Playground", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Переменные", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Константы", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Опционалы", pathMark: "Playground", image: "xcode-icon"))
         
         return tutorials
     }
@@ -39,11 +39,11 @@ class Categories {
     private func createPatternTutorials() -> [Tutorial] {
         var tutorials: [Tutorial] = []
         
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Одиночка", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Прототип", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Адаптер", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Мост", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Наблюдатель", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Паттерны", name: "Одиночка", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Паттерны", name: "Прототип", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Паттерны", name: "Адаптер", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Паттерны", name: "Мост", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Паттерны", name: "Наблюдатель", pathMark: "Playground", image: "xcode-icon"))
         
         return tutorials
     }
@@ -51,11 +51,11 @@ class Categories {
     private func createStyleGuideTutorials() -> [Tutorial] {
         var tutorials: [Tutorial] = []
         
-        tutorials.append(Tutorial(headerText: "Code Style", name: "Имена", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Code Style", name: "Пробелы и табуляция", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Code Style", name: "Классы и структуры", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Code Style", name: "Объявления функций", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Code Style", name: "Безымянные функции", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Code Style", name: "Имена", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Code Style", name: "Пробелы и табуляция", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Code Style", name: "Классы и структуры", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Code Style", name: "Объявления функций", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Code Style", name: "Безымянные функции", pathMark: "Playground", image: "xcode-icon"))
         
         return tutorials
     }
@@ -63,11 +63,11 @@ class Categories {
     private func createMultithreadingTutorials() -> [Tutorial] {
         var tutorials: [Tutorial] = []
         
-        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Последовательные очереди", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Параллельные очереди", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Синхронное выполнение", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Асинхронное выполнение", pathMark: "Playground"))
-        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Глобальные очереди", pathMark: "Playground"))
+        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Последовательные очереди", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Параллельные очереди", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Синхронное выполнение", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Асинхронное выполнение", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Глобальные очереди", pathMark: "Playground", image: "xcode-icon"))
         
         return tutorials
     }

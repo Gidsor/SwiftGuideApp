@@ -22,11 +22,20 @@ class MainTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let label = UILabel()
-        label.text = Categories.instance.categories[section][0].headerText
-        label.backgroundColor = UIColor.orange
+        label.font = UIFont.boldSystemFont(ofSize: 20)
+        label.text = "\t" + Categories.instance.categories[section][0].headerText
         return label
     }
     
+    override func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return 10
+    }
+    
+    override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        let view = UIView()
+        view.backgroundColor = UIColor.gray
+        return view
+    }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1

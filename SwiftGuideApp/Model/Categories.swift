@@ -28,10 +28,10 @@ class Categories {
         var tutorials: [Tutorial] = []
         
         tutorials.append(Tutorial(headerText: "Основы", name: "Xcode", pathMark: "Xcode", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Playground", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Переменные", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Константы", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Опционалы", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Playground", pathMark: "Playground", image: "playground-icon"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Переменные", pathMark: "Playground", image: "variable-icon"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Константы", pathMark: "Playground", image: "constants-icon"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Опционалы", pathMark: "Playground", image: "optionals-icon"))
         
         return tutorials
     }

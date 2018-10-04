@@ -30,7 +30,6 @@ extension CategoryRow: UICollectionViewDataSource {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! TopicCell
 
         let tutorial = tutorials[indexPath.row]
-        cell.label.numberOfLines = 2
         cell.label.text = tutorial.name
         cell.imageView.image = UIImage(named: tutorial.image)
         cell.pathMark = tutorial.pathMark

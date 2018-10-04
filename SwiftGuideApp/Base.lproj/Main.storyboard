@@ -18,52 +18,50 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="200" id="TbC-Z0-wTH" customClass="CategoryRow" customModule="SwiftGuideApp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="22" width="375" height="200"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="180" id="TbC-Z0-wTH" customClass="CategoryRow" customModule="SwiftGuideApp" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="22" width="375" height="180"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="TbC-Z0-wTH" id="Mva-Zp-j1o">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="179.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="jjW-4W-iFA">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="179.5"/>
                                             <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                                             <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="5" minimumInteritemSpacing="5" id="EnL-Cl-zsT">
-                                                <size key="itemSize" width="220" height="180"/>
+                                                <size key="itemSize" width="208" height="150"/>
                                                 <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                 <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                                 <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
                                             </collectionViewFlowLayout>
                                             <cells>
                                                 <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="topicCell" id="nvF-Hr-pzW" customClass="TopicCell" customModule="SwiftGuideApp" customModuleProvider="target">
-                                                    <rect key="frame" x="5" y="10" width="220" height="180"/>
+                                                    <rect key="frame" x="5" y="15" width="208" height="150"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="220" height="180"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="208" height="150"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Название раздела" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zG0-UY-eif">
-                                                                <rect key="frame" x="36.5" y="139" width="147.5" height="21"/>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="1cd-7d-FsP">
+                                                                <rect key="frame" x="54" y="7" width="100" height="100"/>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zG0-UY-eif">
+                                                                <rect key="frame" x="4" y="109" width="200" height="41"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="1cd-7d-FsP">
-                                                                <rect key="frame" x="40" y="19" width="140" height="120"/>
-                                                                <constraints>
-                                                                    <constraint firstAttribute="height" constant="120" id="LX8-99-cEx"/>
-                                                                </constraints>
-                                                            </imageView>
                                                         </subviews>
                                                     </view>
                                                     <constraints>
-                                                        <constraint firstItem="zG0-UY-eif" firstAttribute="top" secondItem="1cd-7d-FsP" secondAttribute="bottom" id="0cr-gj-e8n"/>
-                                                        <constraint firstItem="1cd-7d-FsP" firstAttribute="top" secondItem="nvF-Hr-pzW" secondAttribute="top" constant="19" id="4Bm-mJ-vUr"/>
-                                                        <constraint firstAttribute="bottom" secondItem="zG0-UY-eif" secondAttribute="bottom" constant="20" id="GEo-pC-WiK"/>
-                                                        <constraint firstAttribute="trailing" secondItem="1cd-7d-FsP" secondAttribute="trailing" constant="40" id="SJ7-11-5qL"/>
-                                                        <constraint firstItem="1cd-7d-FsP" firstAttribute="centerX" secondItem="nvF-Hr-pzW" secondAttribute="centerX" id="fwm-E9-Kd9"/>
-                                                        <constraint firstItem="1cd-7d-FsP" firstAttribute="leading" secondItem="nvF-Hr-pzW" secondAttribute="leading" constant="40" id="ulx-H2-MXe"/>
-                                                        <constraint firstItem="zG0-UY-eif" firstAttribute="centerX" secondItem="nvF-Hr-pzW" secondAttribute="centerX" id="v5W-mo-MyM"/>
+                                                        <constraint firstAttribute="trailing" secondItem="zG0-UY-eif" secondAttribute="trailing" constant="4" id="0oj-Zu-Qv3"/>
+                                                        <constraint firstItem="1cd-7d-FsP" firstAttribute="top" secondItem="nvF-Hr-pzW" secondAttribute="top" constant="7" id="36f-MN-kLe"/>
+                                                        <constraint firstItem="1cd-7d-FsP" firstAttribute="centerX" secondItem="nvF-Hr-pzW" secondAttribute="centerX" id="48k-gI-cwQ"/>
+                                                        <constraint firstItem="zG0-UY-eif" firstAttribute="top" secondItem="1cd-7d-FsP" secondAttribute="bottom" constant="2" id="C8Q-a2-di6"/>
+                                                        <constraint firstItem="zG0-UY-eif" firstAttribute="leading" secondItem="nvF-Hr-pzW" secondAttribute="leading" constant="4" id="FU9-qf-EHE"/>
+                                                        <constraint firstAttribute="bottom" secondItem="1cd-7d-FsP" secondAttribute="bottom" constant="43" id="Lgb-QN-GHW"/>
+                                                        <constraint firstAttribute="bottom" secondItem="zG0-UY-eif" secondAttribute="bottom" id="N1z-aq-jnJ"/>
+                                                        <constraint firstItem="1cd-7d-FsP" firstAttribute="leading" secondItem="nvF-Hr-pzW" secondAttribute="leading" constant="54" id="hDZ-Dz-aEx"/>
                                                     </constraints>
                                                     <connections>
                                                         <outlet property="imageView" destination="1cd-7d-FsP" id="MGr-9A-m7a"/>

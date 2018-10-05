@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 import MarkdownView
 
 class TutorialViewController: UIViewController {
@@ -29,6 +30,20 @@ class TutorialViewController: UIViewController {
         md.leadingAnchor.constraint(equalTo: view.leadingAnchor).isActive = true
         md.trailingAnchor.constraint(equalTo: view.trailingAnchor).isActive = true
         md.bottomAnchor.constraint(equalTo: view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        
+        md.onTouchLink = { [weak self] request in
+            guard let url = request.url else { return false }
+            
+            if url.scheme == "file" {
+                return false
+            } else if url.scheme == "https" {
+                let svc = SFSafariViewController(url: url)
+                self?.present(svc, animated: true, completion: nil)
+                return false
+            } else {
+                return false
+            }
+        }
         
         let path = Bundle.main.path(forResource: name, ofType: "md")!
         let url = URL(fileURLWithPath: path)

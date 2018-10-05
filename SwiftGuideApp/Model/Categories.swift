@@ -30,7 +30,7 @@ class Categories {
         tutorials.append(Tutorial(headerText: "Основы", name: "Xcode", pathMark: "Xcode", image: "xcode-icon"))
         tutorials.append(Tutorial(headerText: "Основы", name: "Playground", pathMark: "Playground", image: "playground-icon"))
         tutorials.append(Tutorial(headerText: "Основы", name: "Переменные", pathMark: "Variables", image: "variable-icon"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Опционалы", pathMark: "Playground", image: "optionals-icon"))
+        tutorials.append(Tutorial(headerText: "Основы", name: "Опциональные типы", pathMark: "OptionalTypes", image: "optionals-icon"))
         
         return tutorials
     }

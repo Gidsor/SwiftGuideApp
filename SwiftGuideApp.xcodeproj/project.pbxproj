@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		95C6169FD035BCDB2C3B1CC1 /* Pods_SwiftGuideApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAE841CFEB8B5D49417106C /* Pods_SwiftGuideApp.framework */; };
 		C00C39F821678E0A00753714 /* OptionalTypes.md in Resources */ = {isa = PBXBuildFile; fileRef = C00C39F721678E0A00753714 /* OptionalTypes.md */; };
+		C017FE6E216A82B800FA116D /* PatternsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE6D216A82B800FA116D /* PatternsViewController.swift */; };
+		C017FE70216A831700FA116D /* LibrariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE6F216A831700FA116D /* LibrariesViewController.swift */; };
+		C017FE72216A833200FA116D /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE71216A833200FA116D /* OtherViewController.swift */; };
 		C01D88872163A41000F0F317 /* Xcode.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D88862163A41000F0F317 /* Xcode.md */; };
 		C01D88892163A63600F0F317 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D88882163A63600F0F317 /* TutorialViewController.swift */; };
 		C01D888E2163C93A00F0F317 /* Playground.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D888D2163C93A00F0F317 /* Playground.md */; };
 		C01D88902163D53500F0F317 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D888F2163D53500F0F317 /* Tutorial.swift */; };
 		C054D88021665B7F00FFA52D /* Variables.md in Resources */ = {isa = PBXBuildFile; fileRef = C054D87F21665B7F00FFA52D /* Variables.md */; };
-		C05D3EEF2162935F00BD0268 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EEE2162935F00BD0268 /* MainTableViewController.swift */; };
+		C05D3EEF2162935F00BD0268 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */; };
 		C05D3EF121629F5300BD0268 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EF021629F5300BD0268 /* Categories.swift */; };
 		C05D3EFC216328BE00BD0268 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFB216328BE00BD0268 /* CategoryRow.swift */; };
 		C05D3EFE2163306B00BD0268 /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFD2163306B00BD0268 /* TopicCell.swift */; };
@@ -29,12 +32,15 @@
 		6DAE841CFEB8B5D49417106C /* Pods_SwiftGuideApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGuideApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3F85B1B3A5AFCCDBFEC662 /* Pods-SwiftGuideApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGuideApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGuideApp/Pods-SwiftGuideApp.debug.xcconfig"; sourceTree = "<group>"; };
 		C00C39F721678E0A00753714 /* OptionalTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = OptionalTypes.md; sourceTree = "<group>"; };
+		C017FE6D216A82B800FA116D /* PatternsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsViewController.swift; sourceTree = "<group>"; };
+		C017FE6F216A831700FA116D /* LibrariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesViewController.swift; sourceTree = "<group>"; };
+		C017FE71216A833200FA116D /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 		C01D88862163A41000F0F317 /* Xcode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Xcode.md; sourceTree = "<group>"; };
 		C01D88882163A63600F0F317 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		C01D888D2163C93A00F0F317 /* Playground.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Playground.md; sourceTree = "<group>"; };
 		C01D888F2163D53500F0F317 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		C054D87F21665B7F00FFA52D /* Variables.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Variables.md; sourceTree = "<group>"; };
-		C05D3EEE2162935F00BD0268 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		C05D3EF021629F5300BD0268 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		C05D3EFB216328BE00BD0268 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		C05D3EFD2163306B00BD0268 /* TopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
@@ -101,7 +107,10 @@
 		C05D3EF52162A0B800BD0268 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C05D3EEE2162935F00BD0268 /* MainTableViewController.swift */,
+				C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */,
+				C017FE6D216A82B800FA116D /* PatternsViewController.swift */,
+				C017FE6F216A831700FA116D /* LibrariesViewController.swift */,
+				C017FE71216A833200FA116D /* OtherViewController.swift */,
 				C01D88882163A63600F0F317 /* TutorialViewController.swift */,
 			);
 			path = ViewController;
@@ -275,13 +284,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C017FE70216A831700FA116D /* LibrariesViewController.swift in Sources */,
 				C01D88902163D53500F0F317 /* Tutorial.swift in Sources */,
 				C05D3EFE2163306B00BD0268 /* TopicCell.swift in Sources */,
-				C05D3EEF2162935F00BD0268 /* MainTableViewController.swift in Sources */,
+				C05D3EEF2162935F00BD0268 /* SwiftViewController.swift in Sources */,
 				C05D3EFC216328BE00BD0268 /* CategoryRow.swift in Sources */,
 				C05D3EF121629F5300BD0268 /* Categories.swift in Sources */,
 				C01D88892163A63600F0F317 /* TutorialViewController.swift in Sources */,
 				C0C824F021620DC700D8076F /* AppDelegate.swift in Sources */,
+				C017FE6E216A82B800FA116D /* PatternsViewController.swift in Sources */,
+				C017FE72216A833200FA116D /* OtherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

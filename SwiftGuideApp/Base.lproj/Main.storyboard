@@ -12,7 +12,7 @@
         <!--Swift Guide-->
         <scene sceneID="O1i-dA-Ue4">
             <objects>
-                <tableViewController id="QpS-k9-sfm" customClass="MainTableViewController" customModule="SwiftGuideApp" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="QpS-k9-sfm" customClass="SwiftViewController" customModule="SwiftGuideApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="145" sectionHeaderHeight="22" sectionFooterHeight="22" id="lMn-yP-LfE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -140,6 +140,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="ZVy-Ek-7b4"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="1NV-di-Pv0">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -157,7 +158,7 @@
         <!--Swift Guide-->
         <scene sceneID="v9a-ds-0ab">
             <objects>
-                <tableViewController id="x6Z-6B-uaV" sceneMemberID="viewController">
+                <tableViewController id="x6Z-6B-uaV" customClass="PatternsViewController" customModule="SwiftGuideApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="145" sectionHeaderHeight="22" sectionFooterHeight="22" id="GdC-bt-TXt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -243,7 +244,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hgl-Qg-tlI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2894" y="-776"/>
+            <point key="canvasLocation" x="2894" y="-794"/>
         </scene>
         <!--Tutorial View Controller-->
         <scene sceneID="VFg-BC-IYT">
@@ -263,7 +264,7 @@
         <!--Swift Guide-->
         <scene sceneID="y1J-Or-1pi">
             <objects>
-                <tableViewController id="bwV-sU-Z2d" sceneMemberID="viewController">
+                <tableViewController id="bwV-sU-Z2d" customClass="LibrariesViewController" customModule="SwiftGuideApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="145" sectionHeaderHeight="22" sectionFooterHeight="22" id="cvh-om-sqx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -369,7 +370,7 @@
         <!--Swift Guide-->
         <scene sceneID="e2f-la-AmY">
             <objects>
-                <tableViewController id="VTd-lU-0Gv" sceneMemberID="viewController">
+                <tableViewController id="VTd-lU-0Gv" customClass="OtherViewController" customModule="SwiftGuideApp" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="145" sectionHeaderHeight="22" sectionFooterHeight="22" id="8nE-5H-qvi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

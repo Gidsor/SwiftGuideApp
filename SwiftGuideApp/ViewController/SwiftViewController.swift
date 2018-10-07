@@ -1,5 +1,5 @@
 //
-//  MainTableViewController.swift
+//  SwiftViewController.swift
 //  SwiftGuideApp
 //
 //  Created by Vadim Denisov on 01/10/2018.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MainTableViewController: UITableViewController {
+class SwiftViewController: UITableViewController {
 
     private let cellId = "cell"
     

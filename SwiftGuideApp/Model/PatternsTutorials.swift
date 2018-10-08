@@ -22,14 +22,15 @@ class PatternsTutorials {
     }
     
     private func createPatternTutorials() -> [Tutorial] {
+        let header = "Паттерны"
         var tutorials: [Tutorial] = []
         
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Паттерны проектирования", pathMark: "DesignPatterns", image: "design-patterns-icon"))
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Одиночка", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Прототип", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Адаптер", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Мост", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Паттерны", name: "Наблюдатель", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Паттерны проектирования", pathMark: "DesignPatterns", image: "design-patterns-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Одиночка", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Прототип", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Адаптер", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Мост", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Наблюдатель", pathMark: "Playground", image: "xcode-icon"))
         
         return tutorials
     }

@@ -23,13 +23,14 @@ class OtherTutorials {
     
     
     private func createStyleGuideTutorials() -> [Tutorial] {
+        let header = "Code Style"
         var tutorials: [Tutorial] = []
         
-        tutorials.append(Tutorial(headerText: "Code Style", name: "Имена", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Code Style", name: "Пробелы и табуляция", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Code Style", name: "Классы и структуры", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Code Style", name: "Объявления функций", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Code Style", name: "Безымянные функции", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Имена", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Пробелы и табуляция", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Классы и структуры", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Объявления функций", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Безымянные функции", pathMark: "Playground", image: "xcode-icon"))
         
         return tutorials
     }

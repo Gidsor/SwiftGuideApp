@@ -18,6 +18,16 @@ class LibrariesTutorials {
     }
     
     private func createTutorials() {
+        tutorials.append(createRxSwiftTutorials())
+    }
+    
+    private func createRxSwiftTutorials() -> [Tutorial] {
+        let header = "RxSwift"
+        var tutorials: [Tutorial] = []
+        
+        tutorials.append(Tutorial(headerText: header, name: "О библиотеке", pathMark: "Xcode", image: "xcode-icon"))
+        
+        return tutorials
     }
     
 }

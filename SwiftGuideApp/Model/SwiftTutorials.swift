@@ -23,24 +23,26 @@ class SwiftTutorials {
     }
     
     private func createBasicTutorials() -> [Tutorial] {
+        let header = "Основы"
         var tutorials: [Tutorial] = []
         
-        tutorials.append(Tutorial(headerText: "Основы", name: "Xcode", pathMark: "Xcode", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Playground", pathMark: "Playground", image: "playground-icon"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Переменные", pathMark: "Variables", image: "variable-icon"))
-        tutorials.append(Tutorial(headerText: "Основы", name: "Опциональные типы", pathMark: "OptionalTypes", image: "optionals-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Xcode", pathMark: "Xcode", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Playground", pathMark: "Playground", image: "playground-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Переменные", pathMark: "Variables", image: "variable-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Опциональные типы", pathMark: "OptionalTypes", image: "optionals-icon"))
         
         return tutorials
     }
     
     private func createMultithreadingTutorials() -> [Tutorial] {
+        let header = "Многопоточность"
         var tutorials: [Tutorial] = []
         
-        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Последовательные очереди", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Параллельные очереди", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Синхронное выполнение", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Асинхронное выполнение", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: "Многопоточность", name: "Глобальные очереди", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Последовательные очереди", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Параллельные очереди", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Синхронное выполнение", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Асинхронное выполнение", pathMark: "Playground", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Глобальные очереди", pathMark: "Playground", image: "xcode-icon"))
         
         return tutorials
     }

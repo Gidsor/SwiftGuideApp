@@ -26,8 +26,7 @@ class SwiftTutorials {
         let header = "Основы"
         var tutorials: [Tutorial] = []
         
-        tutorials.append(Tutorial(headerText: header, name: "Xcode", pathMark: "Xcode", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Playground", pathMark: "Playground", image: "playground-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "О языке Swift", pathMark: "AboutSwift", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Переменные", pathMark: "Variables", image: "variable-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Опциональные типы", pathMark: "OptionalTypes", image: "optionals-icon"))
         

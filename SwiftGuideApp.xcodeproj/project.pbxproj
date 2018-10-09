@@ -20,6 +20,7 @@
 		C05D3EEF2162935F00BD0268 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */; };
 		C05D3EFC216328BE00BD0268 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFB216328BE00BD0268 /* CategoryRow.swift */; };
 		C05D3EFE2163306B00BD0268 /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFD2163306B00BD0268 /* TopicCell.swift */; };
+		C06161CE216CA5A7000D3D89 /* AboutSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C06161CD216CA5A7000D3D89 /* AboutSwift.md */; };
 		C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */ = {isa = PBXBuildFile; fileRef = C073951121692A8A00F9A2E2 /* DesignPatterns.md */; };
 		C0C824F021620DC700D8076F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C824EF21620DC700D8076F /* AppDelegate.swift */; };
 		C0C824F521620DC700D8076F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C824F321620DC700D8076F /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 		C0EDDC06216B31550098BBE8 /* PatternsTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */; };
 		C0EDDC08216B316E0098BBE8 /* LibrariesTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC07216B316E0098BBE8 /* LibrariesTutorials.swift */; };
 		C0EDDC0A216B317F0098BBE8 /* OtherTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC09216B317F0098BBE8 /* OtherTutorials.swift */; };
+		C0EDDC10216B84660098BBE8 /* RxSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C0EDDC0F216B84660098BBE8 /* RxSwift.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,7 @@
 		C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		C05D3EFB216328BE00BD0268 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		C05D3EFD2163306B00BD0268 /* TopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
+		C06161CD216CA5A7000D3D89 /* AboutSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AboutSwift.md; sourceTree = "<group>"; };
 		C073951121692A8A00F9A2E2 /* DesignPatterns.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DesignPatterns.md; sourceTree = "<group>"; };
 		C0C824EC21620DC700D8076F /* SwiftGuideApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGuideApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C824EF21620DC700D8076F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +60,7 @@
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC07216B316E0098BBE8 /* LibrariesTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC09216B317F0098BBE8 /* OtherTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTutorials.swift; sourceTree = "<group>"; };
+		C0EDDC0F216B84660098BBE8 /* RxSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwift.md; sourceTree = "<group>"; };
 		F8C754677A388BE7445D0B07 /* Pods-SwiftGuideApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGuideApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGuideApp/Pods-SwiftGuideApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,11 +96,10 @@
 		C01D88852163A3B200F0F317 /* Markdown */ = {
 			isa = PBXGroup;
 			children = (
-				C01D88862163A41000F0F317 /* Xcode.md */,
-				C01D888D2163C93A00F0F317 /* Playground.md */,
-				C054D87F21665B7F00FFA52D /* Variables.md */,
-				C00C39F721678E0A00753714 /* OptionalTypes.md */,
-				C073951121692A8A00F9A2E2 /* DesignPatterns.md */,
+				C0EDDC0B216B840C0098BBE8 /* Swift */,
+				C0EDDC0C216B84190098BBE8 /* Patterns */,
+				C0EDDC0D216B84240098BBE8 /* Libraries */,
+				C0EDDC0E216B842D0098BBE8 /* Other */,
 			);
 			path = Markdown;
 			sourceTree = "<group>";
@@ -168,6 +171,41 @@
 			path = SwiftGuideApp;
 			sourceTree = "<group>";
 		};
+		C0EDDC0B216B840C0098BBE8 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C06161CD216CA5A7000D3D89 /* AboutSwift.md */,
+				C054D87F21665B7F00FFA52D /* Variables.md */,
+				C00C39F721678E0A00753714 /* OptionalTypes.md */,
+			);
+			path = Swift;
+			sourceTree = "<group>";
+		};
+		C0EDDC0C216B84190098BBE8 /* Patterns */ = {
+			isa = PBXGroup;
+			children = (
+				C073951121692A8A00F9A2E2 /* DesignPatterns.md */,
+			);
+			path = Patterns;
+			sourceTree = "<group>";
+		};
+		C0EDDC0D216B84240098BBE8 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				C0EDDC0F216B84660098BBE8 /* RxSwift.md */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		C0EDDC0E216B842D0098BBE8 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C01D88862163A41000F0F317 /* Xcode.md */,
+				C01D888D2163C93A00F0F317 /* Playground.md */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -229,12 +267,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0C824FA21620DC800D8076F /* LaunchScreen.storyboard in Resources */,
+				C0EDDC10216B84660098BBE8 /* RxSwift.md in Resources */,
 				C0C824F721620DC800D8076F /* Assets.xcassets in Resources */,
 				C054D88021665B7F00FFA52D /* Variables.md in Resources */,
 				C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */,
 				C01D88872163A41000F0F317 /* Xcode.md in Resources */,
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,
 				C00C39F821678E0A00753714 /* OptionalTypes.md in Resources */,
+				C06161CE216CA5A7000D3D89 /* AboutSwift.md in Resources */,
 				C01D888E2163C93A00F0F317 /* Playground.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

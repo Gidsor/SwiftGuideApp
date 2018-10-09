@@ -19,6 +19,7 @@ class OtherTutorials {
     
     private func createTutorials() {
         tutorials.append(createStyleGuideTutorials())
+        tutorials.append(createXcodeTurorials())
     }
     
     
@@ -31,6 +32,16 @@ class OtherTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Классы и структуры", pathMark: "Playground", image: "xcode-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Объявления функций", pathMark: "Playground", image: "xcode-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Безымянные функции", pathMark: "Playground", image: "xcode-icon"))
+        
+        return tutorials
+    }
+    
+    private func createXcodeTurorials() -> [Tutorial] {
+        let header = "Xcode"
+        var tutorials: [Tutorial] = []
+        
+        tutorials.append(Tutorial(headerText: header, name: "Xcode", pathMark: "Xcode", image: "xcode-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Playground", pathMark: "Playground", image: "playground-icon"))
         
         return tutorials
     }

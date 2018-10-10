@@ -23,11 +23,11 @@ class SwiftTutorials {
     }
     
     private func createBasicTutorials() -> [Tutorial] {
-        let header = "Основы"
+        let header = "Знакомство со Swift"
         var tutorials: [Tutorial] = []
         
         tutorials.append(Tutorial(headerText: header, name: "О языке Swift", pathMark: "AboutSwift", image: "swift-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Переменные", pathMark: "Variables", image: "variable-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Совместимость версий Swift", pathMark: "Variables", image: "variable-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Опциональные типы", pathMark: "OptionalTypes", image: "optionals-icon"))
         
         return tutorials

@@ -29,7 +29,7 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "О языке Swift", pathMark: "AboutSwift", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Совместимость версий Swift", pathMark: "VersionSwift", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Переменные", pathMark: "Variables", image: "variable-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Опциональные типы", pathMark: "OptionalTypes", image: "optionals-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Управление потоком", pathMark: "ControlFlow", image: "swift-icon"))
         
         return tutorials
     }

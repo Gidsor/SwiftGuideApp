@@ -30,6 +30,7 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Совместимость версий Swift", pathMark: "VersionSwift", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Переменные", pathMark: "Variables", image: "variable-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Управление потоком", pathMark: "ControlFlow", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Функции и замыкание", pathMark: "FunctionsAndClosures", image: "swift-icon"))
         
         return tutorials
     }

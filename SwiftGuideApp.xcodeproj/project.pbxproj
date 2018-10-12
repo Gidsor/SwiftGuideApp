@@ -25,6 +25,7 @@
 		C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */ = {isa = PBXBuildFile; fileRef = C073951121692A8A00F9A2E2 /* DesignPatterns.md */; };
 		C09E6A2F2170CB8D009A0130 /* FunctionsAndClosures.md in Resources */ = {isa = PBXBuildFile; fileRef = C09E6A2E2170CB8D009A0130 /* FunctionsAndClosures.md */; };
 		C09E6A312170CF02009A0130 /* ObjectsAndClasses.md in Resources */ = {isa = PBXBuildFile; fileRef = C09E6A302170CF02009A0130 /* ObjectsAndClasses.md */; };
+		C09E6A332170D25D009A0130 /* EnumerationsAndStructures.md in Resources */ = {isa = PBXBuildFile; fileRef = C09E6A322170D25D009A0130 /* EnumerationsAndStructures.md */; };
 		C0ADF362216E774E00B6B0F8 /* HelloWorld.md in Resources */ = {isa = PBXBuildFile; fileRef = C0ADF361216E774E00B6B0F8 /* HelloWorld.md */; };
 		C0C824F021620DC700D8076F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C824EF21620DC700D8076F /* AppDelegate.swift */; };
 		C0C824F521620DC700D8076F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C824F321620DC700D8076F /* Main.storyboard */; };
@@ -57,6 +58,7 @@
 		C073951121692A8A00F9A2E2 /* DesignPatterns.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DesignPatterns.md; sourceTree = "<group>"; };
 		C09E6A2E2170CB8D009A0130 /* FunctionsAndClosures.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FunctionsAndClosures.md; sourceTree = "<group>"; };
 		C09E6A302170CF02009A0130 /* ObjectsAndClasses.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ObjectsAndClasses.md; sourceTree = "<group>"; };
+		C09E6A322170D25D009A0130 /* EnumerationsAndStructures.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = EnumerationsAndStructures.md; sourceTree = "<group>"; };
 		C0ADF361216E774E00B6B0F8 /* HelloWorld.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HelloWorld.md; sourceTree = "<group>"; };
 		C0C824EC21620DC700D8076F /* SwiftGuideApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGuideApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C824EF21620DC700D8076F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -189,6 +191,7 @@
 				C06A9975216FC45D00836925 /* ControlFlow.md */,
 				C09E6A2E2170CB8D009A0130 /* FunctionsAndClosures.md */,
 				C09E6A302170CF02009A0130 /* ObjectsAndClasses.md */,
+				C09E6A322170D25D009A0130 /* EnumerationsAndStructures.md */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				C0EDDC10216B84660098BBE8 /* RxSwift.md in Resources */,
 				C0C824F721620DC800D8076F /* Assets.xcassets in Resources */,
 				C054D88021665B7F00FFA52D /* Variables.md in Resources */,
+				C09E6A332170D25D009A0130 /* EnumerationsAndStructures.md in Resources */,
 				C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */,
 				C01D88872163A41000F0F317 /* Xcode.md in Resources */,
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,

@@ -34,6 +34,7 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Объекты и классы", pathMark: "ObjectsAndClasses", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Перечисления и структуры", pathMark: "EnumerationsAndStructures", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Протоколы и расширения", pathMark: "ProtocolsAndExtensions", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Обработка ошибок", pathMark: "ErrorHandling", image: "swift-icon"))
         
         return tutorials
     }

@@ -22,6 +22,7 @@
 		C05D3EFE2163306B00BD0268 /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFD2163306B00BD0268 /* TopicCell.swift */; };
 		C06161CE216CA5A7000D3D89 /* AboutSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C06161CD216CA5A7000D3D89 /* AboutSwift.md */; };
 		C06A9976216FC45D00836925 /* ControlFlow.md in Resources */ = {isa = PBXBuildFile; fileRef = C06A9975216FC45D00836925 /* ControlFlow.md */; };
+		C06CB43B21712BE100C147B9 /* ErrorHandling.md in Resources */ = {isa = PBXBuildFile; fileRef = C06CB43A21712BE100C147B9 /* ErrorHandling.md */; };
 		C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */ = {isa = PBXBuildFile; fileRef = C073951121692A8A00F9A2E2 /* DesignPatterns.md */; };
 		C09E6A2F2170CB8D009A0130 /* FunctionsAndClosures.md in Resources */ = {isa = PBXBuildFile; fileRef = C09E6A2E2170CB8D009A0130 /* FunctionsAndClosures.md */; };
 		C09E6A312170CF02009A0130 /* ObjectsAndClasses.md in Resources */ = {isa = PBXBuildFile; fileRef = C09E6A302170CF02009A0130 /* ObjectsAndClasses.md */; };
@@ -56,6 +57,7 @@
 		C05D3EFD2163306B00BD0268 /* TopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
 		C06161CD216CA5A7000D3D89 /* AboutSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AboutSwift.md; sourceTree = "<group>"; };
 		C06A9975216FC45D00836925 /* ControlFlow.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlow.md; sourceTree = "<group>"; };
+		C06CB43A21712BE100C147B9 /* ErrorHandling.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ErrorHandling.md; sourceTree = "<group>"; };
 		C073951121692A8A00F9A2E2 /* DesignPatterns.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DesignPatterns.md; sourceTree = "<group>"; };
 		C09E6A2E2170CB8D009A0130 /* FunctionsAndClosures.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FunctionsAndClosures.md; sourceTree = "<group>"; };
 		C09E6A302170CF02009A0130 /* ObjectsAndClasses.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ObjectsAndClasses.md; sourceTree = "<group>"; };
@@ -195,6 +197,7 @@
 				C09E6A302170CF02009A0130 /* ObjectsAndClasses.md */,
 				C09E6A322170D25D009A0130 /* EnumerationsAndStructures.md */,
 				C09E6A342170D750009A0130 /* ProtocolsAndExtensions.md */,
+				C06CB43A21712BE100C147B9 /* ErrorHandling.md */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */,
 				C01D88872163A41000F0F317 /* Xcode.md in Resources */,
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,
+				C06CB43B21712BE100C147B9 /* ErrorHandling.md in Resources */,
 				C06161CE216CA5A7000D3D89 /* AboutSwift.md in Resources */,
 				C06A9976216FC45D00836925 /* ControlFlow.md in Resources */,
 				C09E6A2F2170CB8D009A0130 /* FunctionsAndClosures.md in Resources */,

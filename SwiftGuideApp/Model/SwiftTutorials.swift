@@ -45,6 +45,8 @@ class SwiftTutorials {
         let header = "Основы"
         var tutorials: [Tutorial] = []
         
+        tutorials.append(Tutorial(headerText: header, name: "Константы и переменные", pathMark: "ConstantsAndVariables", image: "swift-icon"))
+        
         return tutorials
     }
     

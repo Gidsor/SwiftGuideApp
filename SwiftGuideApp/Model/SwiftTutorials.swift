@@ -18,12 +18,13 @@ class SwiftTutorials {
     }
     
     private func createTutorials() {
+        tutorials.append(createWelcomeTutorials())
         tutorials.append(createBasicTutorials())
         tutorials.append(createMultithreadingTutorials())
     }
     
-    private func createBasicTutorials() -> [Tutorial] {
-        let header = "Знакомство со Swift"
+    private func createWelcomeTutorials() -> [Tutorial] {
+        let header = "Быстрый тур по Swift"
         var tutorials: [Tutorial] = []
         
         tutorials.append(Tutorial(headerText: header, name: "О языке Swift", pathMark: "AboutSwift", image: "swift-icon"))
@@ -36,6 +37,13 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Протоколы и расширения", pathMark: "ProtocolsAndExtensions", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Обработка ошибок", pathMark: "ErrorHandling", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Универсальные типы", pathMark: "Generics", image: "swift-icon"))
+        
+        return tutorials
+    }
+    
+    private func createBasicTutorials() -> [Tutorial] {
+        let header = "Основы"
+        var tutorials: [Tutorial] = []
         
         return tutorials
     }

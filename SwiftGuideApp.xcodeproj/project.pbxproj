@@ -109,6 +109,31 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C01D7BB92173A9ED000208CC /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				C06161CD216CA5A7000D3D89 /* AboutSwift.md */,
+				C054D87F21665B7F00FFA52D /* Variables.md */,
+				C05326AB216DC38300839BDE /* VersionSwift.md */,
+				C0ADF361216E774E00B6B0F8 /* HelloWorld.md */,
+				C06A9975216FC45D00836925 /* ControlFlow.md */,
+				C09E6A2E2170CB8D009A0130 /* FunctionsAndClosures.md */,
+				C09E6A302170CF02009A0130 /* ObjectsAndClasses.md */,
+				C09E6A322170D25D009A0130 /* EnumerationsAndStructures.md */,
+				C09E6A342170D750009A0130 /* ProtocolsAndExtensions.md */,
+				C06CB43A21712BE100C147B9 /* ErrorHandling.md */,
+				C06CB43C2171BEFC00C147B9 /* Generics.md */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		C01D7BBA2173AA08000208CC /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Basic;
+			sourceTree = "<group>";
+		};
 		C01D88852163A3B200F0F317 /* Markdown */ = {
 			isa = PBXGroup;
 			children = (
@@ -190,17 +215,8 @@
 		C0EDDC0B216B840C0098BBE8 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
-				C06161CD216CA5A7000D3D89 /* AboutSwift.md */,
-				C054D87F21665B7F00FFA52D /* Variables.md */,
-				C05326AB216DC38300839BDE /* VersionSwift.md */,
-				C0ADF361216E774E00B6B0F8 /* HelloWorld.md */,
-				C06A9975216FC45D00836925 /* ControlFlow.md */,
-				C09E6A2E2170CB8D009A0130 /* FunctionsAndClosures.md */,
-				C09E6A302170CF02009A0130 /* ObjectsAndClasses.md */,
-				C09E6A322170D25D009A0130 /* EnumerationsAndStructures.md */,
-				C09E6A342170D750009A0130 /* ProtocolsAndExtensions.md */,
-				C06CB43A21712BE100C147B9 /* ErrorHandling.md */,
-				C06CB43C2171BEFC00C147B9 /* Generics.md */,
+				C01D7BB92173A9ED000208CC /* Welcome */,
+				C01D7BBA2173AA08000208CC /* Basic */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

@@ -25,6 +25,7 @@
 		C01D88902163D53500F0F317 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D888F2163D53500F0F317 /* Tutorial.swift */; };
 		C05326AC216DC38300839BDE /* VersionSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C05326AB216DC38300839BDE /* VersionSwift.md */; };
 		C054D88021665B7F00FFA52D /* Variables.md in Resources */ = {isa = PBXBuildFile; fileRef = C054D87F21665B7F00FFA52D /* Variables.md */; };
+		C05BA3F721750E5400C4A8E2 /* Booleans.md in Resources */ = {isa = PBXBuildFile; fileRef = C05BA3F621750E5400C4A8E2 /* Booleans.md */; };
 		C05D3EEF2162935F00BD0268 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */; };
 		C05D3EFC216328BE00BD0268 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFB216328BE00BD0268 /* CategoryRow.swift */; };
 		C05D3EFE2163306B00BD0268 /* TopicCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFD2163306B00BD0268 /* TopicCell.swift */; };
@@ -69,6 +70,7 @@
 		C01D888F2163D53500F0F317 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		C05326AB216DC38300839BDE /* VersionSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VersionSwift.md; sourceTree = "<group>"; };
 		C054D87F21665B7F00FFA52D /* Variables.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Variables.md; sourceTree = "<group>"; };
+		C05BA3F621750E5400C4A8E2 /* Booleans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Booleans.md; sourceTree = "<group>"; };
 		C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		C05D3EFB216328BE00BD0268 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
 		C05D3EFD2163306B00BD0268 /* TopicCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicCell.swift; sourceTree = "<group>"; };
@@ -154,6 +156,7 @@
 				C0141F5F2174BEA00093BF56 /* NumericLiterals.md */,
 				C0141F612174C1AD0093BF56 /* NumericTypeConversion.md */,
 				C0141F632174C3660093BF56 /* TypeAliases.md */,
+				C05BA3F621750E5400C4A8E2 /* Booleans.md */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				C0141F5B2174BC030093BF56 /* FloatingPointNumbers.md in Resources */,
 				C0ADF362216E774E00B6B0F8 /* HelloWorld.md in Resources */,
 				C01D888E2163C93A00F0F317 /* Playground.md in Resources */,
+				C05BA3F721750E5400C4A8E2 /* Booleans.md in Resources */,
 				C01D7BBC2173AC8E000208CC /* ConstantsAndVariables.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

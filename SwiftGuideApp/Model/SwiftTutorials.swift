@@ -50,6 +50,7 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Целые числа", pathMark: "Integers", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Числа с плавающей точки", pathMark: "FloatingPointNumbers", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Строгая типизация и Вывод типов", pathMark: "TypeSafetyAndTypeInference", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Числовые литералы", pathMark: "NumericLiterals", image: "swift-icon"))
         
         return tutorials
     }

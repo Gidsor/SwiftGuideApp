@@ -12,6 +12,7 @@
 		C0141F592174BA650093BF56 /* Integers.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F582174BA650093BF56 /* Integers.md */; };
 		C0141F5B2174BC030093BF56 /* FloatingPointNumbers.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F5A2174BC030093BF56 /* FloatingPointNumbers.md */; };
 		C0141F5E2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F5D2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md */; };
+		C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F5F2174BEA00093BF56 /* NumericLiterals.md */; };
 		C017FE6E216A82B800FA116D /* PatternsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE6D216A82B800FA116D /* PatternsViewController.swift */; };
 		C017FE70216A831700FA116D /* LibrariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE6F216A831700FA116D /* LibrariesViewController.swift */; };
 		C017FE72216A833200FA116D /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE71216A833200FA116D /* OtherViewController.swift */; };
@@ -53,6 +54,7 @@
 		C0141F582174BA650093BF56 /* Integers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Integers.md; sourceTree = "<group>"; };
 		C0141F5A2174BC030093BF56 /* FloatingPointNumbers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FloatingPointNumbers.md; sourceTree = "<group>"; };
 		C0141F5D2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TypeSafetyAndTypeInference.md; sourceTree = "<group>"; };
+		C0141F5F2174BEA00093BF56 /* NumericLiterals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NumericLiterals.md; sourceTree = "<group>"; };
 		C017FE6D216A82B800FA116D /* PatternsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsViewController.swift; sourceTree = "<group>"; };
 		C017FE6F216A831700FA116D /* LibrariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesViewController.swift; sourceTree = "<group>"; };
 		C017FE71216A833200FA116D /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				C0141F582174BA650093BF56 /* Integers.md */,
 				C0141F5A2174BC030093BF56 /* FloatingPointNumbers.md */,
 				C0141F5D2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md */,
+				C0141F5F2174BEA00093BF56 /* NumericLiterals.md */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -333,6 +336,7 @@
 				C054D88021665B7F00FFA52D /* Variables.md in Resources */,
 				C09E6A332170D25D009A0130 /* EnumerationsAndStructures.md in Resources */,
 				C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */,
+				C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */,
 				C01D88872163A41000F0F317 /* Xcode.md in Resources */,
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,
 				C06CB43B21712BE100C147B9 /* ErrorHandling.md in Resources */,

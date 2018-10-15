@@ -14,6 +14,7 @@
 		C0141F5E2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F5D2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md */; };
 		C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F5F2174BEA00093BF56 /* NumericLiterals.md */; };
 		C0141F622174C1AD0093BF56 /* NumericTypeConversion.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F612174C1AD0093BF56 /* NumericTypeConversion.md */; };
+		C0141F642174C3660093BF56 /* TypeAliases.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F632174C3660093BF56 /* TypeAliases.md */; };
 		C017FE6E216A82B800FA116D /* PatternsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE6D216A82B800FA116D /* PatternsViewController.swift */; };
 		C017FE70216A831700FA116D /* LibrariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE6F216A831700FA116D /* LibrariesViewController.swift */; };
 		C017FE72216A833200FA116D /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE71216A833200FA116D /* OtherViewController.swift */; };
@@ -57,6 +58,7 @@
 		C0141F5D2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TypeSafetyAndTypeInference.md; sourceTree = "<group>"; };
 		C0141F5F2174BEA00093BF56 /* NumericLiterals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NumericLiterals.md; sourceTree = "<group>"; };
 		C0141F612174C1AD0093BF56 /* NumericTypeConversion.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NumericTypeConversion.md; sourceTree = "<group>"; };
+		C0141F632174C3660093BF56 /* TypeAliases.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TypeAliases.md; sourceTree = "<group>"; };
 		C017FE6D216A82B800FA116D /* PatternsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsViewController.swift; sourceTree = "<group>"; };
 		C017FE6F216A831700FA116D /* LibrariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesViewController.swift; sourceTree = "<group>"; };
 		C017FE71216A833200FA116D /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
@@ -151,6 +153,7 @@
 				C0141F5D2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md */,
 				C0141F5F2174BEA00093BF56 /* NumericLiterals.md */,
 				C0141F612174C1AD0093BF56 /* NumericTypeConversion.md */,
+				C0141F632174C3660093BF56 /* TypeAliases.md */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				C06A9976216FC45D00836925 /* ControlFlow.md in Resources */,
 				C09E6A2F2170CB8D009A0130 /* FunctionsAndClosures.md in Resources */,
 				C05326AC216DC38300839BDE /* VersionSwift.md in Resources */,
+				C0141F642174C3660093BF56 /* TypeAliases.md in Resources */,
 				C0141F5B2174BC030093BF56 /* FloatingPointNumbers.md in Resources */,
 				C0ADF362216E774E00B6B0F8 /* HelloWorld.md in Resources */,
 				C01D888E2163C93A00F0F317 /* Playground.md in Resources */,

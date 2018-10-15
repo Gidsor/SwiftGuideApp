@@ -13,6 +13,7 @@
 		C0141F5B2174BC030093BF56 /* FloatingPointNumbers.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F5A2174BC030093BF56 /* FloatingPointNumbers.md */; };
 		C0141F5E2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F5D2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md */; };
 		C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F5F2174BEA00093BF56 /* NumericLiterals.md */; };
+		C0141F622174C1AD0093BF56 /* NumericTypeConversion.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F612174C1AD0093BF56 /* NumericTypeConversion.md */; };
 		C017FE6E216A82B800FA116D /* PatternsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE6D216A82B800FA116D /* PatternsViewController.swift */; };
 		C017FE70216A831700FA116D /* LibrariesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE6F216A831700FA116D /* LibrariesViewController.swift */; };
 		C017FE72216A833200FA116D /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C017FE71216A833200FA116D /* OtherViewController.swift */; };
@@ -55,6 +56,7 @@
 		C0141F5A2174BC030093BF56 /* FloatingPointNumbers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FloatingPointNumbers.md; sourceTree = "<group>"; };
 		C0141F5D2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TypeSafetyAndTypeInference.md; sourceTree = "<group>"; };
 		C0141F5F2174BEA00093BF56 /* NumericLiterals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NumericLiterals.md; sourceTree = "<group>"; };
+		C0141F612174C1AD0093BF56 /* NumericTypeConversion.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NumericTypeConversion.md; sourceTree = "<group>"; };
 		C017FE6D216A82B800FA116D /* PatternsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsViewController.swift; sourceTree = "<group>"; };
 		C017FE6F216A831700FA116D /* LibrariesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesViewController.swift; sourceTree = "<group>"; };
 		C017FE71216A833200FA116D /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
@@ -148,6 +150,7 @@
 				C0141F5A2174BC030093BF56 /* FloatingPointNumbers.md */,
 				C0141F5D2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md */,
 				C0141F5F2174BEA00093BF56 /* NumericLiterals.md */,
+				C0141F612174C1AD0093BF56 /* NumericTypeConversion.md */,
 			);
 			path = Basic;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 				C09E6A312170CF02009A0130 /* ObjectsAndClasses.md in Resources */,
 				C06CB43D2171BEFC00C147B9 /* Generics.md in Resources */,
 				C0C824FA21620DC800D8076F /* LaunchScreen.storyboard in Resources */,
+				C0141F622174C1AD0093BF56 /* NumericTypeConversion.md in Resources */,
 				C0141F572174B9550093BF56 /* Comments.md in Resources */,
 				C0EDDC10216B84660098BBE8 /* RxSwift.md in Resources */,
 				C0C824F721620DC800D8076F /* Assets.xcassets in Resources */,

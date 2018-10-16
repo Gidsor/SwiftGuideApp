@@ -53,6 +53,7 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Числовые литералы", pathMark: "NumericLiterals", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Преобразования числовых типов", pathMark: "NumericTypeConversion", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Псевдонимы типов", pathMark: "TypeAliases", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Кортежи", pathMark: "Tuples", image: "swift-icon"))
         
         return tutorials
     }

@@ -20,6 +20,7 @@ class SwiftTutorials {
     private func createTutorials() {
         tutorials.append(createWelcomeTutorials())
         tutorials.append(createBasicTutorials())
+        tutorials.append(createBasicOperatorsTutorials())
         tutorials.append(createMultithreadingTutorials())
     }
     
@@ -57,6 +58,15 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Опциональные типы", pathMark: "Optionals", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Обработка ошибок", pathMark: "ErrorHandling", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Утверждения и предусловия", pathMark: "AssertionsAndPreconditions", image: "swift-icon"))
+        
+        return tutorials
+    }
+    
+    private func createBasicOperatorsTutorials() -> [Tutorial] {
+        let header = "Базовые операторы"
+        var tutorials: [Tutorial] = []
+        
+        tutorials.append(Tutorial(headerText: header, name: "Операторы", pathMark: "Operators", image: "swift-icon"))
         
         return tutorials
     }

@@ -67,6 +67,7 @@ class SwiftTutorials {
         var tutorials: [Tutorial] = []
         
         tutorials.append(Tutorial(headerText: header, name: "Операторы", pathMark: "Operators", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Терминология", pathMark: "Terminology", image: "swift-icon"))
         
         return tutorials
     }

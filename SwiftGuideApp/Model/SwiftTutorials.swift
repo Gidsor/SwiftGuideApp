@@ -55,6 +55,8 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Псевдонимы типов", pathMark: "TypeAliases", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Кортежи", pathMark: "Tuples", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Опциональные типы", pathMark: "Optionals", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Обработка ошибок", pathMark: "ErrorHandling", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Утверждения и предусловия", pathMark: "AssertionsAndPreconditions", image: "swift-icon"))
         
         return tutorials
     }

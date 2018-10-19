@@ -21,6 +21,7 @@ class SwiftTutorials {
         tutorials.append(createWelcomeTutorials())
         tutorials.append(createBasicTutorials())
         tutorials.append(createBasicOperatorsTutorials())
+        tutorials.append(createStringsAndCharactersTutorials())
         //tutorials.append(createMultithreadingTutorials())
     }
     
@@ -76,6 +77,15 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Оператор объединения по nil", pathMark: "NilCoalescingOperator", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Операторы диапазона", pathMark: "RangeOperators", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Логические операторы", pathMark: "LogicalOperators", image: "swift-icon"))
+        
+        return tutorials
+    }
+    
+    private func createStringsAndCharactersTutorials() -> [Tutorial] {
+        let header = "Строки и символы"
+        var tutorials: [Tutorial] = []
+        
+        tutorials.append(Tutorial(headerText: header, name: "Строки и символы", pathMark: "StringsAndCharacters", image: "swift-icon"))
         
         return tutorials
     }

@@ -30,6 +30,7 @@
 		C04A6989217A5B3A00FF2C03 /* NilCoalescingOperator.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6988217A5B3A00FF2C03 /* NilCoalescingOperator.md */; };
 		C04A698B217A5CB000FF2C03 /* RangeOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A698A217A5CB000FF2C03 /* RangeOperators.md */; };
 		C04A698D217A5DED00FF2C03 /* LogicalOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A698C217A5DED00FF2C03 /* LogicalOperators.md */; };
+		C04A6990217A5FF100FF2C03 /* StringsAndCharacters.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A698F217A5FF100FF2C03 /* StringsAndCharacters.md */; };
 		C05326AC216DC38300839BDE /* VersionSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C05326AB216DC38300839BDE /* VersionSwift.md */; };
 		C054D88021665B7F00FFA52D /* Variables.md in Resources */ = {isa = PBXBuildFile; fileRef = C054D87F21665B7F00FFA52D /* Variables.md */; };
 		C05BA3F721750E5400C4A8E2 /* Booleans.md in Resources */ = {isa = PBXBuildFile; fileRef = C05BA3F621750E5400C4A8E2 /* Booleans.md */; };
@@ -89,6 +90,7 @@
 		C04A6988217A5B3A00FF2C03 /* NilCoalescingOperator.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NilCoalescingOperator.md; sourceTree = "<group>"; };
 		C04A698A217A5CB000FF2C03 /* RangeOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RangeOperators.md; sourceTree = "<group>"; };
 		C04A698C217A5DED00FF2C03 /* LogicalOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LogicalOperators.md; sourceTree = "<group>"; };
+		C04A698F217A5FF100FF2C03 /* StringsAndCharacters.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StringsAndCharacters.md; sourceTree = "<group>"; };
 		C05326AB216DC38300839BDE /* VersionSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VersionSwift.md; sourceTree = "<group>"; };
 		C054D87F21665B7F00FFA52D /* Variables.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Variables.md; sourceTree = "<group>"; };
 		C05BA3F621750E5400C4A8E2 /* Booleans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Booleans.md; sourceTree = "<group>"; };
@@ -204,6 +206,14 @@
 			path = Markdown;
 			sourceTree = "<group>";
 		};
+		C04A698E217A5FA000FF2C03 /* StringsAndCharacters */ = {
+			isa = PBXGroup;
+			children = (
+				C04A698F217A5FF100FF2C03 /* StringsAndCharacters.md */,
+			);
+			path = StringsAndCharacters;
+			sourceTree = "<group>";
+		};
 		C05D3EF221629F5C00BD0268 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -294,6 +304,7 @@
 				C01D7BB92173A9ED000208CC /* Welcome */,
 				C01D7BBA2173AA08000208CC /* Basic */,
 				C09B0DCD2179020400F5DE5F /* BasicOperators */,
+				C04A698E217A5FA000FF2C03 /* StringsAndCharacters */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -406,6 +417,7 @@
 				C0D6B556217A1353004B6B4A /* AssignmentOperator.md in Resources */,
 				C09E6A332170D25D009A0130 /* EnumerationsAndStructures.md in Resources */,
 				C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */,
+				C04A6990217A5FF100FF2C03 /* StringsAndCharacters.md in Resources */,
 				C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */,
 				C01D88872163A41000F0F317 /* Xcode.md in Resources */,
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,

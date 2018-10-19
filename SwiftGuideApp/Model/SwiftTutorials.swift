@@ -21,7 +21,7 @@ class SwiftTutorials {
         tutorials.append(createWelcomeTutorials())
         tutorials.append(createBasicTutorials())
         tutorials.append(createBasicOperatorsTutorials())
-        tutorials.append(createMultithreadingTutorials())
+        //tutorials.append(createMultithreadingTutorials())
     }
     
     private func createWelcomeTutorials() -> [Tutorial] {
@@ -71,6 +71,8 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Оператор присваивания", pathMark: "AssignmentOperator", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Арифметические операторы", pathMark: "ArithmeticOperators", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Cоставные операторы присваивания", pathMark: "CompoundAssignmentOperators", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Операторы сравнения", pathMark: "ComparsionOperators", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Тернарный условный оператор", pathMark: "TernaryConditionalOperator", image: "swift-icon"))
         
         return tutorials
     }

@@ -26,6 +26,7 @@
 		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
 		C04A6983217A56F300FF2C03 /* CompoundAssignmentOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6982217A56F300FF2C03 /* CompoundAssignmentOperators.md */; };
 		C04A6985217A582900FF2C03 /* ComparsionOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6984217A582900FF2C03 /* ComparsionOperators.md */; };
+		C04A6987217A5A2E00FF2C03 /* TernaryConditionalOperator.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6986217A5A2E00FF2C03 /* TernaryConditionalOperator.md */; };
 		C05326AC216DC38300839BDE /* VersionSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C05326AB216DC38300839BDE /* VersionSwift.md */; };
 		C054D88021665B7F00FFA52D /* Variables.md in Resources */ = {isa = PBXBuildFile; fileRef = C054D87F21665B7F00FFA52D /* Variables.md */; };
 		C05BA3F721750E5400C4A8E2 /* Booleans.md in Resources */ = {isa = PBXBuildFile; fileRef = C05BA3F621750E5400C4A8E2 /* Booleans.md */; };
@@ -81,6 +82,7 @@
 		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
 		C04A6982217A56F300FF2C03 /* CompoundAssignmentOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CompoundAssignmentOperators.md; sourceTree = "<group>"; };
 		C04A6984217A582900FF2C03 /* ComparsionOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ComparsionOperators.md; sourceTree = "<group>"; };
+		C04A6986217A5A2E00FF2C03 /* TernaryConditionalOperator.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TernaryConditionalOperator.md; sourceTree = "<group>"; };
 		C05326AB216DC38300839BDE /* VersionSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VersionSwift.md; sourceTree = "<group>"; };
 		C054D87F21665B7F00FFA52D /* Variables.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Variables.md; sourceTree = "<group>"; };
 		C05BA3F621750E5400C4A8E2 /* Booleans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Booleans.md; sourceTree = "<group>"; };
@@ -238,6 +240,7 @@
 				C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */,
 				C04A6982217A56F300FF2C03 /* CompoundAssignmentOperators.md */,
 				C04A6984217A582900FF2C03 /* ComparsionOperators.md */,
+				C04A6986217A5A2E00FF2C03 /* TernaryConditionalOperator.md */,
 			);
 			path = BasicOperators;
 			sourceTree = "<group>";
@@ -400,6 +403,7 @@
 				C06161CE216CA5A7000D3D89 /* AboutSwift.md in Resources */,
 				C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */,
 				C06A9976216FC45D00836925 /* ControlFlow.md in Resources */,
+				C04A6987217A5A2E00FF2C03 /* TernaryConditionalOperator.md in Resources */,
 				C09E6A2F2170CB8D009A0130 /* FunctionsAndClosures.md in Resources */,
 				C05326AC216DC38300839BDE /* VersionSwift.md in Resources */,
 				C0141F642174C3660093BF56 /* TypeAliases.md in Resources */,

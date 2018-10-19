@@ -23,6 +23,7 @@
 		C01D88892163A63600F0F317 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D88882163A63600F0F317 /* TutorialViewController.swift */; };
 		C01D888E2163C93A00F0F317 /* Playground.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D888D2163C93A00F0F317 /* Playground.md */; };
 		C01D88902163D53500F0F317 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D888F2163D53500F0F317 /* Tutorial.swift */; };
+		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
 		C05326AC216DC38300839BDE /* VersionSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C05326AB216DC38300839BDE /* VersionSwift.md */; };
 		C054D88021665B7F00FFA52D /* Variables.md in Resources */ = {isa = PBXBuildFile; fileRef = C054D87F21665B7F00FFA52D /* Variables.md */; };
 		C05BA3F721750E5400C4A8E2 /* Booleans.md in Resources */ = {isa = PBXBuildFile; fileRef = C05BA3F621750E5400C4A8E2 /* Booleans.md */; };
@@ -75,6 +76,7 @@
 		C01D88882163A63600F0F317 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		C01D888D2163C93A00F0F317 /* Playground.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Playground.md; sourceTree = "<group>"; };
 		C01D888F2163D53500F0F317 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
 		C05326AB216DC38300839BDE /* VersionSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VersionSwift.md; sourceTree = "<group>"; };
 		C054D87F21665B7F00FFA52D /* Variables.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Variables.md; sourceTree = "<group>"; };
 		C05BA3F621750E5400C4A8E2 /* Booleans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Booleans.md; sourceTree = "<group>"; };
@@ -229,6 +231,7 @@
 				C09B0DCE2179025000F5DE5F /* Operators.md */,
 				C09B0DD0217909E800F5DE5F /* Terminology.md */,
 				C0D6B555217A1353004B6B4A /* AssignmentOperator.md */,
+				C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */,
 			);
 			path = BasicOperators;
 			sourceTree = "<group>";
@@ -387,6 +390,7 @@
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,
 				C06CB43B21712BE100C147B9 /* ErrorHandling.md in Resources */,
 				C06161CE216CA5A7000D3D89 /* AboutSwift.md in Resources */,
+				C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */,
 				C06A9976216FC45D00836925 /* ControlFlow.md in Resources */,
 				C09E6A2F2170CB8D009A0130 /* FunctionsAndClosures.md in Resources */,
 				C05326AC216DC38300839BDE /* VersionSwift.md in Resources */,

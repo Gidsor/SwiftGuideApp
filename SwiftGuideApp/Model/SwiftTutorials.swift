@@ -22,7 +22,6 @@ class SwiftTutorials {
         tutorials.append(createBasicTutorials())
         tutorials.append(createBasicOperatorsTutorials())
         tutorials.append(createStringsAndCharactersTutorials())
-        //tutorials.append(createMultithreadingTutorials())
     }
     
     private func createWelcomeTutorials() -> [Tutorial] {
@@ -89,17 +88,5 @@ class SwiftTutorials {
         
         return tutorials
     }
-    
-    private func createMultithreadingTutorials() -> [Tutorial] {
-        let header = "Многопоточность"
-        var tutorials: [Tutorial] = []
-        
-        tutorials.append(Tutorial(headerText: header, name: "Последовательные очереди", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Параллельные очереди", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Синхронное выполнение", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Асинхронное выполнение", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Глобальные очереди", pathMark: "Playground", image: "xcode-icon"))
-        
-        return tutorials
-    }
+
 }

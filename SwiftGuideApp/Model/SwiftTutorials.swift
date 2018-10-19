@@ -74,6 +74,7 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Операторы сравнения", pathMark: "ComparsionOperators", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Тернарный условный оператор", pathMark: "TernaryConditionalOperator", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Оператор объединения по nil", pathMark: "NilCoalescingOperator", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Операторы диапазона", pathMark: "RangeOperators", image: "swift-icon"))
         
         return tutorials
     }

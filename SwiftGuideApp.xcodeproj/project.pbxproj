@@ -29,6 +29,7 @@
 		C04A6987217A5A2E00FF2C03 /* TernaryConditionalOperator.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6986217A5A2E00FF2C03 /* TernaryConditionalOperator.md */; };
 		C04A6989217A5B3A00FF2C03 /* NilCoalescingOperator.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6988217A5B3A00FF2C03 /* NilCoalescingOperator.md */; };
 		C04A698B217A5CB000FF2C03 /* RangeOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A698A217A5CB000FF2C03 /* RangeOperators.md */; };
+		C04A698D217A5DED00FF2C03 /* LogicalOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A698C217A5DED00FF2C03 /* LogicalOperators.md */; };
 		C05326AC216DC38300839BDE /* VersionSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C05326AB216DC38300839BDE /* VersionSwift.md */; };
 		C054D88021665B7F00FFA52D /* Variables.md in Resources */ = {isa = PBXBuildFile; fileRef = C054D87F21665B7F00FFA52D /* Variables.md */; };
 		C05BA3F721750E5400C4A8E2 /* Booleans.md in Resources */ = {isa = PBXBuildFile; fileRef = C05BA3F621750E5400C4A8E2 /* Booleans.md */; };
@@ -87,6 +88,7 @@
 		C04A6986217A5A2E00FF2C03 /* TernaryConditionalOperator.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TernaryConditionalOperator.md; sourceTree = "<group>"; };
 		C04A6988217A5B3A00FF2C03 /* NilCoalescingOperator.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NilCoalescingOperator.md; sourceTree = "<group>"; };
 		C04A698A217A5CB000FF2C03 /* RangeOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RangeOperators.md; sourceTree = "<group>"; };
+		C04A698C217A5DED00FF2C03 /* LogicalOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LogicalOperators.md; sourceTree = "<group>"; };
 		C05326AB216DC38300839BDE /* VersionSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VersionSwift.md; sourceTree = "<group>"; };
 		C054D87F21665B7F00FFA52D /* Variables.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Variables.md; sourceTree = "<group>"; };
 		C05BA3F621750E5400C4A8E2 /* Booleans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Booleans.md; sourceTree = "<group>"; };
@@ -247,6 +249,7 @@
 				C04A6986217A5A2E00FF2C03 /* TernaryConditionalOperator.md */,
 				C04A6988217A5B3A00FF2C03 /* NilCoalescingOperator.md */,
 				C04A698A217A5CB000FF2C03 /* RangeOperators.md */,
+				C04A698C217A5DED00FF2C03 /* LogicalOperators.md */,
 			);
 			path = BasicOperators;
 			sourceTree = "<group>";
@@ -380,6 +383,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04A698D217A5DED00FF2C03 /* LogicalOperators.md in Resources */,
 				C09E6A352170D750009A0130 /* ProtocolsAndExtensions.md in Resources */,
 				C0141F592174BA650093BF56 /* Integers.md in Resources */,
 				C09E6A312170CF02009A0130 /* ObjectsAndClasses.md in Resources */,

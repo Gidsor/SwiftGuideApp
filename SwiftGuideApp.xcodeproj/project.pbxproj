@@ -35,7 +35,7 @@
 		C06CB43D2171BEFC00C147B9 /* Generics.md in Resources */ = {isa = PBXBuildFile; fileRef = C06CB43C2171BEFC00C147B9 /* Generics.md */; };
 		C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */ = {isa = PBXBuildFile; fileRef = C073951121692A8A00F9A2E2 /* DesignPatterns.md */; };
 		C08F3A502177769100CAA89D /* Optionals.md in Resources */ = {isa = PBXBuildFile; fileRef = C08F3A4F2177769100CAA89D /* Optionals.md */; };
-		C08F3A542177B60A00CAA89D /* ErrorHandling.md in Resources */ = {isa = PBXBuildFile; fileRef = C08F3A532177B60A00CAA89D /* ErrorHandling.md */; };
+		C08F3A542177B60A00CAA89D /* ErrorHandlingBasic.md in Resources */ = {isa = PBXBuildFile; fileRef = C08F3A532177B60A00CAA89D /* ErrorHandlingBasic.md */; };
 		C09B0DCC2178D8B400F5DE5F /* AssertionsAndPreconditions.md in Resources */ = {isa = PBXBuildFile; fileRef = C09B0DCB2178D8B400F5DE5F /* AssertionsAndPreconditions.md */; };
 		C09B0DCF2179025000F5DE5F /* Operators.md in Resources */ = {isa = PBXBuildFile; fileRef = C09B0DCE2179025000F5DE5F /* Operators.md */; };
 		C09B0DD1217909E800F5DE5F /* Terminology.md in Resources */ = {isa = PBXBuildFile; fileRef = C09B0DD0217909E800F5DE5F /* Terminology.md */; };
@@ -49,6 +49,7 @@
 		C0C824F721620DC800D8076F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C824F621620DC800D8076F /* Assets.xcassets */; };
 		C0C824FA21620DC800D8076F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C824F821620DC800D8076F /* LaunchScreen.storyboard */; };
 		C0D640FE21765B5200E7E4F0 /* Tuples.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D640FD21765B5200E7E4F0 /* Tuples.md */; };
+		C0D6B556217A1353004B6B4A /* AssignmentOperator.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D6B555217A1353004B6B4A /* AssignmentOperator.md */; };
 		C0EDDC04216B31480098BBE8 /* SwiftTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */; };
 		C0EDDC06216B31550098BBE8 /* PatternsTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */; };
 		C0EDDC08216B316E0098BBE8 /* LibrariesTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC07216B316E0098BBE8 /* LibrariesTutorials.swift */; };
@@ -86,7 +87,7 @@
 		C06CB43C2171BEFC00C147B9 /* Generics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Generics.md; sourceTree = "<group>"; };
 		C073951121692A8A00F9A2E2 /* DesignPatterns.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DesignPatterns.md; sourceTree = "<group>"; };
 		C08F3A4F2177769100CAA89D /* Optionals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Optionals.md; sourceTree = "<group>"; };
-		C08F3A532177B60A00CAA89D /* ErrorHandling.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ErrorHandling.md; sourceTree = "<group>"; };
+		C08F3A532177B60A00CAA89D /* ErrorHandlingBasic.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ErrorHandlingBasic.md; sourceTree = "<group>"; };
 		C09B0DCB2178D8B400F5DE5F /* AssertionsAndPreconditions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AssertionsAndPreconditions.md; sourceTree = "<group>"; };
 		C09B0DCE2179025000F5DE5F /* Operators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Operators.md; sourceTree = "<group>"; };
 		C09B0DD0217909E800F5DE5F /* Terminology.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Terminology.md; sourceTree = "<group>"; };
@@ -102,6 +103,7 @@
 		C0C824F921620DC800D8076F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0C824FB21620DC800D8076F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0D640FD21765B5200E7E4F0 /* Tuples.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Tuples.md; sourceTree = "<group>"; };
+		C0D6B555217A1353004B6B4A /* AssignmentOperator.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AssignmentOperator.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC07216B316E0098BBE8 /* LibrariesTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesTutorials.swift; sourceTree = "<group>"; };
@@ -171,7 +173,7 @@
 				C05BA3F621750E5400C4A8E2 /* Booleans.md */,
 				C0D640FD21765B5200E7E4F0 /* Tuples.md */,
 				C08F3A4F2177769100CAA89D /* Optionals.md */,
-				C08F3A532177B60A00CAA89D /* ErrorHandling.md */,
+				C08F3A532177B60A00CAA89D /* ErrorHandlingBasic.md */,
 				C09B0DCB2178D8B400F5DE5F /* AssertionsAndPreconditions.md */,
 			);
 			path = Basic;
@@ -226,6 +228,7 @@
 			children = (
 				C09B0DCE2179025000F5DE5F /* Operators.md */,
 				C09B0DD0217909E800F5DE5F /* Terminology.md */,
+				C0D6B555217A1353004B6B4A /* AssignmentOperator.md */,
 			);
 			path = BasicOperators;
 			sourceTree = "<group>";
@@ -367,7 +370,7 @@
 				C0141F622174C1AD0093BF56 /* NumericTypeConversion.md in Resources */,
 				C0141F572174B9550093BF56 /* Comments.md in Resources */,
 				C0EDDC10216B84660098BBE8 /* RxSwift.md in Resources */,
-				C08F3A542177B60A00CAA89D /* ErrorHandling.md in Resources */,
+				C08F3A542177B60A00CAA89D /* ErrorHandlingBasic.md in Resources */,
 				C0C824F721620DC800D8076F /* Assets.xcassets in Resources */,
 				C09B0DCF2179025000F5DE5F /* Operators.md in Resources */,
 				C09B0DCC2178D8B400F5DE5F /* AssertionsAndPreconditions.md in Resources */,
@@ -376,6 +379,7 @@
 				C0141F5E2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md in Resources */,
 				C08F3A502177769100CAA89D /* Optionals.md in Resources */,
 				C054D88021665B7F00FFA52D /* Variables.md in Resources */,
+				C0D6B556217A1353004B6B4A /* AssignmentOperator.md in Resources */,
 				C09E6A332170D25D009A0130 /* EnumerationsAndStructures.md in Resources */,
 				C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */,
 				C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */,

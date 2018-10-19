@@ -70,6 +70,7 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Терминология", pathMark: "Terminology", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Оператор присваивания", pathMark: "AssignmentOperator", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Арифметические операторы", pathMark: "ArithmeticOperators", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Cоставные операторы присваивания", pathMark: "CompoundAssignmentOperators", image: "swift-icon"))
         
         return tutorials
     }

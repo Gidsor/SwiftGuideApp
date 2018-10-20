@@ -91,6 +91,7 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Строка является типом значения", pathMark: "StringsAreValueTypes", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Работа с символами", pathMark: "WorkingWithCharacters", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Конкатенация строк и символов", pathMark: "ConcatenatingStringsAndCharacters", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Интерполяция строк", pathMark: "StringInterpolation", image: "swift-icon"))
         
         
         return tutorials

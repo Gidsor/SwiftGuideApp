@@ -86,7 +86,9 @@ class SwiftTutorials {
         
         tutorials.append(Tutorial(headerText: header, name: "Строки и символы", pathMark: "StringsAndCharacters", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Строковые литералы", pathMark: "StringLiterals", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Инициализация пустых строк", pathMark: "InitializingAnEmptyString", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Изменчивость строк", pathMark: "StringMutability", image: "swift-icon"))
+        
         
         return tutorials
     }

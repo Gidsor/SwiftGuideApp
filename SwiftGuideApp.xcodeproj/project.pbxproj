@@ -46,6 +46,7 @@
 		C08F3A542177B60A00CAA89D /* ErrorHandlingBasic.md in Resources */ = {isa = PBXBuildFile; fileRef = C08F3A532177B60A00CAA89D /* ErrorHandlingBasic.md */; };
 		C099EA0C217CFCE3000F304A /* Unicode.md in Resources */ = {isa = PBXBuildFile; fileRef = C099EA0B217CFCE3000F304A /* Unicode.md */; };
 		C099EA0E217CFE7B000F304A /* CountingCharacters.md in Resources */ = {isa = PBXBuildFile; fileRef = C099EA0D217CFE7B000F304A /* CountingCharacters.md */; };
+		C099EA10217D0282000F304A /* AccessingAndModifyingString.md in Resources */ = {isa = PBXBuildFile; fileRef = C099EA0F217D0282000F304A /* AccessingAndModifyingString.md */; };
 		C09B0DCC2178D8B400F5DE5F /* AssertionsAndPreconditions.md in Resources */ = {isa = PBXBuildFile; fileRef = C09B0DCB2178D8B400F5DE5F /* AssertionsAndPreconditions.md */; };
 		C09B0DCF2179025000F5DE5F /* Operators.md in Resources */ = {isa = PBXBuildFile; fileRef = C09B0DCE2179025000F5DE5F /* Operators.md */; };
 		C09B0DD1217909E800F5DE5F /* Terminology.md in Resources */ = {isa = PBXBuildFile; fileRef = C09B0DD0217909E800F5DE5F /* Terminology.md */; };
@@ -115,6 +116,7 @@
 		C08F3A532177B60A00CAA89D /* ErrorHandlingBasic.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ErrorHandlingBasic.md; sourceTree = "<group>"; };
 		C099EA0B217CFCE3000F304A /* Unicode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Unicode.md; sourceTree = "<group>"; };
 		C099EA0D217CFE7B000F304A /* CountingCharacters.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CountingCharacters.md; sourceTree = "<group>"; };
+		C099EA0F217D0282000F304A /* AccessingAndModifyingString.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AccessingAndModifyingString.md; sourceTree = "<group>"; };
 		C09B0DCB2178D8B400F5DE5F /* AssertionsAndPreconditions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AssertionsAndPreconditions.md; sourceTree = "<group>"; };
 		C09B0DCE2179025000F5DE5F /* Operators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Operators.md; sourceTree = "<group>"; };
 		C09B0DD0217909E800F5DE5F /* Terminology.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Terminology.md; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				C0A4526F217BAF6E0007EF89 /* StringInterpolation.md */,
 				C099EA0B217CFCE3000F304A /* Unicode.md */,
 				C099EA0D217CFE7B000F304A /* CountingCharacters.md */,
+				C099EA0F217D0282000F304A /* AccessingAndModifyingString.md */,
 			);
 			path = StringsAndCharacters;
 			sourceTree = "<group>";
@@ -450,6 +453,7 @@
 				C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */,
 				C04A6990217A5FF100FF2C03 /* StringsAndCharacters.md in Resources */,
 				C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */,
+				C099EA10217D0282000F304A /* AccessingAndModifyingString.md in Resources */,
 				C0A4526C217BAD5C0007EF89 /* WorkingWithCharacters.md in Resources */,
 				C0A45268217BABF30007EF89 /* InitializingAnEmptyString.md in Resources */,
 				C01D88872163A41000F0F317 /* Xcode.md in Resources */,

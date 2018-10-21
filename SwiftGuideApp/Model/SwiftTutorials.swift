@@ -95,8 +95,9 @@ class SwiftTutorials {
         tutorials.append(Tutorial(headerText: header, name: "Юникод (Unicode)", pathMark: "Unicode", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Подсчет символов", pathMark: "CountingCharacters", image: "swift-icon"))
         tutorials.append(Tutorial(headerText: header, name: "Доступ и изменение строки", pathMark: "AccessingAndModifyingString", image: "swift-icon"))
+        tutorials.append(Tutorial(headerText: header, name: "Подстроки", pathMark: "Substrings", image: "swift-icon"))
         
         return tutorials
     }
-
+    
 }

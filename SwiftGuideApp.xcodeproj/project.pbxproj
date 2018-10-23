@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		95C6169FD035BCDB2C3B1CC1 /* Pods_SwiftGuideApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DAE841CFEB8B5D49417106C /* Pods_SwiftGuideApp.framework */; };
+		C006702B217F9BE800D2001B /* CollectionTypes.md in Resources */ = {isa = PBXBuildFile; fileRef = C006702A217F9BE800D2001B /* CollectionTypes.md */; };
 		C0141F572174B9550093BF56 /* Comments.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F562174B9550093BF56 /* Comments.md */; };
 		C0141F592174BA650093BF56 /* Integers.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F582174BA650093BF56 /* Integers.md */; };
 		C0141F5B2174BC030093BF56 /* FloatingPointNumbers.md in Resources */ = {isa = PBXBuildFile; fileRef = C0141F5A2174BC030093BF56 /* FloatingPointNumbers.md */; };
@@ -81,6 +82,7 @@
 /* Begin PBXFileReference section */
 		6DAE841CFEB8B5D49417106C /* Pods_SwiftGuideApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGuideApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D3F85B1B3A5AFCCDBFEC662 /* Pods-SwiftGuideApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGuideApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGuideApp/Pods-SwiftGuideApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C006702A217F9BE800D2001B /* CollectionTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CollectionTypes.md; sourceTree = "<group>"; };
 		C0141F562174B9550093BF56 /* Comments.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Comments.md; sourceTree = "<group>"; };
 		C0141F582174BA650093BF56 /* Integers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Integers.md; sourceTree = "<group>"; };
 		C0141F5A2174BC030093BF56 /* FloatingPointNumbers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FloatingPointNumbers.md; sourceTree = "<group>"; };
@@ -181,6 +183,14 @@
 				6DAE841CFEB8B5D49417106C /* Pods_SwiftGuideApp.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0067029217F9BA600D2001B /* CollectionTypes */ = {
+			isa = PBXGroup;
+			children = (
+				C006702A217F9BE800D2001B /* CollectionTypes.md */,
+			);
+			path = CollectionTypes;
 			sourceTree = "<group>";
 		};
 		C01D7BB92173A9ED000208CC /* Welcome */ = {
@@ -344,6 +354,7 @@
 				C01D7BBA2173AA08000208CC /* Basic */,
 				C09B0DCD2179020400F5DE5F /* BasicOperators */,
 				C04A698E217A5FA000FF2C03 /* StringsAndCharacters */,
+				C0067029217F9BA600D2001B /* CollectionTypes */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -459,6 +470,7 @@
 				C054D88021665B7F00FFA52D /* Variables.md in Resources */,
 				C0D6B556217A1353004B6B4A /* AssignmentOperator.md in Resources */,
 				C0A45266217BAB780007EF89 /* StringMutability.md in Resources */,
+				C006702B217F9BE800D2001B /* CollectionTypes.md in Resources */,
 				C09E6A332170D25D009A0130 /* EnumerationsAndStructures.md in Resources */,
 				C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */,
 				C04A6990217A5FF100FF2C03 /* StringsAndCharacters.md in Resources */,

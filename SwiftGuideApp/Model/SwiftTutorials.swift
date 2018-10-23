@@ -102,4 +102,14 @@ class SwiftTutorials {
         return tutorials
     }
     
+    private func createCollectionTypesTutorials() -> [Tutorial] {
+        let header = "Типы коллекций"
+        var tutorials: [Tutorial] = []
+        
+        tutorials.append(Tutorial(headerText: header, name: "Типы коллекций", pathMark: "CollectionTypes", image: "swift-icon"))
+        
+        
+        return tutorials
+    }
+    
 }

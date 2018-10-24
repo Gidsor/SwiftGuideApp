@@ -1,0 +1,17 @@
+[
+    {
+        "header": "Xcode",
+        "tutorials": [
+            {
+                "name": "Xcode",
+                "pathToMarkdown": "Xcode",
+                "pathToImage": "swift-icon"
+            },
+            {
+                "name": "Playground",
+                "pathToMarkdown": "Playground",
+                "pathToImage": "swift-icon"
+            }
+        ]
+    }
+]

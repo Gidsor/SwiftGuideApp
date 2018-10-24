@@ -1,0 +1,12 @@
+[
+    {
+        "header": "Паттерны проектирования",
+        "tutorials": [
+            {
+                "name": "Паттерны проектирования",
+                "pathToMarkdown": "DesignPatterns",
+                "pathToImage": "swift-icon"
+            }
+        ]
+    }
+]

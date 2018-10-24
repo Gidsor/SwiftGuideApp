@@ -256,6 +256,11 @@
                 "name": "Типы коллекций",
                 "pathToMarkdown": "CollectionTypes",
                 "pathToImage": "swift-icon"
+            },
+            {
+                "name": "Изменчивость коллекций",
+                "pathToMarkdown": "MutabilityOfCollection",
+                "pathToImage": "swift-icon"
             }
         ]
     }

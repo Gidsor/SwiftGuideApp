@@ -1,0 +1,12 @@
+[
+    {
+        "header": "RxSwift",
+        "tutorials": [
+            {
+                "name": "О библиотеке",
+                "pathToMarkdown": "RxSwift",
+                "pathToImage": "swift-icon"
+            }
+        ]
+    }
+]

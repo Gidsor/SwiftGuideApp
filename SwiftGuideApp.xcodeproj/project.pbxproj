@@ -36,6 +36,7 @@
 		C05326AC216DC38300839BDE /* VersionSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C05326AB216DC38300839BDE /* VersionSwift.md */; };
 		C054D88021665B7F00FFA52D /* Variables.md in Resources */ = {isa = PBXBuildFile; fileRef = C054D87F21665B7F00FFA52D /* Variables.md */; };
 		C056CA262180F6FF00D48020 /* MutabilityOfCollections.md in Resources */ = {isa = PBXBuildFile; fileRef = C056CA252180F6FF00D48020 /* MutabilityOfCollections.md */; };
+		C056CA282180F77400D48020 /* Arrays.md in Resources */ = {isa = PBXBuildFile; fileRef = C056CA272180F77400D48020 /* Arrays.md */; };
 		C05BA3F721750E5400C4A8E2 /* Booleans.md in Resources */ = {isa = PBXBuildFile; fileRef = C05BA3F621750E5400C4A8E2 /* Booleans.md */; };
 		C05D3EEF2162935F00BD0268 /* SwiftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */; };
 		C05D3EFC216328BE00BD0268 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05D3EFB216328BE00BD0268 /* CategoryRow.swift */; };
@@ -115,6 +116,7 @@
 		C05326AB216DC38300839BDE /* VersionSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = VersionSwift.md; sourceTree = "<group>"; };
 		C054D87F21665B7F00FFA52D /* Variables.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Variables.md; sourceTree = "<group>"; };
 		C056CA252180F6FF00D48020 /* MutabilityOfCollections.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MutabilityOfCollections.md; sourceTree = "<group>"; };
+		C056CA272180F77400D48020 /* Arrays.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Arrays.md; sourceTree = "<group>"; };
 		C05BA3F621750E5400C4A8E2 /* Booleans.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Booleans.md; sourceTree = "<group>"; };
 		C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftViewController.swift; sourceTree = "<group>"; };
 		C05D3EFB216328BE00BD0268 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
@@ -200,6 +202,7 @@
 			children = (
 				C006702A217F9BE800D2001B /* CollectionTypes.md */,
 				C056CA252180F6FF00D48020 /* MutabilityOfCollections.md */,
+				C056CA272180F77400D48020 /* Arrays.md */,
 			);
 			path = CollectionTypes;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 			files = (
 				C099EA14217D091B000F304A /* ComparingStrings.md in Resources */,
 				C000DD4D2180A26B009C2D04 /* swift_tutorials.json in Resources */,
+				C056CA282180F77400D48020 /* Arrays.md in Resources */,
 				C04A698D217A5DED00FF2C03 /* LogicalOperators.md in Resources */,
 				C09E6A352170D750009A0130 /* ProtocolsAndExtensions.md in Resources */,
 				C0141F592174BA650093BF56 /* Integers.md in Resources */,

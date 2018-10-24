@@ -261,6 +261,11 @@
                 "name": "Изменчивость коллекций",
                 "pathToMarkdown": "MutabilityOfCollection",
                 "pathToImage": "swift-icon"
+            },
+            {
+                "name": "Массивы",
+                "pathToMarkdown": "Arrays",
+                "pathToImage": "swift-icon"
             }
         ]
     }

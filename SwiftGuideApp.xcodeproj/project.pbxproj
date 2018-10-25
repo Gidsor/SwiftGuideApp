@@ -46,6 +46,7 @@
 		C06CB43B21712BE100C147B9 /* ErrorHandling.md in Resources */ = {isa = PBXBuildFile; fileRef = C06CB43A21712BE100C147B9 /* ErrorHandling.md */; };
 		C06CB43D2171BEFC00C147B9 /* Generics.md in Resources */ = {isa = PBXBuildFile; fileRef = C06CB43C2171BEFC00C147B9 /* Generics.md */; };
 		C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */ = {isa = PBXBuildFile; fileRef = C073951121692A8A00F9A2E2 /* DesignPatterns.md */; };
+		C08A62852182333700CF77FA /* JSONParsingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A62842182333700CF77FA /* JSONParsingManager.swift */; };
 		C08F3A502177769100CAA89D /* Optionals.md in Resources */ = {isa = PBXBuildFile; fileRef = C08F3A4F2177769100CAA89D /* Optionals.md */; };
 		C08F3A542177B60A00CAA89D /* ErrorHandlingBasic.md in Resources */ = {isa = PBXBuildFile; fileRef = C08F3A532177B60A00CAA89D /* ErrorHandlingBasic.md */; };
 		C099EA0C217CFCE3000F304A /* Unicode.md in Resources */ = {isa = PBXBuildFile; fileRef = C099EA0B217CFCE3000F304A /* Unicode.md */; };
@@ -126,6 +127,7 @@
 		C06CB43A21712BE100C147B9 /* ErrorHandling.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ErrorHandling.md; sourceTree = "<group>"; };
 		C06CB43C2171BEFC00C147B9 /* Generics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Generics.md; sourceTree = "<group>"; };
 		C073951121692A8A00F9A2E2 /* DesignPatterns.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DesignPatterns.md; sourceTree = "<group>"; };
+		C08A62842182333700CF77FA /* JSONParsingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingManager.swift; sourceTree = "<group>"; };
 		C08F3A4F2177769100CAA89D /* Optionals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Optionals.md; sourceTree = "<group>"; };
 		C08F3A532177B60A00CAA89D /* ErrorHandlingBasic.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ErrorHandlingBasic.md; sourceTree = "<group>"; };
 		C099EA0B217CFCE3000F304A /* Unicode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Unicode.md; sourceTree = "<group>"; };
@@ -314,6 +316,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		C08A62832182303900CF77FA /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				C08A62842182333700CF77FA /* JSONParsingManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 		C09B0DCD2179020400F5DE5F /* BasicOperators */ = {
 			isa = PBXGroup;
 			children = (
@@ -353,6 +363,7 @@
 			isa = PBXGroup;
 			children = (
 				C0C824F321620DC700D8076F /* Main.storyboard */,
+				C08A62832182303900CF77FA /* Manager */,
 				C05D3EFA2163283900BD0268 /* View */,
 				C05D3EF52162A0B800BD0268 /* ViewController */,
 				C05D3EF221629F5C00BD0268 /* Model */,
@@ -593,6 +604,7 @@
 				C0C824F021620DC700D8076F /* AppDelegate.swift in Sources */,
 				C017FE6E216A82B800FA116D /* PatternsViewController.swift in Sources */,
 				C0EDDC06216B31550098BBE8 /* PatternsTutorials.swift in Sources */,
+				C08A62852182333700CF77FA /* JSONParsingManager.swift in Sources */,
 				C017FE72216A833200FA116D /* OtherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

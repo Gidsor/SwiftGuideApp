@@ -6,8 +6,6 @@
 //  Copyright © 2018 Vadim Denisov. All rights reserved.
 //
 
-import Foundation
-
 class SwiftTutorials {
     var tutorials: [[Tutorial]] = []
     

@@ -6,8 +6,6 @@
 //  Copyright © 2018 Vadim Denisov. All rights reserved.
 //
 
-import Foundation
-
 enum TutoialFields: String {
     case nameTutorial = "name"
     case pathToMarkdown = "pathToMarkdown"

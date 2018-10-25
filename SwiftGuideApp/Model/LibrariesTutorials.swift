@@ -6,7 +6,6 @@
 //  Copyright © 2018 Vadim Denisov. All rights reserved.
 //
 
-import Foundation
 
 class LibrariesTutorials {
     var tutorials: [[Tutorial]] = []

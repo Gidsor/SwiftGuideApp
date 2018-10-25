@@ -31,8 +31,8 @@ extension CategoryRow: UICollectionViewDataSource {
 
         let tutorial = tutorials[indexPath.row]
         cell.label.text = tutorial.name
-        cell.imageView.image = UIImage(named: tutorial.image)
-        cell.pathMark = tutorial.pathMark
+        cell.imageView.image = UIImage(named: tutorial.image!)
+        cell.pathMark = tutorial.path
         
         return cell
     }

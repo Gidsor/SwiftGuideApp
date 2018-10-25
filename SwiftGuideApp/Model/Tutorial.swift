@@ -8,17 +8,36 @@
 
 import Foundation
 
+enum TutoialFields: String {
+    case nameTutorial = "name"
+    case pathToMarkdown = "pathToMarkdown"
+    case pathToImage = "pathToImage"
+}
+
 class Tutorial {
-    var headerText: String!
-    var name: String!
-    var pathMark: String!
-    var image: String!
+    var header: String!
+    var name: String?
+    var path: String?
+    var image: String?
     
     
     init(headerText: String, name: String, pathMark: String, image: String) {
-        self.headerText = headerText
+        self.header = headerText
         self.name = name
-        self.pathMark = pathMark
+        self.path = pathMark
         self.image = image
     }
+    
+    init?(dictionary: [String : AnyObject]) {
+        guard
+            let nameString = dictionary[TutoialFields.nameTutorial.rawValue] as? String,
+            let pathString = dictionary[TutoialFields.pathToMarkdown.rawValue] as? String,
+            let imageString = dictionary[TutoialFields.pathToImage.rawValue] as? String
+        else { return nil }
+        
+        self.name = nameString
+        self.path = pathString
+        self.image = imageString
+    }
+    
 }

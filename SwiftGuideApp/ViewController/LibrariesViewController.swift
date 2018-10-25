@@ -23,7 +23,7 @@ class LibrariesViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 20)
-        label.text = "\t" + LibrariesTutorials.instance.tutorials[section][0].headerText
+        label.text = "\t" + LibrariesTutorials.instance.tutorials[section][0].header
         return label
     }
     

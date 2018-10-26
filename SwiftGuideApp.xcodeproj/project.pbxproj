@@ -46,7 +46,9 @@
 		C06CB43B21712BE100C147B9 /* ErrorHandling.md in Resources */ = {isa = PBXBuildFile; fileRef = C06CB43A21712BE100C147B9 /* ErrorHandling.md */; };
 		C06CB43D2171BEFC00C147B9 /* Generics.md in Resources */ = {isa = PBXBuildFile; fileRef = C06CB43C2171BEFC00C147B9 /* Generics.md */; };
 		C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */ = {isa = PBXBuildFile; fileRef = C073951121692A8A00F9A2E2 /* DesignPatterns.md */; };
-		C08A62852182333700CF77FA /* JSONParsingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A62842182333700CF77FA /* JSONParsingManager.swift */; };
+		C08A62872182364500CF77FA /* TutorialManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A62862182364500CF77FA /* TutorialManager.swift */; };
+		C08A628921823A7800CF77FA /* SectionTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08A628821823A7800CF77FA /* SectionTutorials.swift */; };
+		C08A628B2182D95000CF77FA /* FileNotFound.md in Resources */ = {isa = PBXBuildFile; fileRef = C08A628A2182D95000CF77FA /* FileNotFound.md */; };
 		C08F3A502177769100CAA89D /* Optionals.md in Resources */ = {isa = PBXBuildFile; fileRef = C08F3A4F2177769100CAA89D /* Optionals.md */; };
 		C08F3A542177B60A00CAA89D /* ErrorHandlingBasic.md in Resources */ = {isa = PBXBuildFile; fileRef = C08F3A532177B60A00CAA89D /* ErrorHandlingBasic.md */; };
 		C099EA0C217CFCE3000F304A /* Unicode.md in Resources */ = {isa = PBXBuildFile; fileRef = C099EA0B217CFCE3000F304A /* Unicode.md */; };
@@ -84,6 +86,8 @@
 		C0EDDC08216B316E0098BBE8 /* LibrariesTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC07216B316E0098BBE8 /* LibrariesTutorials.swift */; };
 		C0EDDC0A216B317F0098BBE8 /* OtherTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC09216B317F0098BBE8 /* OtherTutorials.swift */; };
 		C0EDDC10216B84660098BBE8 /* RxSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C0EDDC0F216B84660098BBE8 /* RxSwift.md */; };
+		C0EF7AFE2183440A002236CA /* AlgorithmsAndDataStructuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF7AFD2183440A002236CA /* AlgorithmsAndDataStructuresViewController.swift */; };
+		C0F556E12183938700F6EE09 /* SectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F556E02183938700F6EE09 /* SectionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -127,7 +131,9 @@
 		C06CB43A21712BE100C147B9 /* ErrorHandling.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ErrorHandling.md; sourceTree = "<group>"; };
 		C06CB43C2171BEFC00C147B9 /* Generics.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Generics.md; sourceTree = "<group>"; };
 		C073951121692A8A00F9A2E2 /* DesignPatterns.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DesignPatterns.md; sourceTree = "<group>"; };
-		C08A62842182333700CF77FA /* JSONParsingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONParsingManager.swift; sourceTree = "<group>"; };
+		C08A62862182364500CF77FA /* TutorialManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialManager.swift; sourceTree = "<group>"; };
+		C08A628821823A7800CF77FA /* SectionTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTutorials.swift; sourceTree = "<group>"; };
+		C08A628A2182D95000CF77FA /* FileNotFound.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FileNotFound.md; sourceTree = "<group>"; };
 		C08F3A4F2177769100CAA89D /* Optionals.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Optionals.md; sourceTree = "<group>"; };
 		C08F3A532177B60A00CAA89D /* ErrorHandlingBasic.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ErrorHandlingBasic.md; sourceTree = "<group>"; };
 		C099EA0B217CFCE3000F304A /* Unicode.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Unicode.md; sourceTree = "<group>"; };
@@ -167,6 +173,8 @@
 		C0EDDC07216B316E0098BBE8 /* LibrariesTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC09216B317F0098BBE8 /* OtherTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC0F216B84660098BBE8 /* RxSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwift.md; sourceTree = "<group>"; };
+		C0EF7AFD2183440A002236CA /* AlgorithmsAndDataStructuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsAndDataStructuresViewController.swift; sourceTree = "<group>"; };
+		C0F556E02183938700F6EE09 /* SectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionManager.swift; sourceTree = "<group>"; };
 		F8C754677A388BE7445D0B07 /* Pods-SwiftGuideApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGuideApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGuideApp/Pods-SwiftGuideApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -254,6 +262,7 @@
 				C0C10E7D2180EB170071E66E /* patterns_tutorials.json */,
 				C0C10E7F2180EC2E0071E66E /* libraries_tutorials.json */,
 				C0C10E832180ECDA0071E66E /* other_tutorials.json */,
+				C08A628A2182D95000CF77FA /* FileNotFound.md */,
 				C0EDDC0B216B840C0098BBE8 /* Swift */,
 				C0EDDC0C216B84190098BBE8 /* Patterns */,
 				C0EDDC0D216B84240098BBE8 /* Libraries */,
@@ -287,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				C01D888F2163D53500F0F317 /* Tutorial.swift */,
+				C08A628821823A7800CF77FA /* SectionTutorials.swift */,
 				C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */,
 				C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */,
 				C0EDDC07216B316E0098BBE8 /* LibrariesTutorials.swift */,
@@ -299,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */,
+				C0EF7AFD2183440A002236CA /* AlgorithmsAndDataStructuresViewController.swift */,
 				C017FE6D216A82B800FA116D /* PatternsViewController.swift */,
 				C017FE6F216A831700FA116D /* LibrariesViewController.swift */,
 				C017FE71216A833200FA116D /* OtherViewController.swift */,
@@ -319,7 +330,8 @@
 		C08A62832182303900CF77FA /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				C08A62842182333700CF77FA /* JSONParsingManager.swift */,
+				C08A62862182364500CF77FA /* TutorialManager.swift */,
+				C0F556E02183938700F6EE09 /* SectionManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -364,9 +376,9 @@
 			children = (
 				C0C824F321620DC700D8076F /* Main.storyboard */,
 				C08A62832182303900CF77FA /* Manager */,
+				C05D3EF221629F5C00BD0268 /* Model */,
 				C05D3EFA2163283900BD0268 /* View */,
 				C05D3EF52162A0B800BD0268 /* ViewController */,
-				C05D3EF221629F5C00BD0268 /* Model */,
 				C0C824EF21620DC700D8076F /* AppDelegate.swift */,
 				C01D88852163A3B200F0F317 /* Markdown */,
 				C0C824F621620DC800D8076F /* Assets.xcassets */,
@@ -498,6 +510,7 @@
 				C04A6985217A582900FF2C03 /* ComparsionOperators.md in Resources */,
 				C09B0DD1217909E800F5DE5F /* Terminology.md in Resources */,
 				C0D640FE21765B5200E7E4F0 /* Tuples.md in Resources */,
+				C08A628B2182D95000CF77FA /* FileNotFound.md in Resources */,
 				C0141F5E2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md in Resources */,
 				C08F3A502177769100CAA89D /* Optionals.md in Resources */,
 				C054D88021665B7F00FFA52D /* Variables.md in Resources */,
@@ -596,15 +609,18 @@
 				C017FE70216A831700FA116D /* LibrariesViewController.swift in Sources */,
 				C01D88902163D53500F0F317 /* Tutorial.swift in Sources */,
 				C05D3EFE2163306B00BD0268 /* TopicCell.swift in Sources */,
+				C0EF7AFE2183440A002236CA /* AlgorithmsAndDataStructuresViewController.swift in Sources */,
 				C0EDDC0A216B317F0098BBE8 /* OtherTutorials.swift in Sources */,
 				C05D3EEF2162935F00BD0268 /* SwiftViewController.swift in Sources */,
 				C05D3EFC216328BE00BD0268 /* CategoryRow.swift in Sources */,
 				C0EDDC04216B31480098BBE8 /* SwiftTutorials.swift in Sources */,
 				C01D88892163A63600F0F317 /* TutorialViewController.swift in Sources */,
 				C0C824F021620DC700D8076F /* AppDelegate.swift in Sources */,
+				C0F556E12183938700F6EE09 /* SectionManager.swift in Sources */,
 				C017FE6E216A82B800FA116D /* PatternsViewController.swift in Sources */,
 				C0EDDC06216B31550098BBE8 /* PatternsTutorials.swift in Sources */,
-				C08A62852182333700CF77FA /* JSONParsingManager.swift in Sources */,
+				C08A628921823A7800CF77FA /* SectionTutorials.swift in Sources */,
+				C08A62872182364500CF77FA /* TutorialManager.swift in Sources */,
 				C017FE72216A833200FA116D /* OtherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

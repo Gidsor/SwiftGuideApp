@@ -4,8 +4,8 @@
         "tutorials": [
             {
                 "name": "О библиотеке",
-                "pathToMarkdown": "RxSwift",
-                "pathToImage": "swift-icon"
+                "path_markdown": "RxSwift",
+                "path_image": "swift-icon"
             }
         ]
     }

@@ -4,53 +4,53 @@
         "tutorials": [
             {
                 "name": "О языке Swift",
-                "pathToMarkdown": "AboutSwift",
-                "pathToImage": "swift-icon"
+                "path_markdown": "AboutSwift",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Совместимость версий Swift",
-                "pathToMarkdown": "VersionSwift",
-                "pathToImage": "swift-icon"
+                "path_markdown": "VersionSwift",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Переменные",
-                "pathToMarkdown": "Variables",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Variables",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Управление потоком",
-                "pathToMarkdown": "ControlFlow",
-                "pathToImage": "swift-icon"
+                "path_markdown": "ControlFlow",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Функции и замыкание",
-                "pathToMarkdown": "FunctionsAndClosures",
-                "pathToImage": "swift-icon"
+                "path_markdown": "FunctionsAndClosures",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Объекты и классы",
-                "pathToMarkdown": "ObjectsAndClasses",
-                "pathToImage": "swift-icon"
+                "path_markdown": "ObjectsAndClasses",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Перечисления и структуры",
-                "pathToMarkdown": "EnumerationsAndStructures",
-                "pathToImage": "swift-icon"
+                "path_markdown": "EnumerationsAndStructures",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Протоколы и расширения",
-                "pathToMarkdown": "ProtocolsAndExtensions",
-                "pathToImage": "swift-icon"
+                "path_markdown": "ProtocolsAndExtensions",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Обработка ошибок",
-                "pathToMarkdown": "ErrorHandling",
-                "pathToImage": "swift-icon"
+                "path_markdown": "ErrorHandling",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Универсальные типы",
-                "pathToMarkdown": "Generics",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Generics",
+                "path_image": "swift-icon"
             }
         ]
     },
@@ -59,63 +59,63 @@
         "tutorials": [
             {
                 "name": "Константы и переменные",
-                "pathToMarkdown": "ConstantsAndVariables",
-                "pathToImage": "swift-icon"
+                "path_markdown": "ConstantsAndVariables",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Комментарии",
-                "pathToMarkdown": "Comments",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Comments",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Целые числа",
-                "pathToMarkdown": "Integers",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Integers",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Числа с плавающей точки",
-                "pathToMarkdown": "FloatingPointNumbers",
-                "pathToImage": "swift-icon"
+                "path_markdown": "FloatingPointNumbers",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Строгая типизация и Вывод типов",
-                "pathToMarkdown": "TypeSafetyAndTypeInference",
-                "pathToImage": "swift-icon"
+                "path_markdown": "TypeSafetyAndTypeInference",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Числовые литералы",
-                "pathToMarkdown": "NumericLiterals",
-                "pathToImage": "swift-icon"
+                "path_markdown": "NumericLiterals",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Преобразования числовых типов",
-                "pathToMarkdown": "NumericTypeConversion",
-                "pathToImage": "swift-icon"
+                "path_markdown": "NumericTypeConversion",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Псевдонимы типов",
-                "pathToMarkdown": "TypeAliases",
-                "pathToImage": "swift-icon"
+                "path_markdown": "TypeAliases",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Кортежи",
-                "pathToMarkdown": "Tuples",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Tuples",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Опциональные типы",
-                "pathToMarkdown": "Optionals",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Optionals",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Обработка ошибок",
-                "pathToMarkdown": "ErrorHandlingBasic",
-                "pathToImage": "swift-icon"
+                "path_markdown": "ErrorHandlingBasic",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Утверждения и предусловия",
-                "pathToMarkdown": "AssertionsAndPreconditions",
-                "pathToImage": "swift-icon"
+                "path_markdown": "AssertionsAndPreconditions",
+                "path_image": "swift-icon"
             }
         ]
     },
@@ -124,53 +124,53 @@
         "tutorials": [
             {
                 "name": "Операторы",
-                "pathToMarkdown": "Operators",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Operators",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Терминология",
-                "pathToMarkdown": "Terminology",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Terminology",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Оператор присваивания",
-                "pathToMarkdown": "AssignmentOperator",
-                "pathToImage": "swift-icon"
+                "path_markdown": "AssignmentOperator",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Арифметические операторы",
-                "pathToMarkdown": "ArithmeticOperators",
-                "pathToImage": "swift-icon"
+                "path_markdown": "ArithmeticOperators",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Cоставные операторы присваивания",
-                "pathToMarkdown": "CompoundAssignmentOperators",
-                "pathToImage": "swift-icon"
+                "path_markdown": "CompoundAssignmentOperators",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Операторы сравнения",
-                "pathToMarkdown": "ComparsionOperators",
-                "pathToImage": "swift-icon"
+                "path_markdown": "ComparsionOperators",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Тернарный условный оператор",
-                "pathToMarkdown": "TernaryConditionalOperator",
-                "pathToImage": "swift-icon"
+                "path_markdown": "TernaryConditionalOperator",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Оператор объединения по nil",
-                "pathToMarkdown": "NilCoalescingOperator",
-                "pathToImage": "swift-icon"
+                "path_markdown": "NilCoalescingOperator",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Операторы диапазона",
-                "pathToMarkdown": "RangeOperators",
-                "pathToImage": "swift-icon"
+                "path_markdown": "RangeOperators",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Логические операторы",
-                "pathToMarkdown": "LogicalOperators",
-                "pathToImage": "swift-icon"
+                "path_markdown": "LogicalOperators",
+                "path_image": "swift-icon"
             }
         ]
     },
@@ -179,73 +179,73 @@
         "tutorials": [
             {
                 "name": "Строки и символы",
-                "pathToMarkdown": "StringsAndCharacters",
-                "pathToImage": "swift-icon"
+                "path_markdown": "StringsAndCharacters",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Строковые литералы",
-                "pathToMarkdown": "StringLiterals",
-                "pathToImage": "swift-icon"
+                "path_markdown": "StringLiterals",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Инициализация пустых строк",
-                "pathToMarkdown": "InitializingAnEmptyString",
-                "pathToImage": "swift-icon"
+                "path_markdown": "InitializingAnEmptyString",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Изменчивость строк",
-                "pathToMarkdown": "StringMutability",
-                "pathToImage": "swift-icon"
+                "path_markdown": "StringMutability",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Строка является типом значения",
-                "pathToMarkdown": "StringsAreValueTypes",
-                "pathToImage": "swift-icon"
+                "path_markdown": "StringsAreValueTypes",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Работа с символами",
-                "pathToMarkdown": "WorkingWithCharacters",
-                "pathToImage": "swift-icon"
+                "path_markdown": "WorkingWithCharacters",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Конкатенация строк и символов",
-                "pathToMarkdown": "ConcatenatingStringsAndCharacters",
-                "pathToImage": "swift-icon"
+                "path_markdown": "ConcatenatingStringsAndCharacters",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Интерполяция строк",
-                "pathToMarkdown": "StringInterpolation",
-                "pathToImage": "swift-icon"
+                "path_markdown": "StringInterpolation",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Юникод (Unicode)",
-                "pathToMarkdown": "Unicode",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Unicode",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Подсчет символов",
-                "pathToMarkdown": "CountingCharacters",
-                "pathToImage": "swift-icon"
+                "path_markdown": "CountingCharacters",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Доступ и изменение строки",
-                "pathToMarkdown": "AccessingAndModifyingString",
-                "pathToImage": "swift-icon"
+                "path_markdown": "AccessingAndModifyingString",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Подстроки",
-                "pathToMarkdown": "Substrings",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Substrings",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Сравнение строк",
-                "pathToMarkdown": "ComparingStrings",
-                "pathToImage": "swift-icon"
+                "path_markdown": "ComparingStrings",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Юникод представления строк",
-                "pathToMarkdown": "UnicodeRepresentationsOfStrings",
-                "pathToImage": "swift-icon"
+                "path_markdown": "UnicodeRepresentationsOfStrings",
+                "path_image": "swift-icon"
             }
         ]
     },
@@ -254,18 +254,18 @@
         "tutorials": [
             {
                 "name": "Типы коллекций",
-                "pathToMarkdown": "CollectionTypes",
-                "pathToImage": "swift-icon"
+                "path_markdown": "CollectionTypes",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Изменчивость коллекций",
-                "pathToMarkdown": "MutabilityOfCollection",
-                "pathToImage": "swift-icon"
+                "path_markdown": "MutabilityOfCollection",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Массивы",
-                "pathToMarkdown": "Arrays",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Arrays",
+                "path_image": "swift-icon"
             }
         ]
     }

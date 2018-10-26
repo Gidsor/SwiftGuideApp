@@ -4,8 +4,8 @@
         "tutorials": [
             {
                 "name": "Паттерны проектирования",
-                "pathToMarkdown": "DesignPatterns",
-                "pathToImage": "swift-icon"
+                "path_markdown": "DesignPatterns",
+                "path_image": "swift-icon"
             }
         ]
     }

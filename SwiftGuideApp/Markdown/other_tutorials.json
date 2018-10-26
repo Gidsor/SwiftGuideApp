@@ -4,13 +4,13 @@
         "tutorials": [
             {
                 "name": "Xcode",
-                "pathToMarkdown": "Xcode",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Xcode",
+                "path_image": "swift-icon"
             },
             {
                 "name": "Playground",
-                "pathToMarkdown": "Playground",
-                "pathToImage": "swift-icon"
+                "path_markdown": "Playground",
+                "path_image": "swift-icon"
             }
         ]
     }

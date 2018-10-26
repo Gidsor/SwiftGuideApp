@@ -1,12 +1,14 @@
-[
-    {
-        "header": "Паттерны проектирования",
-        "tutorials": [
-            {
-                "name": "Паттерны проектирования",
-                "path_markdown": "DesignPatterns",
-                "path_image": "swift-icon"
-            }
-        ]
-    }
-]
+{
+    "sections": [
+        {
+            "header": "Паттерны проектирования",
+            "tutorials": [
+                {
+                    "name": "Паттерны проектирования",
+                    "path_markdown": "DesignPatterns",
+                    "path_image": "swift-icon"
+                }
+            ]
+        }
+    ]
+}

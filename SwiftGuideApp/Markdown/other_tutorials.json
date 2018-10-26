@@ -1,17 +1,19 @@
-[
-    {
-        "header": "Xcode",
-        "tutorials": [
-            {
-                "name": "Xcode",
-                "path_markdown": "Xcode",
-                "path_image": "swift-icon"
-            },
-            {
-                "name": "Playground",
-                "path_markdown": "Playground",
-                "path_image": "swift-icon"
-            }
-        ]
-    }
-]
+{
+    "sections": [
+        {
+            "header": "Xcode",
+            "tutorials": [
+                {
+                    "name": "Xcode",
+                    "path_markdown": "Xcode",
+                    "path_image": "swift-icon"
+                },
+                {
+                    "name": "Playground",
+                    "path_markdown": "Playground",
+                    "path_image": "swift-icon"
+                }
+            ]
+        }
+    ]
+}

@@ -1,12 +1,14 @@
-[
-    {
-        "header": "RxSwift",
-        "tutorials": [
-            {
-                "name": "О библиотеке",
-                "path_markdown": "RxSwift",
-                "path_image": "swift-icon"
-            }
-        ]
-    }
-]
+{
+    "sections": [
+        {
+            "header": "RxSwift",
+            "tutorials": [
+                {
+                    "name": "О библиотеке",
+                    "path_markdown": "RxSwift",
+                    "path_image": "swift-icon"
+                }
+            ]
+        }
+    ]
+}

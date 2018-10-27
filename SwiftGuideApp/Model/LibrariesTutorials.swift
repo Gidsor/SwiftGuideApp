@@ -6,27 +6,29 @@
 //  Copyright © 2018 Vadim Denisov. All rights reserved.
 //
 
+import Foundation
 
 class LibrariesTutorials {
-    var tutorials: [[Tutorial]] = []
+    
+    var sections: [SectionTutorials] = []
     
     static let instance = LibrariesTutorials()
     
     private init() {
-        createTutorials()
-    }
-    
-    private func createTutorials() {
-        tutorials.append(createRxSwiftTutorials())
-    }
-    
-    private func createRxSwiftTutorials() -> [Tutorial] {
-        let header = "RxSwift"
-        var tutorials: [Tutorial] = []
+        if let path = Bundle.main.path(forResource: "libraries_tutorials", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path))
+                let json = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+                print(json as! [String : Any])
+                self.sections = SectionManager.prepareSections(json as! [String : Any])
+            } catch {
+                print("Error opening json file with path: \(path)")
+            }
+        }
         
-        tutorials.append(Tutorial(headerText: header, name: "О библиотеке", pathMark: "Xcode", image: "xcode-icon"))
-        
-        return tutorials
+        for (index, section) in sections.enumerated() {
+            print("Section №\(index) \(section.header)")
+        }
     }
     
 }

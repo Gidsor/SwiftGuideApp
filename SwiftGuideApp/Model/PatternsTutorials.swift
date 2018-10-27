@@ -9,6 +9,7 @@
 import Foundation
 
 class PatternsTutorials {
+    
     var sections: [SectionTutorials] = []
     
     static let instance = PatternsTutorials()

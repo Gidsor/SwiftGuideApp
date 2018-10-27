@@ -6,6 +6,8 @@
 //  Copyright © 2018 Vadim Denisov. All rights reserved.
 //
 
+import Foundation
+
 class SectionManager {
     
     class func parseSectionTutorials(_ json: [String : Any]) -> SectionTutorials {
@@ -36,4 +38,24 @@ class SectionManager {
         return sections
     }
     
+    class func loadSectionsFromJSON(from file: String) -> [SectionTutorials] {
+        var sections: [SectionTutorials] = []
+        
+        if let path = Bundle.main.path(forResource: file, ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path))
+                let json = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+                print(json as! [String : Any])
+                sections = SectionManager.prepareSections(json as! [String : Any])
+            } catch {
+                print("Error opening json file with path: \(path)")
+            }
+        }
+        
+        for (index, section) in sections.enumerated() {
+            print("Section №\(index) \(section.header)")
+        }
+        
+        return sections
+    }
 }

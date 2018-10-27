@@ -146,7 +146,6 @@
                     </tabBar>
                     <connections>
                         <segue destination="QpS-k9-sfm" kind="relationship" relationship="viewControllers" id="d3C-09-24G"/>
-                        <segue destination="JJZ-Zm-8Qp" kind="relationship" relationship="viewControllers" id="Kc8-T6-7fg"/>
                         <segue destination="x6Z-6B-uaV" kind="relationship" relationship="viewControllers" id="IQp-AF-zLy"/>
                         <segue destination="bwV-sU-Z2d" kind="relationship" relationship="viewControllers" id="Yda-sE-GPh"/>
                         <segue destination="VTd-lU-0Gv" kind="relationship" relationship="viewControllers" id="eKy-dn-xas"/>
@@ -473,112 +472,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OOt-Bg-bGX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3730" y="643"/>
-        </scene>
-        <!--Algorithms and Data Structures-->
-        <scene sceneID="IP0-EJ-sva">
-            <objects>
-                <tableViewController id="JJZ-Zm-8Qp" customClass="AlgorithmsAndDataStructuresViewController" customModule="SwiftGuideApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="145" sectionHeaderHeight="22" sectionFooterHeight="22" id="cHB-Xp-IyE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="180" id="vph-Ae-mc4" customClass="CategoryRow" customModule="SwiftGuideApp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="22" width="375" height="180"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="vph-Ae-mc4" id="9v3-OH-voz">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="179.5"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                    <subviews>
-                                        <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="LrJ-Ey-jt6">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="179.5"/>
-                                            <color key="backgroundColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
-                                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="5" minimumInteritemSpacing="5" id="mDk-tE-P5O">
-                                                <size key="itemSize" width="208" height="150"/>
-                                                <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                                <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                                <inset key="sectionInset" minX="5" minY="5" maxX="5" maxY="5"/>
-                                            </collectionViewFlowLayout>
-                                            <cells>
-                                                <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="topicCell" id="ARU-nq-TBC" customClass="TopicCell" customModule="SwiftGuideApp" customModuleProvider="target">
-                                                    <rect key="frame" x="5" y="15" width="208" height="150"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="208" height="150"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
-                                                        <subviews>
-                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" translatesAutoresizingMaskIntoConstraints="NO" id="aJL-Yc-BMe">
-                                                                <rect key="frame" x="54" y="7" width="100" height="100"/>
-                                                            </imageView>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Text" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlS-gY-Csx">
-                                                                <rect key="frame" x="4" y="109" width="200" height="41"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                        </subviews>
-                                                    </view>
-                                                    <constraints>
-                                                        <constraint firstAttribute="bottom" secondItem="nlS-gY-Csx" secondAttribute="bottom" id="Ehr-Zk-yHM"/>
-                                                        <constraint firstItem="aJL-Yc-BMe" firstAttribute="centerX" secondItem="ARU-nq-TBC" secondAttribute="centerX" id="HX3-uj-xsf"/>
-                                                        <constraint firstItem="nlS-gY-Csx" firstAttribute="top" secondItem="aJL-Yc-BMe" secondAttribute="bottom" constant="2" id="Pkr-ff-NEu"/>
-                                                        <constraint firstAttribute="bottom" secondItem="aJL-Yc-BMe" secondAttribute="bottom" constant="43" id="SyQ-Uz-0iv"/>
-                                                        <constraint firstItem="aJL-Yc-BMe" firstAttribute="leading" secondItem="ARU-nq-TBC" secondAttribute="leading" constant="54" id="TKu-6n-EAa"/>
-                                                        <constraint firstItem="aJL-Yc-BMe" firstAttribute="top" secondItem="ARU-nq-TBC" secondAttribute="top" constant="7" id="mNa-By-0c7"/>
-                                                        <constraint firstAttribute="trailing" secondItem="nlS-gY-Csx" secondAttribute="trailing" constant="4" id="scH-s5-3dC"/>
-                                                        <constraint firstItem="nlS-gY-Csx" firstAttribute="leading" secondItem="ARU-nq-TBC" secondAttribute="leading" constant="4" id="zmc-5k-RYP"/>
-                                                    </constraints>
-                                                    <connections>
-                                                        <outlet property="imageView" destination="aJL-Yc-BMe" id="29X-F8-gYg"/>
-                                                        <outlet property="label" destination="nlS-gY-Csx" id="eL4-a3-Z5c"/>
-                                                        <segue destination="9au-ZL-hEc" kind="show" identifier="toTutorialPage" id="etB-9g-uTN"/>
-                                                    </connections>
-                                                </collectionViewCell>
-                                            </cells>
-                                            <connections>
-                                                <outlet property="dataSource" destination="vph-Ae-mc4" id="Z3m-OV-Btb"/>
-                                                <outlet property="delegate" destination="vph-Ae-mc4" id="vSC-Bf-U2s"/>
-                                            </connections>
-                                        </collectionView>
-                                    </subviews>
-                                    <constraints>
-                                        <constraint firstAttribute="bottom" secondItem="LrJ-Ey-jt6" secondAttribute="bottom" id="6mg-n0-4Nq"/>
-                                        <constraint firstItem="LrJ-Ey-jt6" firstAttribute="leading" secondItem="9v3-OH-voz" secondAttribute="leading" id="Uni-DW-a5R"/>
-                                        <constraint firstItem="LrJ-Ey-jt6" firstAttribute="top" secondItem="9v3-OH-voz" secondAttribute="top" id="cS5-3g-4P6"/>
-                                        <constraint firstAttribute="trailing" secondItem="LrJ-Ey-jt6" secondAttribute="trailing" id="i8J-r1-9B4"/>
-                                    </constraints>
-                                </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="collectionView" destination="LrJ-Ey-jt6" id="Gs9-fM-p85"/>
-                                </connections>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="JJZ-Zm-8Qp" id="N04-Ew-YTY"/>
-                            <outlet property="delegate" destination="JJZ-Zm-8Qp" id="1IT-ua-QkB"/>
-                        </connections>
-                    </tableView>
-                    <tabBarItem key="tabBarItem" title="Алгоритмы и структуры данных" id="iv1-XG-HWa"/>
-                    <navigationItem key="navigationItem" title="Algorithms and Data Structures" id="v5N-kA-E3j"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x0G-jz-DTc" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1561" y="675"/>
-        </scene>
-        <!--Tutorial View Controller-->
-        <scene sceneID="ZKy-GC-Fjm">
-            <objects>
-                <viewController id="9au-ZL-hEc" customClass="TutorialViewController" customModule="SwiftGuideApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="wcn-SZ-tbR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="XmI-Dl-piK"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="n2f-ck-BxU" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1561" y="1459"/>
         </scene>
     </scenes>
 </document>

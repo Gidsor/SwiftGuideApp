@@ -86,7 +86,6 @@
 		C0EDDC08216B316E0098BBE8 /* LibrariesTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC07216B316E0098BBE8 /* LibrariesTutorials.swift */; };
 		C0EDDC0A216B317F0098BBE8 /* OtherTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC09216B317F0098BBE8 /* OtherTutorials.swift */; };
 		C0EDDC10216B84660098BBE8 /* RxSwift.md in Resources */ = {isa = PBXBuildFile; fileRef = C0EDDC0F216B84660098BBE8 /* RxSwift.md */; };
-		C0EF7AFE2183440A002236CA /* AlgorithmsAndDataStructuresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EF7AFD2183440A002236CA /* AlgorithmsAndDataStructuresViewController.swift */; };
 		C0F556E12183938700F6EE09 /* SectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F556E02183938700F6EE09 /* SectionManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -173,7 +172,6 @@
 		C0EDDC07216B316E0098BBE8 /* LibrariesTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibrariesTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC09216B317F0098BBE8 /* OtherTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC0F216B84660098BBE8 /* RxSwift.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RxSwift.md; sourceTree = "<group>"; };
-		C0EF7AFD2183440A002236CA /* AlgorithmsAndDataStructuresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmsAndDataStructuresViewController.swift; sourceTree = "<group>"; };
 		C0F556E02183938700F6EE09 /* SectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionManager.swift; sourceTree = "<group>"; };
 		F8C754677A388BE7445D0B07 /* Pods-SwiftGuideApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGuideApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftGuideApp/Pods-SwiftGuideApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -309,7 +307,6 @@
 			isa = PBXGroup;
 			children = (
 				C05D3EEE2162935F00BD0268 /* SwiftViewController.swift */,
-				C0EF7AFD2183440A002236CA /* AlgorithmsAndDataStructuresViewController.swift */,
 				C017FE6D216A82B800FA116D /* PatternsViewController.swift */,
 				C017FE6F216A831700FA116D /* LibrariesViewController.swift */,
 				C017FE71216A833200FA116D /* OtherViewController.swift */,
@@ -609,7 +606,6 @@
 				C017FE70216A831700FA116D /* LibrariesViewController.swift in Sources */,
 				C01D88902163D53500F0F317 /* Tutorial.swift in Sources */,
 				C05D3EFE2163306B00BD0268 /* TopicCell.swift in Sources */,
-				C0EF7AFE2183440A002236CA /* AlgorithmsAndDataStructuresViewController.swift in Sources */,
 				C0EDDC0A216B317F0098BBE8 /* OtherTutorials.swift in Sources */,
 				C05D3EEF2162935F00BD0268 /* SwiftViewController.swift in Sources */,
 				C05D3EFC216328BE00BD0268 /* CategoryRow.swift in Sources */,

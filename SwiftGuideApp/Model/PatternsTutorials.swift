@@ -6,32 +6,28 @@
 //  Copyright © 2018 Vadim Denisov. All rights reserved.
 //
 
+import Foundation
 
 class PatternsTutorials {
-    var tutorials: [[Tutorial]] = []
+    var sections: [SectionTutorials] = []
     
     static let instance = PatternsTutorials()
     
     private init() {
-        createTutorials()
-    }
-    
-    private func createTutorials() {
-        tutorials.append(createPatternTutorials())
-    }
-    
-    private func createPatternTutorials() -> [Tutorial] {
-        let header = "Паттерны"
-        var tutorials: [Tutorial] = []
+        if let path = Bundle.main.path(forResource: "patterns_tutorials", ofType: "json") {
+            do {
+                let data = try Data(contentsOf: URL(fileURLWithPath: path))
+                let json = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
+                print(json as! [String : Any])
+                self.sections = SectionManager.prepareSections(json as! [String : Any])
+            } catch {
+                print("Error opening json file with path: \(path)")
+            }
+        }
         
-        tutorials.append(Tutorial(headerText: header, name: "Паттерны проектирования", pathMark: "DesignPatterns", image: "design-patterns-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Одиночка", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Прототип", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Адаптер", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Мост", pathMark: "Playground", image: "xcode-icon"))
-        tutorials.append(Tutorial(headerText: header, name: "Наблюдатель", pathMark: "Playground", image: "xcode-icon"))
-        
-        return tutorials
+        for (index, section) in sections.enumerated() {
+            print("Section №\(index) \(section.header)")
+        }
     }
     
 }

@@ -17,13 +17,13 @@ class PatternsViewController: UITableViewController {
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return PatternsTutorials.instance.tutorials.count
+        return PatternsTutorials.instance.sections.count
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 20)
-        label.text = "\t" + PatternsTutorials.instance.tutorials[section][0].header
+        label.text = "\t" + PatternsTutorials.instance.sections[section].header
         return label
     }
     
@@ -43,7 +43,7 @@ class PatternsViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as! CategoryRow
-        cell.tutorials = PatternsTutorials.instance.tutorials[indexPath.section]
+        cell.tutorials = PatternsTutorials.instance.sections[indexPath.section].tutorials
         return cell
     }
     

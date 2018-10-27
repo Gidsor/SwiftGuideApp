@@ -17,13 +17,13 @@ class OtherViewController: UITableViewController {
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return OtherTutorials.instance.tutorials.count
+        return OtherTutorials.instance.sections.count
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 20)
-        label.text = "\t" + OtherTutorials.instance.tutorials[section][0].header
+        label.text = "\t" + OtherTutorials.instance.sections[section].header
         return label
     }
     
@@ -43,7 +43,7 @@ class OtherViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as! CategoryRow
-        cell.tutorials = OtherTutorials.instance.tutorials[indexPath.section]
+        cell.tutorials = OtherTutorials.instance.sections[indexPath.section].tutorials
         return cell
     }
     

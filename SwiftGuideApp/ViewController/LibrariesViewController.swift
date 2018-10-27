@@ -17,13 +17,13 @@ class LibrariesViewController: UITableViewController {
     }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
-        return LibrariesTutorials.instance.tutorials.count
+        return LibrariesTutorials.instance.sections.count
     }
     
     override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 20)
-        label.text = "\t" + LibrariesTutorials.instance.tutorials[section][0].header
+        label.text = "\t" + LibrariesTutorials.instance.sections[section].header
         return label
     }
     
@@ -43,7 +43,7 @@ class LibrariesViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellId) as! CategoryRow
-        cell.tutorials = LibrariesTutorials.instance.tutorials[indexPath.section]
+        cell.tutorials = LibrariesTutorials.instance.sections[indexPath.section].tutorials
         return cell
     }
     

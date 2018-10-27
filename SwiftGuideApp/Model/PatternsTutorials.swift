@@ -15,20 +15,7 @@ class PatternsTutorials {
     static let instance = PatternsTutorials()
     
     private init() {
-        if let path = Bundle.main.path(forResource: "patterns_tutorials", ofType: "json") {
-            do {
-                let data = try Data(contentsOf: URL(fileURLWithPath: path))
-                let json = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
-                print(json as! [String : Any])
-                self.sections = SectionManager.prepareSections(json as! [String : Any])
-            } catch {
-                print("Error opening json file with path: \(path)")
-            }
-        }
-        
-        for (index, section) in sections.enumerated() {
-            print("Section №\(index) \(section.header)")
-        }
+        sections = SectionManager.loadSectionsFromJSON(from: "patterns_tutorials")
     }
     
 }

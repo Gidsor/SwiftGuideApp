@@ -25,6 +25,7 @@
 		C01D88892163A63600F0F317 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D88882163A63600F0F317 /* TutorialViewController.swift */; };
 		C01D888E2163C93A00F0F317 /* Playground.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D888D2163C93A00F0F317 /* Playground.md */; };
 		C01D88902163D53500F0F317 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D888F2163D53500F0F317 /* Tutorial.swift */; };
+		C0256EB221862ECC0055DD4D /* Sets.md in Resources */ = {isa = PBXBuildFile; fileRef = C0256EB121862ECC0055DD4D /* Sets.md */; };
 		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
 		C04A6983217A56F300FF2C03 /* CompoundAssignmentOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6982217A56F300FF2C03 /* CompoundAssignmentOperators.md */; };
 		C04A6985217A582900FF2C03 /* ComparsionOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6984217A582900FF2C03 /* ComparsionOperators.md */; };
@@ -109,6 +110,7 @@
 		C01D88882163A63600F0F317 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
 		C01D888D2163C93A00F0F317 /* Playground.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Playground.md; sourceTree = "<group>"; };
 		C01D888F2163D53500F0F317 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
+		C0256EB121862ECC0055DD4D /* Sets.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Sets.md; sourceTree = "<group>"; };
 		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
 		C04A6982217A56F300FF2C03 /* CompoundAssignmentOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CompoundAssignmentOperators.md; sourceTree = "<group>"; };
 		C04A6984217A582900FF2C03 /* ComparsionOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ComparsionOperators.md; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 				C006702A217F9BE800D2001B /* CollectionTypes.md */,
 				C056CA252180F6FF00D48020 /* MutabilityOfCollections.md */,
 				C056CA272180F77400D48020 /* Arrays.md */,
+				C0256EB121862ECC0055DD4D /* Sets.md */,
 			);
 			path = CollectionTypes;
 			sourceTree = "<group>";
@@ -519,6 +522,7 @@
 				C0C10E802180EC2E0071E66E /* libraries_tutorials.json in Resources */,
 				C04A6990217A5FF100FF2C03 /* StringsAndCharacters.md in Resources */,
 				C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */,
+				C0256EB221862ECC0055DD4D /* Sets.md in Resources */,
 				C099EA10217D0282000F304A /* AccessingAndModifyingString.md in Resources */,
 				C0A4526C217BAD5C0007EF89 /* WorkingWithCharacters.md in Resources */,
 				C0A45268217BABF30007EF89 /* InitializingAnEmptyString.md in Resources */,

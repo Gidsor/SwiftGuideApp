@@ -267,6 +267,11 @@
                     "name": "Массивы",
                     "path_markdown": "Arrays",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Множества",
+                    "path_markdown": "Sets",
+                    "path_image": "swift-icon"
                 }
             ]
         }

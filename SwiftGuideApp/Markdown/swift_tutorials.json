@@ -272,6 +272,11 @@
                     "name": "Множества",
                     "path_markdown": "Sets",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Выполнение операций с множествами",
+                    "path_markdown": "PerformingSetOperations",
+                    "path_image": "swift-icon"
                 }
             ]
         }

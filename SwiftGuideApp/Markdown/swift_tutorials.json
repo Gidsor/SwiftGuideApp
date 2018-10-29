@@ -277,6 +277,11 @@
                     "name": "Выполнение операций с множествами",
                     "path_markdown": "PerformingSetOperations",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Словари",
+                    "path_markdown": "Dictionaries",
+                    "path_image": "swift-icon"
                 }
             ]
         }

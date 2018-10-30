@@ -29,6 +29,7 @@
 		C01D88902163D53500F0F317 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D888F2163D53500F0F317 /* Tutorial.swift */; };
 		C0256EB221862ECC0055DD4D /* Sets.md in Resources */ = {isa = PBXBuildFile; fileRef = C0256EB121862ECC0055DD4D /* Sets.md */; };
 		C0325DD32188D59C00777AE3 /* ControlFlowAbout.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */; };
+		C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD52188D69700777AE3 /* ForInLoops.md */; };
 		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
 		C04A6983217A56F300FF2C03 /* CompoundAssignmentOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6982217A56F300FF2C03 /* CompoundAssignmentOperators.md */; };
 		C04A6985217A582900FF2C03 /* ComparsionOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6984217A582900FF2C03 /* ComparsionOperators.md */; };
@@ -117,6 +118,7 @@
 		C01D888F2163D53500F0F317 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		C0256EB121862ECC0055DD4D /* Sets.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Sets.md; sourceTree = "<group>"; };
 		C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlowAbout.md; sourceTree = "<group>"; };
+		C0325DD52188D69700777AE3 /* ForInLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ForInLoops.md; sourceTree = "<group>"; };
 		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
 		C04A6982217A56F300FF2C03 /* CompoundAssignmentOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CompoundAssignmentOperators.md; sourceTree = "<group>"; };
 		C04A6984217A582900FF2C03 /* ComparsionOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ComparsionOperators.md; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 			isa = PBXGroup;
 			children = (
 				C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */,
+				C0325DD52188D69700777AE3 /* ForInLoops.md */,
 			);
 			path = ControlFlow;
 			sourceTree = "<group>";
@@ -549,6 +552,7 @@
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,
 				C06CB43B21712BE100C147B9 /* ErrorHandling.md in Resources */,
 				C099EA12217D05D6000F304A /* Substrings.md in Resources */,
+				C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */,
 				C099EA16217D0C14000F304A /* UnicodeRepresentationsOfStrings.md in Resources */,
 				C06161CE216CA5A7000D3D89 /* AboutSwift.md in Resources */,
 				C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */,

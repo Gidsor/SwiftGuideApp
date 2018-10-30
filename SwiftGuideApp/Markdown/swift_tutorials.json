@@ -292,6 +292,11 @@
                     "name": "Управление потоком",
                     "path_markdown": "ControlFlowAbout",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Циклы For-in",
+                    "path_markdown": "ForInLoops",
+                    "path_image": "swift-icon"
                 }
             ]
         }

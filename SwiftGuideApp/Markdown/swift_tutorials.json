@@ -284,6 +284,16 @@
                     "path_image": "swift-icon"
                 }
             ]
+        },
+        {
+            "header": "Управление потоком",
+            "tutorials": [
+                {
+                    "name": "Управление потоком",
+                    "path_markdown": "ControlFlowAbout",
+                    "path_image": "swift-icon"
+                }
+            ]
         }
     ]
 }

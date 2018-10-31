@@ -297,6 +297,11 @@
                     "name": "Циклы For-in",
                     "path_markdown": "ForInLoops",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Циклы While",
+                    "path_markdown": "WhileLoops",
+                    "path_image": "swift-icon"
                 }
             ]
         }

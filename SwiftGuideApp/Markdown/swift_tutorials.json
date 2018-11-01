@@ -302,6 +302,11 @@
                     "name": "Циклы While",
                     "path_markdown": "WhileLoops",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Условные инструкции",
+                    "path_markdown": "ConditionalStatements",
+                    "path_image": "swift-icon"
                 }
             ]
         }

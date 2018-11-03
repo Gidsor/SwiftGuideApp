@@ -307,6 +307,21 @@
                     "name": "Условные инструкции",
                     "path_markdown": "ConditionalStatements",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Операторы передачи управления",
+                    "path_markdown": "ControlTransferStatements",
+                    "path_image": "swift-icon"
+                },
+                {
+                    "name": "Ранний выход",
+                    "path_markdown": "EarlyExit",
+                    "path_image": "swift-icon"
+                },
+                {
+                    "name": "Проверка доступности API",
+                    "path_markdown": "CheckingAPIAvailability"
+                    "path_image": "swift-icon"
                 }
             ]
         }

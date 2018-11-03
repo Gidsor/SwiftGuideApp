@@ -28,6 +28,9 @@
 		C01D888E2163C93A00F0F317 /* Playground.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D888D2163C93A00F0F317 /* Playground.md */; };
 		C01D88902163D53500F0F317 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D888F2163D53500F0F317 /* Tutorial.swift */; };
 		C0256EB221862ECC0055DD4D /* Sets.md in Resources */ = {isa = PBXBuildFile; fileRef = C0256EB121862ECC0055DD4D /* Sets.md */; };
+		C02F3843219887B9005AA272 /* CheckingAPIAvailability.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F3840219887B9005AA272 /* CheckingAPIAvailability.md */; };
+		C02F3844219887B9005AA272 /* ControlTransferStatements.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F3841219887B9005AA272 /* ControlTransferStatements.md */; };
+		C02F3845219887B9005AA272 /* EarlyExit.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F3842219887B9005AA272 /* EarlyExit.md */; };
 		C0325DD32188D59C00777AE3 /* ControlFlowAbout.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */; };
 		C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD52188D69700777AE3 /* ForInLoops.md */; };
 		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
@@ -119,6 +122,9 @@
 		C01D888D2163C93A00F0F317 /* Playground.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Playground.md; sourceTree = "<group>"; };
 		C01D888F2163D53500F0F317 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		C0256EB121862ECC0055DD4D /* Sets.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Sets.md; sourceTree = "<group>"; };
+		C02F3840219887B9005AA272 /* CheckingAPIAvailability.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CheckingAPIAvailability.md; sourceTree = "<group>"; };
+		C02F3841219887B9005AA272 /* ControlTransferStatements.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ControlTransferStatements.md; sourceTree = "<group>"; };
+		C02F3842219887B9005AA272 /* EarlyExit.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = EarlyExit.md; sourceTree = "<group>"; };
 		C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlowAbout.md; sourceTree = "<group>"; };
 		C0325DD52188D69700777AE3 /* ForInLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ForInLoops.md; sourceTree = "<group>"; };
 		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
@@ -289,6 +295,9 @@
 		C0325DD42188D5D700777AE3 /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
+				C02F3840219887B9005AA272 /* CheckingAPIAvailability.md */,
+				C02F3841219887B9005AA272 /* ControlTransferStatements.md */,
+				C02F3842219887B9005AA272 /* EarlyExit.md */,
 				C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */,
 				C0325DD52188D69700777AE3 /* ForInLoops.md */,
 				C0E208C9218A21E500B6C377 /* WhileLoops.md */,
@@ -520,6 +529,7 @@
 				C0141F592174BA650093BF56 /* Integers.md in Resources */,
 				C056CA262180F6FF00D48020 /* MutabilityOfCollections.md in Resources */,
 				C09E6A312170CF02009A0130 /* ObjectsAndClasses.md in Resources */,
+				C02F3845219887B9005AA272 /* EarlyExit.md in Resources */,
 				C0C10E7E2180EB170071E66E /* patterns_tutorials.json in Resources */,
 				C06CB43D2171BEFC00C147B9 /* Generics.md in Resources */,
 				C0C824FA21620DC800D8076F /* LaunchScreen.storyboard in Resources */,
@@ -537,12 +547,14 @@
 				C04A6985217A582900FF2C03 /* ComparsionOperators.md in Resources */,
 				C09B0DD1217909E800F5DE5F /* Terminology.md in Resources */,
 				C0D640FE21765B5200E7E4F0 /* Tuples.md in Resources */,
+				C02F3843219887B9005AA272 /* CheckingAPIAvailability.md in Resources */,
 				C0E208CA218A21E500B6C377 /* WhileLoops.md in Resources */,
 				C08A628B2182D95000CF77FA /* FileNotFound.md in Resources */,
 				C0141F5E2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md in Resources */,
 				C08F3A502177769100CAA89D /* Optionals.md in Resources */,
 				C054D88021665B7F00FFA52D /* Variables.md in Resources */,
 				C0D6B556217A1353004B6B4A /* AssignmentOperator.md in Resources */,
+				C02F3844219887B9005AA272 /* ControlTransferStatements.md in Resources */,
 				C0A45266217BAB780007EF89 /* StringMutability.md in Resources */,
 				C006702B217F9BE800D2001B /* CollectionTypes.md in Resources */,
 				C09E6A332170D25D009A0130 /* EnumerationsAndStructures.md in Resources */,

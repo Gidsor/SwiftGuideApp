@@ -28,9 +28,10 @@
 		C01D888E2163C93A00F0F317 /* Playground.md in Resources */ = {isa = PBXBuildFile; fileRef = C01D888D2163C93A00F0F317 /* Playground.md */; };
 		C01D88902163D53500F0F317 /* Tutorial.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01D888F2163D53500F0F317 /* Tutorial.swift */; };
 		C0256EB221862ECC0055DD4D /* Sets.md in Resources */ = {isa = PBXBuildFile; fileRef = C0256EB121862ECC0055DD4D /* Sets.md */; };
-		C02F3843219887B9005AA272 /* CheckingAPIAvailability.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F3840219887B9005AA272 /* CheckingAPIAvailability.md */; };
 		C02F3844219887B9005AA272 /* ControlTransferStatements.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F3841219887B9005AA272 /* ControlTransferStatements.md */; };
 		C02F3845219887B9005AA272 /* EarlyExit.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F3842219887B9005AA272 /* EarlyExit.md */; };
+		C02F384721988B38005AA272 /* CheckingAPIAvailability.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384621988B38005AA272 /* CheckingAPIAvailability.md */; };
+		C02F384A21988B38005AA272 /* Functions.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384921988B38005AA272 /* Functions.md */; };
 		C0325DD32188D59C00777AE3 /* ControlFlowAbout.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */; };
 		C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD52188D69700777AE3 /* ForInLoops.md */; };
 		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
@@ -122,9 +123,10 @@
 		C01D888D2163C93A00F0F317 /* Playground.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Playground.md; sourceTree = "<group>"; };
 		C01D888F2163D53500F0F317 /* Tutorial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tutorial.swift; sourceTree = "<group>"; };
 		C0256EB121862ECC0055DD4D /* Sets.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Sets.md; sourceTree = "<group>"; };
-		C02F3840219887B9005AA272 /* CheckingAPIAvailability.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CheckingAPIAvailability.md; sourceTree = "<group>"; };
 		C02F3841219887B9005AA272 /* ControlTransferStatements.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = ControlTransferStatements.md; sourceTree = "<group>"; };
 		C02F3842219887B9005AA272 /* EarlyExit.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = EarlyExit.md; sourceTree = "<group>"; };
+		C02F384621988B38005AA272 /* CheckingAPIAvailability.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CheckingAPIAvailability.md; sourceTree = "<group>"; };
+		C02F384921988B38005AA272 /* Functions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Functions.md; sourceTree = "<group>"; };
 		C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlowAbout.md; sourceTree = "<group>"; };
 		C0325DD52188D69700777AE3 /* ForInLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ForInLoops.md; sourceTree = "<group>"; };
 		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
@@ -292,10 +294,18 @@
 			path = Markdown;
 			sourceTree = "<group>";
 		};
+		C02F384821988B38005AA272 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				C02F384921988B38005AA272 /* Functions.md */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
 		C0325DD42188D5D700777AE3 /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
-				C02F3840219887B9005AA272 /* CheckingAPIAvailability.md */,
+				C02F384621988B38005AA272 /* CheckingAPIAvailability.md */,
 				C02F3841219887B9005AA272 /* ControlTransferStatements.md */,
 				C02F3842219887B9005AA272 /* EarlyExit.md */,
 				C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */,
@@ -431,6 +441,7 @@
 				C04A698E217A5FA000FF2C03 /* StringsAndCharacters */,
 				C0067029217F9BA600D2001B /* CollectionTypes */,
 				C0325DD42188D5D700777AE3 /* ControlFlow */,
+				C02F384821988B38005AA272 /* Functions */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -547,13 +558,13 @@
 				C04A6985217A582900FF2C03 /* ComparsionOperators.md in Resources */,
 				C09B0DD1217909E800F5DE5F /* Terminology.md in Resources */,
 				C0D640FE21765B5200E7E4F0 /* Tuples.md in Resources */,
-				C02F3843219887B9005AA272 /* CheckingAPIAvailability.md in Resources */,
 				C0E208CA218A21E500B6C377 /* WhileLoops.md in Resources */,
 				C08A628B2182D95000CF77FA /* FileNotFound.md in Resources */,
 				C0141F5E2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md in Resources */,
 				C08F3A502177769100CAA89D /* Optionals.md in Resources */,
 				C054D88021665B7F00FFA52D /* Variables.md in Resources */,
 				C0D6B556217A1353004B6B4A /* AssignmentOperator.md in Resources */,
+				C02F384721988B38005AA272 /* CheckingAPIAvailability.md in Resources */,
 				C02F3844219887B9005AA272 /* ControlTransferStatements.md in Resources */,
 				C0A45266217BAB780007EF89 /* StringMutability.md in Resources */,
 				C006702B217F9BE800D2001B /* CollectionTypes.md in Resources */,
@@ -574,6 +585,7 @@
 				C099EA12217D05D6000F304A /* Substrings.md in Resources */,
 				C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */,
 				C099EA16217D0C14000F304A /* UnicodeRepresentationsOfStrings.md in Resources */,
+				C02F384A21988B38005AA272 /* Functions.md in Resources */,
 				C06161CE216CA5A7000D3D89 /* AboutSwift.md in Resources */,
 				C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */,
 				C0A45264217BA95F0007EF89 /* StringLiterals.md in Resources */,

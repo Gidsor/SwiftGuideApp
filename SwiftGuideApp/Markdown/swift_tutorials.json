@@ -332,6 +332,11 @@
                     "name": "Функции",
                     "path_markdown": "Functions",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Объявление и вызов функций",
+                    "path_markdown": "DefiningAndCallingFunctions",
+                    "path_image": "swift-icon"
                 }
             ]
         }

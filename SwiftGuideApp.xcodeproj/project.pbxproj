@@ -32,6 +32,7 @@
 		C02F3845219887B9005AA272 /* EarlyExit.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F3842219887B9005AA272 /* EarlyExit.md */; };
 		C02F384721988B38005AA272 /* CheckingAPIAvailability.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384621988B38005AA272 /* CheckingAPIAvailability.md */; };
 		C02F384A21988B38005AA272 /* Functions.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384921988B38005AA272 /* Functions.md */; };
+		C02F384C21988B38005AA272 /* DefiningAndCallingFunctions.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384B21988B38005AA272 /* DefiningAndCallingFunctions.md */; };
 		C0325DD32188D59C00777AE3 /* ControlFlowAbout.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */; };
 		C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD52188D69700777AE3 /* ForInLoops.md */; };
 		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
@@ -127,6 +128,7 @@
 		C02F3842219887B9005AA272 /* EarlyExit.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = EarlyExit.md; sourceTree = "<group>"; };
 		C02F384621988B38005AA272 /* CheckingAPIAvailability.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CheckingAPIAvailability.md; sourceTree = "<group>"; };
 		C02F384921988B38005AA272 /* Functions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Functions.md; sourceTree = "<group>"; };
+		C02F384B21988B38005AA272 /* DefiningAndCallingFunctions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DefiningAndCallingFunctions.md; sourceTree = "<group>"; };
 		C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlowAbout.md; sourceTree = "<group>"; };
 		C0325DD52188D69700777AE3 /* ForInLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ForInLoops.md; sourceTree = "<group>"; };
 		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				C02F384921988B38005AA272 /* Functions.md */,
+				C02F384B21988B38005AA272 /* DefiningAndCallingFunctions.md */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -576,6 +579,7 @@
 				C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */,
 				C0256EB221862ECC0055DD4D /* Sets.md in Resources */,
 				C099EA10217D0282000F304A /* AccessingAndModifyingString.md in Resources */,
+				C02F384C21988B38005AA272 /* DefiningAndCallingFunctions.md in Resources */,
 				C0A4526C217BAD5C0007EF89 /* WorkingWithCharacters.md in Resources */,
 				C0A45268217BABF30007EF89 /* InitializingAnEmptyString.md in Resources */,
 				C01D88872163A41000F0F317 /* Xcode.md in Resources */,

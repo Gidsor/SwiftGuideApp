@@ -33,6 +33,7 @@
 		C02F384721988B38005AA272 /* CheckingAPIAvailability.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384621988B38005AA272 /* CheckingAPIAvailability.md */; };
 		C02F384A21988B38005AA272 /* Functions.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384921988B38005AA272 /* Functions.md */; };
 		C02F384C21988B38005AA272 /* DefiningAndCallingFunctions.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384B21988B38005AA272 /* DefiningAndCallingFunctions.md */; };
+		C02F384E21988B38005AA272 /* FunctionParametersAndReturnValues.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384D21988B38005AA272 /* FunctionParametersAndReturnValues.md */; };
 		C0325DD32188D59C00777AE3 /* ControlFlowAbout.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */; };
 		C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD52188D69700777AE3 /* ForInLoops.md */; };
 		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
@@ -129,6 +130,7 @@
 		C02F384621988B38005AA272 /* CheckingAPIAvailability.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CheckingAPIAvailability.md; sourceTree = "<group>"; };
 		C02F384921988B38005AA272 /* Functions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Functions.md; sourceTree = "<group>"; };
 		C02F384B21988B38005AA272 /* DefiningAndCallingFunctions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DefiningAndCallingFunctions.md; sourceTree = "<group>"; };
+		C02F384D21988B38005AA272 /* FunctionParametersAndReturnValues.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FunctionParametersAndReturnValues.md; sourceTree = "<group>"; };
 		C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlowAbout.md; sourceTree = "<group>"; };
 		C0325DD52188D69700777AE3 /* ForInLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ForInLoops.md; sourceTree = "<group>"; };
 		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
@@ -301,6 +303,7 @@
 			children = (
 				C02F384921988B38005AA272 /* Functions.md */,
 				C02F384B21988B38005AA272 /* DefiningAndCallingFunctions.md */,
+				C02F384D21988B38005AA272 /* FunctionParametersAndReturnValues.md */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -562,6 +565,7 @@
 				C09B0DD1217909E800F5DE5F /* Terminology.md in Resources */,
 				C0D640FE21765B5200E7E4F0 /* Tuples.md in Resources */,
 				C0E208CA218A21E500B6C377 /* WhileLoops.md in Resources */,
+				C02F384E21988B38005AA272 /* FunctionParametersAndReturnValues.md in Resources */,
 				C08A628B2182D95000CF77FA /* FileNotFound.md in Resources */,
 				C0141F5E2174BDEE0093BF56 /* TypeSafetyAndTypeInference.md in Resources */,
 				C08F3A502177769100CAA89D /* Optionals.md in Resources */,

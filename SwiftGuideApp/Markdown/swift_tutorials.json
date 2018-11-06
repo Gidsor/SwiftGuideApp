@@ -337,6 +337,11 @@
                     "name": "Объявление и вызов функций",
                     "path_markdown": "DefiningAndCallingFunctions",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Параметры функции и возвращаемые значения",
+                    "path_markdown": "FunctionParametersAndReturnValues",
+                    "path_image": "swift-icon"
                 }
             ]
         }

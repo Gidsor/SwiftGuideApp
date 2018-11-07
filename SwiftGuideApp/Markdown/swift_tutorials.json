@@ -342,6 +342,11 @@
                     "name": "Параметры функции и возвращаемые значения",
                     "path_markdown": "FunctionParametersAndReturnValues",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Ярлыки аргументов и имена параметров функций",
+                    "path_markdown": "FunctionArgumentLabelsAndParameterNames",
+                    "path_image": "swift-icon"
                 }
             ]
         }

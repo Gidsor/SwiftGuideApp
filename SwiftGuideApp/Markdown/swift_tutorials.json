@@ -347,6 +347,11 @@
                     "name": "Ярлыки аргументов и имена параметров функций",
                     "path_markdown": "FunctionArgumentLabelsAndParameterNames",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Функциональные типы",
+                    "path_markdown": "FunctionTypes",
+                    "path_image": "swift-icon"
                 }
             ]
         }

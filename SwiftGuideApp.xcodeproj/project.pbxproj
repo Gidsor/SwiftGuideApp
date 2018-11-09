@@ -36,6 +36,7 @@
 		C02F384E21988B38005AA272 /* FunctionParametersAndReturnValues.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384D21988B38005AA272 /* FunctionParametersAndReturnValues.md */; };
 		C02F385021988B38005AA272 /* FunctionArgumentLabelsAndParameterNames.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384F21988B38005AA272 /* FunctionArgumentLabelsAndParameterNames.md */; };
 		C02F385221988B38005AA272 /* FunctionTypes.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F385121988B38005AA272 /* FunctionTypes.md */; };
+		C02F385421988B38005AA272 /* NestedFunctions.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F385321988B38005AA272 /* NestedFunctions.md */; };
 		C0325DD32188D59C00777AE3 /* ControlFlowAbout.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */; };
 		C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD52188D69700777AE3 /* ForInLoops.md */; };
 		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
@@ -135,6 +136,7 @@
 		C02F384D21988B38005AA272 /* FunctionParametersAndReturnValues.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FunctionParametersAndReturnValues.md; sourceTree = "<group>"; };
 		C02F384F21988B38005AA272 /* FunctionArgumentLabelsAndParameterNames.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FunctionArgumentLabelsAndParameterNames.md; sourceTree = "<group>"; };
 		C02F385121988B38005AA272 /* FunctionTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FunctionTypes.md; sourceTree = "<group>"; };
+		C02F385321988B38005AA272 /* NestedFunctions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NestedFunctions.md; sourceTree = "<group>"; };
 		C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlowAbout.md; sourceTree = "<group>"; };
 		C0325DD52188D69700777AE3 /* ForInLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ForInLoops.md; sourceTree = "<group>"; };
 		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
@@ -310,6 +312,7 @@
 				C02F384D21988B38005AA272 /* FunctionParametersAndReturnValues.md */,
 				C02F384F21988B38005AA272 /* FunctionArgumentLabelsAndParameterNames.md */,
 				C02F385121988B38005AA272 /* FunctionTypes.md */,
+				C02F385321988B38005AA272 /* NestedFunctions.md */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -563,6 +566,7 @@
 				C0EDDC10216B84660098BBE8 /* RxSwift.md in Resources */,
 				C0A4526A217BACA40007EF89 /* StringsAreValueTypes.md in Resources */,
 				C08F3A542177B60A00CAA89D /* ErrorHandlingBasic.md in Resources */,
+				C02F385421988B38005AA272 /* NestedFunctions.md in Resources */,
 				C0C824F721620DC800D8076F /* Assets.xcassets in Resources */,
 				C09B0DCF2179025000F5DE5F /* Operators.md in Resources */,
 				C09B0DCC2178D8B400F5DE5F /* AssertionsAndPreconditions.md in Resources */,

@@ -352,6 +352,11 @@
                     "name": "Функциональные типы",
                     "path_markdown": "FunctionTypes",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Вложенные функции",
+                    "path_markdown": "NestedFunctions",
+                    "path_image": "swift-icon"
                 }
             ]
         }

@@ -37,6 +37,7 @@
 		C02F385021988B38005AA272 /* FunctionArgumentLabelsAndParameterNames.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F384F21988B38005AA272 /* FunctionArgumentLabelsAndParameterNames.md */; };
 		C02F385221988B38005AA272 /* FunctionTypes.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F385121988B38005AA272 /* FunctionTypes.md */; };
 		C02F385421988B38005AA272 /* NestedFunctions.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F385321988B38005AA272 /* NestedFunctions.md */; };
+		C02F385721988B38005AA272 /* Closures.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F385621988B38005AA272 /* Closures.md */; };
 		C0325DD32188D59C00777AE3 /* ControlFlowAbout.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */; };
 		C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD52188D69700777AE3 /* ForInLoops.md */; };
 		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
@@ -137,6 +138,7 @@
 		C02F384F21988B38005AA272 /* FunctionArgumentLabelsAndParameterNames.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FunctionArgumentLabelsAndParameterNames.md; sourceTree = "<group>"; };
 		C02F385121988B38005AA272 /* FunctionTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FunctionTypes.md; sourceTree = "<group>"; };
 		C02F385321988B38005AA272 /* NestedFunctions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NestedFunctions.md; sourceTree = "<group>"; };
+		C02F385621988B38005AA272 /* Closures.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Closures.md; sourceTree = "<group>"; };
 		C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlowAbout.md; sourceTree = "<group>"; };
 		C0325DD52188D69700777AE3 /* ForInLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ForInLoops.md; sourceTree = "<group>"; };
 		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
@@ -317,6 +319,14 @@
 			path = Functions;
 			sourceTree = "<group>";
 		};
+		C02F385521988B38005AA272 /* Closures */ = {
+			isa = PBXGroup;
+			children = (
+				C02F385621988B38005AA272 /* Closures.md */,
+			);
+			path = Closures;
+			sourceTree = "<group>";
+		};
 		C0325DD42188D5D700777AE3 /* ControlFlow */ = {
 			isa = PBXGroup;
 			children = (
@@ -457,6 +467,7 @@
 				C0067029217F9BA600D2001B /* CollectionTypes */,
 				C0325DD42188D5D700777AE3 /* ControlFlow */,
 				C02F384821988B38005AA272 /* Functions */,
+				C02F385521988B38005AA272 /* Closures */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -556,6 +567,7 @@
 				C056CA262180F6FF00D48020 /* MutabilityOfCollections.md in Resources */,
 				C09E6A312170CF02009A0130 /* ObjectsAndClasses.md in Resources */,
 				C02F3845219887B9005AA272 /* EarlyExit.md in Resources */,
+				C02F385721988B38005AA272 /* Closures.md in Resources */,
 				C0C10E7E2180EB170071E66E /* patterns_tutorials.json in Resources */,
 				C06CB43D2171BEFC00C147B9 /* Generics.md in Resources */,
 				C0C824FA21620DC800D8076F /* LaunchScreen.storyboard in Resources */,

@@ -359,6 +359,16 @@
                     "path_image": "swift-icon"
                 }
             ]
+        },
+        {
+            "header": "Замыкания",
+            "tutorials": [
+                {
+                    "name": "Замыкания",
+                    "path_markdown": "Closures",
+                    "path_image": "swift-icon"
+                }
+            ]
         }
     ]
 }

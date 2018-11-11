@@ -38,6 +38,7 @@
 		C02F385221988B38005AA272 /* FunctionTypes.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F385121988B38005AA272 /* FunctionTypes.md */; };
 		C02F385421988B38005AA272 /* NestedFunctions.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F385321988B38005AA272 /* NestedFunctions.md */; };
 		C02F385721988B38005AA272 /* Closures.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F385621988B38005AA272 /* Closures.md */; };
+		C02F38592198957B005AA272 /* ClosureExpressions.md in Resources */ = {isa = PBXBuildFile; fileRef = C02F38582198957B005AA272 /* ClosureExpressions.md */; };
 		C0325DD32188D59C00777AE3 /* ControlFlowAbout.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */; };
 		C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */ = {isa = PBXBuildFile; fileRef = C0325DD52188D69700777AE3 /* ForInLoops.md */; };
 		C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */ = {isa = PBXBuildFile; fileRef = C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */; };
@@ -139,6 +140,7 @@
 		C02F385121988B38005AA272 /* FunctionTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = FunctionTypes.md; sourceTree = "<group>"; };
 		C02F385321988B38005AA272 /* NestedFunctions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NestedFunctions.md; sourceTree = "<group>"; };
 		C02F385621988B38005AA272 /* Closures.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Closures.md; sourceTree = "<group>"; };
+		C02F38582198957B005AA272 /* ClosureExpressions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ClosureExpressions.md; sourceTree = "<group>"; };
 		C0325DD22188D59C00777AE3 /* ControlFlowAbout.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ControlFlowAbout.md; sourceTree = "<group>"; };
 		C0325DD52188D69700777AE3 /* ForInLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ForInLoops.md; sourceTree = "<group>"; };
 		C04A6980217A54B100FF2C03 /* ArithmeticOperators.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ArithmeticOperators.md; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 			isa = PBXGroup;
 			children = (
 				C02F385621988B38005AA272 /* Closures.md */,
+				C02F38582198957B005AA272 /* ClosureExpressions.md */,
 			);
 			path = Closures;
 			sourceTree = "<group>";
@@ -600,6 +603,7 @@
 				C09E6A332170D25D009A0130 /* EnumerationsAndStructures.md in Resources */,
 				C09F914D218B814E006AAA07 /* ConditionalStatements.md in Resources */,
 				C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */,
+				C02F38592198957B005AA272 /* ClosureExpressions.md in Resources */,
 				C0C10E802180EC2E0071E66E /* libraries_tutorials.json in Resources */,
 				C04A6990217A5FF100FF2C03 /* StringsAndCharacters.md in Resources */,
 				C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */,

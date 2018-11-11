@@ -367,6 +367,11 @@
                     "name": "Замыкания",
                     "path_markdown": "Closures",
                     "path_image": "swift-icon"
+                },
+                {
+                    "name": "Замыкающие выражения",
+                    "path_markdown": "ClosureExpressions",
+                    "path_image": "swift-icon"
                 }
             ]
         }

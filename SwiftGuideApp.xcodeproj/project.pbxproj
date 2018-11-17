@@ -98,6 +98,13 @@
 		C0C824FA21620DC800D8076F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C824F821620DC800D8076F /* LaunchScreen.storyboard */; };
 		C0D640FE21765B5200E7E4F0 /* Tuples.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D640FD21765B5200E7E4F0 /* Tuples.md */; };
 		C0D6B556217A1353004B6B4A /* AssignmentOperator.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D6B555217A1353004B6B4A /* AssignmentOperator.md */; };
+		C0D96E74219F52230070394B /* CapturingValues.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E73219F52230070394B /* CapturingValues.md */; };
+		C0D96E76219F522C0070394B /* TrailingClosures.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E75219F522C0070394B /* TrailingClosures.md */; };
+		C0D96E78219F52580070394B /* ClosuresAreReferenceTypes.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E77219F52580070394B /* ClosuresAreReferenceTypes.md */; };
+		C0D96E7A219F52D50070394B /* EscapingClosures.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E79219F52D50070394B /* EscapingClosures.md */; };
+		C0D96E7C219F53110070394B /* Autoclosures.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E7B219F53110070394B /* Autoclosures.md */; };
+		C0D96E8021A0A5480070394B /* EnumberationSyntax.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E7F21A0A5480070394B /* EnumberationSyntax.md */; };
+		C0D96E8221A0A58D0070394B /* MatchingEnumeration.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E8121A0A58D0070394B /* MatchingEnumeration.md */; };
 		C0E208CA218A21E500B6C377 /* WhileLoops.md in Resources */ = {isa = PBXBuildFile; fileRef = C0E208C9218A21E500B6C377 /* WhileLoops.md */; };
 		C0EDDC04216B31480098BBE8 /* SwiftTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */; };
 		C0EDDC06216B31550098BBE8 /* PatternsTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */; };
@@ -202,6 +209,14 @@
 		C0C824FB21620DC800D8076F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0D640FD21765B5200E7E4F0 /* Tuples.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Tuples.md; sourceTree = "<group>"; };
 		C0D6B555217A1353004B6B4A /* AssignmentOperator.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AssignmentOperator.md; sourceTree = "<group>"; };
+		C0D96E73219F52230070394B /* CapturingValues.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = CapturingValues.md; sourceTree = "<group>"; };
+		C0D96E75219F522C0070394B /* TrailingClosures.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = TrailingClosures.md; sourceTree = "<group>"; };
+		C0D96E77219F52580070394B /* ClosuresAreReferenceTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ClosuresAreReferenceTypes.md; sourceTree = "<group>"; };
+		C0D96E79219F52D50070394B /* EscapingClosures.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = EscapingClosures.md; sourceTree = "<group>"; };
+		C0D96E7B219F53110070394B /* Autoclosures.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Autoclosures.md; sourceTree = "<group>"; };
+		C0D96E7E219F53720070394B /* Enumerations.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Enumerations.md; sourceTree = "<group>"; };
+		C0D96E7F21A0A5480070394B /* EnumberationSyntax.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = EnumberationSyntax.md; sourceTree = "<group>"; };
+		C0D96E8121A0A58D0070394B /* MatchingEnumeration.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MatchingEnumeration.md; sourceTree = "<group>"; };
 		C0E208C9218A21E500B6C377 /* WhileLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WhileLoops.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
@@ -326,6 +341,11 @@
 			children = (
 				C02F385621988B38005AA272 /* Closures.md */,
 				C02F38582198957B005AA272 /* ClosureExpressions.md */,
+				C0D96E75219F522C0070394B /* TrailingClosures.md */,
+				C0D96E73219F52230070394B /* CapturingValues.md */,
+				C0D96E77219F52580070394B /* ClosuresAreReferenceTypes.md */,
+				C0D96E79219F52D50070394B /* EscapingClosures.md */,
+				C0D96E7B219F53110070394B /* Autoclosures.md */,
 			);
 			path = Closures;
 			sourceTree = "<group>";
@@ -460,6 +480,16 @@
 			path = SwiftGuideApp;
 			sourceTree = "<group>";
 		};
+		C0D96E7D219F53560070394B /* Enumerations */ = {
+			isa = PBXGroup;
+			children = (
+				C0D96E7E219F53720070394B /* Enumerations.md */,
+				C0D96E7F21A0A5480070394B /* EnumberationSyntax.md */,
+				C0D96E8121A0A58D0070394B /* MatchingEnumeration.md */,
+			);
+			path = Enumerations;
+			sourceTree = "<group>";
+		};
 		C0EDDC0B216B840C0098BBE8 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -471,6 +501,7 @@
 				C0325DD42188D5D700777AE3 /* ControlFlow */,
 				C02F384821988B38005AA272 /* Functions */,
 				C02F385521988B38005AA272 /* Closures */,
+				C0D96E7D219F53560070394B /* Enumerations */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -587,6 +618,7 @@
 				C09B0DCC2178D8B400F5DE5F /* AssertionsAndPreconditions.md in Resources */,
 				C099EA0E217CFE7B000F304A /* CountingCharacters.md in Resources */,
 				C04A6985217A582900FF2C03 /* ComparsionOperators.md in Resources */,
+				C0D96E78219F52580070394B /* ClosuresAreReferenceTypes.md in Resources */,
 				C09B0DD1217909E800F5DE5F /* Terminology.md in Resources */,
 				C0D640FE21765B5200E7E4F0 /* Tuples.md in Resources */,
 				C0E208CA218A21E500B6C377 /* WhileLoops.md in Resources */,
@@ -605,6 +637,7 @@
 				C073951221692A8A00F9A2E2 /* DesignPatterns.md in Resources */,
 				C02F38592198957B005AA272 /* ClosureExpressions.md in Resources */,
 				C0C10E802180EC2E0071E66E /* libraries_tutorials.json in Resources */,
+				C0D96E7A219F52D50070394B /* EscapingClosures.md in Resources */,
 				C04A6990217A5FF100FF2C03 /* StringsAndCharacters.md in Resources */,
 				C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */,
 				C0256EB221862ECC0055DD4D /* Sets.md in Resources */,
@@ -613,12 +646,15 @@
 				C0A4526C217BAD5C0007EF89 /* WorkingWithCharacters.md in Resources */,
 				C0A45268217BABF30007EF89 /* InitializingAnEmptyString.md in Resources */,
 				C01D88872163A41000F0F317 /* Xcode.md in Resources */,
+				C0D96E8021A0A5480070394B /* EnumberationSyntax.md in Resources */,
+				C0D96E76219F522C0070394B /* TrailingClosures.md in Resources */,
 				C0A4526E217BAE0D0007EF89 /* ConcatenatingStringsAndCharacters.md in Resources */,
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,
 				C06CB43B21712BE100C147B9 /* ErrorHandling.md in Resources */,
 				C099EA12217D05D6000F304A /* Substrings.md in Resources */,
 				C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */,
 				C099EA16217D0C14000F304A /* UnicodeRepresentationsOfStrings.md in Resources */,
+				C0D96E8221A0A58D0070394B /* MatchingEnumeration.md in Resources */,
 				C02F384A21988B38005AA272 /* Functions.md in Resources */,
 				C06161CE216CA5A7000D3D89 /* AboutSwift.md in Resources */,
 				C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */,
@@ -634,11 +670,13 @@
 				C02F385221988B38005AA272 /* FunctionTypes.md in Resources */,
 				C0141F642174C3660093BF56 /* TypeAliases.md in Resources */,
 				C01C4EEF2187696D0041B1EF /* Dictionaries.md in Resources */,
+				C0D96E74219F52230070394B /* CapturingValues.md in Resources */,
 				C0141F5B2174BC030093BF56 /* FloatingPointNumbers.md in Resources */,
 				C0ADF362216E774E00B6B0F8 /* HelloWorld.md in Resources */,
 				C01C4EED2187672B0041B1EF /* PerformingSetOperations.md in Resources */,
 				C04A698B217A5CB000FF2C03 /* RangeOperators.md in Resources */,
 				C01D888E2163C93A00F0F317 /* Playground.md in Resources */,
+				C0D96E7C219F53110070394B /* Autoclosures.md in Resources */,
 				C05BA3F721750E5400C4A8E2 /* Booleans.md in Resources */,
 				C01D7BBC2173AC8E000208CC /* ConstantsAndVariables.md in Resources */,
 			);

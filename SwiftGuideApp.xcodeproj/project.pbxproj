@@ -245,6 +245,8 @@
 		C0D96E9D21A9E51C0070394B /* Methods.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Methods.md; sourceTree = "<group>"; };
 		C0D96E9F21A9E5420070394B /* InstanceMethods.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = InstanceMethods.md; sourceTree = "<group>"; };
 		C0D96EA421FD8BD80070394B /* TypeMethods.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TypeMethods.md; sourceTree = "<group>"; };
+		C0D96EA721FD8BD80070394B /* Subscripts.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Subscripts.md; sourceTree = "<group>"; };
+		C0D96EA821FD8BD80070394B /* SubscriptSyntax.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SubscriptSyntax.md; sourceTree = "<group>"; };
 		C0E208C9218A21E500B6C377 /* WhileLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WhileLoops.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
@@ -556,6 +558,15 @@
 			path = Methods;
 			sourceTree = "<group>";
 		};
+		C0D96EA621FD8BD80070394B /* Subscripts */ = {
+			isa = PBXGroup;
+			children = (
+				C0D96EA721FD8BD80070394B /* Subscripts.md */,
+				C0D96EA821FD8BD80070394B /* SubscriptSyntax.md */,
+			);
+			path = Subscripts;
+			sourceTree = "<group>";
+		};
 		C0EDDC0B216B840C0098BBE8 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -571,6 +582,7 @@
 				C0D96E8B21A8909C0070394B /* StructuresAndClasses */,
 				C0D96E9421A891E20070394B /* Properties */,
 				C0D96E9C21A9E5050070394B /* Methods */,
+				C0D96EA621FD8BD80070394B /* Subscripts */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

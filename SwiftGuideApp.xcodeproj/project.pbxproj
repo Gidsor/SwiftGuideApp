@@ -105,6 +105,17 @@
 		C0D96E7C219F53110070394B /* Autoclosures.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E7B219F53110070394B /* Autoclosures.md */; };
 		C0D96E8021A0A5480070394B /* EnumberationSyntax.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E7F21A0A5480070394B /* EnumberationSyntax.md */; };
 		C0D96E8221A0A58D0070394B /* MatchingEnumeration.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E8121A0A58D0070394B /* MatchingEnumeration.md */; };
+		C0D96E8421A0A6270070394B /* IteratingOverEnumerationCases.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E8321A0A6270070394B /* IteratingOverEnumerationCases.md */; };
+		C0D96E8621A0A6740070394B /* AssociatedValues.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E8521A0A6740070394B /* AssociatedValues.md */; };
+		C0D96E8821A0A6B20070394B /* RawValues.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E8721A0A6B20070394B /* RawValues.md */; };
+		C0D96E8A21A8906E0070394B /* RecursiveEnumerations.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E8921A8906E0070394B /* RecursiveEnumerations.md */; };
+		C0D96E8D21A890C30070394B /* StructuresAndClasses.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E8C21A890C30070394B /* StructuresAndClasses.md */; };
+		C0D96E8F21A891020070394B /* ComparingStructuresAndClasses.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E8E21A891020070394B /* ComparingStructuresAndClasses.md */; };
+		C0D96E9121A8914E0070394B /* StructuresAndEnumerationsAreValuesTypes.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E9021A8914E0070394B /* StructuresAndEnumerationsAreValuesTypes.md */; };
+		C0D96E9321A891A40070394B /* ClassesAreReferenceTypes.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E9221A891A40070394B /* ClassesAreReferenceTypes.md */; };
+		C0D96E9921A9E4600070394B /* PropertyObservers.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E9821A9E4600070394B /* PropertyObservers.md */; };
+		C0D96E9E21A9E51C0070394B /* Methods.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96E9D21A9E51C0070394B /* Methods.md */; };
+		C0D96EA521FD8BD80070394B /* TypeMethods.md in Resources */ = {isa = PBXBuildFile; fileRef = C0D96EA421FD8BD80070394B /* TypeMethods.md */; };
 		C0E208CA218A21E500B6C377 /* WhileLoops.md in Resources */ = {isa = PBXBuildFile; fileRef = C0E208C9218A21E500B6C377 /* WhileLoops.md */; };
 		C0EDDC04216B31480098BBE8 /* SwiftTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */; };
 		C0EDDC06216B31550098BBE8 /* PatternsTutorials.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */; };
@@ -217,6 +228,23 @@
 		C0D96E7E219F53720070394B /* Enumerations.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Enumerations.md; sourceTree = "<group>"; };
 		C0D96E7F21A0A5480070394B /* EnumberationSyntax.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = EnumberationSyntax.md; sourceTree = "<group>"; };
 		C0D96E8121A0A58D0070394B /* MatchingEnumeration.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MatchingEnumeration.md; sourceTree = "<group>"; };
+		C0D96E8321A0A6270070394B /* IteratingOverEnumerationCases.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = IteratingOverEnumerationCases.md; sourceTree = "<group>"; };
+		C0D96E8521A0A6740070394B /* AssociatedValues.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AssociatedValues.md; sourceTree = "<group>"; };
+		C0D96E8721A0A6B20070394B /* RawValues.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RawValues.md; sourceTree = "<group>"; };
+		C0D96E8921A8906E0070394B /* RecursiveEnumerations.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RecursiveEnumerations.md; sourceTree = "<group>"; };
+		C0D96E8C21A890C30070394B /* StructuresAndClasses.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StructuresAndClasses.md; sourceTree = "<group>"; };
+		C0D96E8E21A891020070394B /* ComparingStructuresAndClasses.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ComparingStructuresAndClasses.md; sourceTree = "<group>"; };
+		C0D96E9021A8914E0070394B /* StructuresAndEnumerationsAreValuesTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StructuresAndEnumerationsAreValuesTypes.md; sourceTree = "<group>"; };
+		C0D96E9221A891A40070394B /* ClassesAreReferenceTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ClassesAreReferenceTypes.md; sourceTree = "<group>"; };
+		C0D96E9521A892000070394B /* Properties.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Properties.md; sourceTree = "<group>"; };
+		C0D96E9621A892290070394B /* StoredProperties.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = StoredProperties.md; sourceTree = "<group>"; };
+		C0D96E9721A9E41B0070394B /* ComputedProperties.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ComputedProperties.md; sourceTree = "<group>"; };
+		C0D96E9821A9E4600070394B /* PropertyObservers.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PropertyObservers.md; sourceTree = "<group>"; };
+		C0D96E9A21A9E4930070394B /* GlobalAndLocalVariables.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = GlobalAndLocalVariables.md; sourceTree = "<group>"; };
+		C0D96E9B21A9E4C60070394B /* TypeProperties.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TypeProperties.md; sourceTree = "<group>"; };
+		C0D96E9D21A9E51C0070394B /* Methods.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Methods.md; sourceTree = "<group>"; };
+		C0D96E9F21A9E5420070394B /* InstanceMethods.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = InstanceMethods.md; sourceTree = "<group>"; };
+		C0D96EA421FD8BD80070394B /* TypeMethods.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TypeMethods.md; sourceTree = "<group>"; };
 		C0E208C9218A21E500B6C377 /* WhileLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WhileLoops.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
@@ -486,8 +514,46 @@
 				C0D96E7E219F53720070394B /* Enumerations.md */,
 				C0D96E7F21A0A5480070394B /* EnumberationSyntax.md */,
 				C0D96E8121A0A58D0070394B /* MatchingEnumeration.md */,
+				C0D96E8321A0A6270070394B /* IteratingOverEnumerationCases.md */,
+				C0D96E8521A0A6740070394B /* AssociatedValues.md */,
+				C0D96E8721A0A6B20070394B /* RawValues.md */,
+				C0D96E8921A8906E0070394B /* RecursiveEnumerations.md */,
 			);
 			path = Enumerations;
+			sourceTree = "<group>";
+		};
+		C0D96E8B21A8909C0070394B /* StructuresAndClasses */ = {
+			isa = PBXGroup;
+			children = (
+				C0D96E8C21A890C30070394B /* StructuresAndClasses.md */,
+				C0D96E8E21A891020070394B /* ComparingStructuresAndClasses.md */,
+				C0D96E9021A8914E0070394B /* StructuresAndEnumerationsAreValuesTypes.md */,
+				C0D96E9221A891A40070394B /* ClassesAreReferenceTypes.md */,
+			);
+			path = StructuresAndClasses;
+			sourceTree = "<group>";
+		};
+		C0D96E9421A891E20070394B /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				C0D96E9521A892000070394B /* Properties.md */,
+				C0D96E9621A892290070394B /* StoredProperties.md */,
+				C0D96E9721A9E41B0070394B /* ComputedProperties.md */,
+				C0D96E9821A9E4600070394B /* PropertyObservers.md */,
+				C0D96E9A21A9E4930070394B /* GlobalAndLocalVariables.md */,
+				C0D96E9B21A9E4C60070394B /* TypeProperties.md */,
+			);
+			path = Properties;
+			sourceTree = "<group>";
+		};
+		C0D96E9C21A9E5050070394B /* Methods */ = {
+			isa = PBXGroup;
+			children = (
+				C0D96E9D21A9E51C0070394B /* Methods.md */,
+				C0D96E9F21A9E5420070394B /* InstanceMethods.md */,
+				C0D96EA421FD8BD80070394B /* TypeMethods.md */,
+			);
+			path = Methods;
 			sourceTree = "<group>";
 		};
 		C0EDDC0B216B840C0098BBE8 /* Swift */ = {
@@ -502,6 +568,9 @@
 				C02F384821988B38005AA272 /* Functions */,
 				C02F385521988B38005AA272 /* Closures */,
 				C0D96E7D219F53560070394B /* Enumerations */,
+				C0D96E8B21A8909C0070394B /* StructuresAndClasses */,
+				C0D96E9421A891E20070394B /* Properties */,
+				C0D96E9C21A9E5050070394B /* Methods */,
 			);
 			path = Swift;
 			sourceTree = "<group>";
@@ -592,10 +661,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C099EA14217D091B000F304A /* ComparingStrings.md in Resources */,
+				C0D96E9E21A9E51C0070394B /* Methods.md in Resources */,
 				C000DD4D2180A26B009C2D04 /* swift_tutorials.json in Resources */,
 				C056CA282180F77400D48020 /* Arrays.md in Resources */,
 				C04A698D217A5DED00FF2C03 /* LogicalOperators.md in Resources */,
 				C0325DD32188D59C00777AE3 /* ControlFlowAbout.md in Resources */,
+				C0D96E9121A8914E0070394B /* StructuresAndEnumerationsAreValuesTypes.md in Resources */,
 				C09E6A352170D750009A0130 /* ProtocolsAndExtensions.md in Resources */,
 				C0141F592174BA650093BF56 /* Integers.md in Resources */,
 				C056CA262180F6FF00D48020 /* MutabilityOfCollections.md in Resources */,
@@ -606,6 +677,7 @@
 				C06CB43D2171BEFC00C147B9 /* Generics.md in Resources */,
 				C0C824FA21620DC800D8076F /* LaunchScreen.storyboard in Resources */,
 				C0A45270217BAF6E0007EF89 /* StringInterpolation.md in Resources */,
+				C0D96E8821A0A6B20070394B /* RawValues.md in Resources */,
 				C0141F622174C1AD0093BF56 /* NumericTypeConversion.md in Resources */,
 				C04A6983217A56F300FF2C03 /* CompoundAssignmentOperators.md in Resources */,
 				C0141F572174B9550093BF56 /* Comments.md in Resources */,
@@ -618,6 +690,7 @@
 				C09B0DCC2178D8B400F5DE5F /* AssertionsAndPreconditions.md in Resources */,
 				C099EA0E217CFE7B000F304A /* CountingCharacters.md in Resources */,
 				C04A6985217A582900FF2C03 /* ComparsionOperators.md in Resources */,
+				C0D96E9921A9E4600070394B /* PropertyObservers.md in Resources */,
 				C0D96E78219F52580070394B /* ClosuresAreReferenceTypes.md in Resources */,
 				C09B0DD1217909E800F5DE5F /* Terminology.md in Resources */,
 				C0D640FE21765B5200E7E4F0 /* Tuples.md in Resources */,
@@ -631,6 +704,7 @@
 				C02F384721988B38005AA272 /* CheckingAPIAvailability.md in Resources */,
 				C02F3844219887B9005AA272 /* ControlTransferStatements.md in Resources */,
 				C0A45266217BAB780007EF89 /* StringMutability.md in Resources */,
+				C0D96EA521FD8BD80070394B /* TypeMethods.md in Resources */,
 				C006702B217F9BE800D2001B /* CollectionTypes.md in Resources */,
 				C09E6A332170D25D009A0130 /* EnumerationsAndStructures.md in Resources */,
 				C09F914D218B814E006AAA07 /* ConditionalStatements.md in Resources */,
@@ -639,6 +713,7 @@
 				C0C10E802180EC2E0071E66E /* libraries_tutorials.json in Resources */,
 				C0D96E7A219F52D50070394B /* EscapingClosures.md in Resources */,
 				C04A6990217A5FF100FF2C03 /* StringsAndCharacters.md in Resources */,
+				C0D96E8A21A8906E0070394B /* RecursiveEnumerations.md in Resources */,
 				C0141F602174BEA00093BF56 /* NumericLiterals.md in Resources */,
 				C0256EB221862ECC0055DD4D /* Sets.md in Resources */,
 				C099EA10217D0282000F304A /* AccessingAndModifyingString.md in Resources */,
@@ -652,9 +727,11 @@
 				C0C824F521620DC700D8076F /* Main.storyboard in Resources */,
 				C06CB43B21712BE100C147B9 /* ErrorHandling.md in Resources */,
 				C099EA12217D05D6000F304A /* Substrings.md in Resources */,
+				C0D96E8D21A890C30070394B /* StructuresAndClasses.md in Resources */,
 				C0325DD62188D69700777AE3 /* ForInLoops.md in Resources */,
 				C099EA16217D0C14000F304A /* UnicodeRepresentationsOfStrings.md in Resources */,
 				C0D96E8221A0A58D0070394B /* MatchingEnumeration.md in Resources */,
+				C0D96E9321A891A40070394B /* ClassesAreReferenceTypes.md in Resources */,
 				C02F384A21988B38005AA272 /* Functions.md in Resources */,
 				C06161CE216CA5A7000D3D89 /* AboutSwift.md in Resources */,
 				C04A6981217A54B100FF2C03 /* ArithmeticOperators.md in Resources */,
@@ -666,15 +743,18 @@
 				C09E6A2F2170CB8D009A0130 /* FunctionsAndClosures.md in Resources */,
 				C099EA0C217CFCE3000F304A /* Unicode.md in Resources */,
 				C04A6989217A5B3A00FF2C03 /* NilCoalescingOperator.md in Resources */,
+				C0D96E8F21A891020070394B /* ComparingStructuresAndClasses.md in Resources */,
 				C05326AC216DC38300839BDE /* VersionSwift.md in Resources */,
 				C02F385221988B38005AA272 /* FunctionTypes.md in Resources */,
 				C0141F642174C3660093BF56 /* TypeAliases.md in Resources */,
 				C01C4EEF2187696D0041B1EF /* Dictionaries.md in Resources */,
 				C0D96E74219F52230070394B /* CapturingValues.md in Resources */,
+				C0D96E8621A0A6740070394B /* AssociatedValues.md in Resources */,
 				C0141F5B2174BC030093BF56 /* FloatingPointNumbers.md in Resources */,
 				C0ADF362216E774E00B6B0F8 /* HelloWorld.md in Resources */,
 				C01C4EED2187672B0041B1EF /* PerformingSetOperations.md in Resources */,
 				C04A698B217A5CB000FF2C03 /* RangeOperators.md in Resources */,
+				C0D96E8421A0A6270070394B /* IteratingOverEnumerationCases.md in Resources */,
 				C01D888E2163C93A00F0F317 /* Playground.md in Resources */,
 				C0D96E7C219F53110070394B /* Autoclosures.md in Resources */,
 				C05BA3F721750E5400C4A8E2 /* Booleans.md in Resources */,

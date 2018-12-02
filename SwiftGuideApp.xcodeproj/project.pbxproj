@@ -253,6 +253,8 @@
 		C0D96EAD21FD8BD80070394B /* DefiningBaseClass.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DefiningBaseClass.md; sourceTree = "<group>"; };
 		C0D96EAE21FD8BD80070394B /* Subclassing.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Subclassing.md; sourceTree = "<group>"; };
 		C0D96EAF21FD8BD80070394B /* Overriding.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Overriding.md; sourceTree = "<group>"; };
+		C0D96EB021FD8BD80070394B /* PreventingOverrides.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = PreventingOverrides.md; sourceTree = "<group>"; };
+		C0D96EB221FD8BD80070394B /* Initialization.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Initialization.md; sourceTree = "<group>"; };
 		C0E208C9218A21E500B6C377 /* WhileLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WhileLoops.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
@@ -582,8 +584,17 @@
 				C0D96EAD21FD8BD80070394B /* DefiningBaseClass.md */,
 				C0D96EAE21FD8BD80070394B /* Subclassing.md */,
 				C0D96EAF21FD8BD80070394B /* Overriding.md */,
+				C0D96EB021FD8BD80070394B /* PreventingOverrides.md */,
 			);
 			path = Inheritance;
+			sourceTree = "<group>";
+		};
+		C0D96EB121FD8BD80070394B /* Initialization */ = {
+			isa = PBXGroup;
+			children = (
+				C0D96EB221FD8BD80070394B /* Initialization.md */,
+			);
+			path = Initialization;
 			sourceTree = "<group>";
 		};
 		C0EDDC0B216B840C0098BBE8 /* Swift */ = {
@@ -603,6 +614,7 @@
 				C0D96E9C21A9E5050070394B /* Methods */,
 				C0D96EA621FD8BD80070394B /* Subscripts */,
 				C0D96EAB21FD8BD80070394B /* Inheritance */,
+				C0D96EB121FD8BD80070394B /* Initialization */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

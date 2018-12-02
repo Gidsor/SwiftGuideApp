@@ -250,6 +250,8 @@
 		C0D96EA921FD8BD80070394B /* SubscriptUsage.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SubscriptUsage.md; sourceTree = "<group>"; };
 		C0D96EAA21FD8BD80070394B /* SubscriptOptions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SubscriptOptions.md; sourceTree = "<group>"; };
 		C0D96EAC21FD8BD80070394B /* Inheritance.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Inheritance.md; sourceTree = "<group>"; };
+		C0D96EAD21FD8BD80070394B /* DefiningBaseClass.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DefiningBaseClass.md; sourceTree = "<group>"; };
+		C0D96EAE21FD8BD80070394B /* Subclassing.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Subclassing.md; sourceTree = "<group>"; };
 		C0E208C9218A21E500B6C377 /* WhileLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WhileLoops.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
@@ -576,6 +578,8 @@
 			isa = PBXGroup;
 			children = (
 				C0D96EAC21FD8BD80070394B /* Inheritance.md */,
+				C0D96EAD21FD8BD80070394B /* DefiningBaseClass.md */,
+				C0D96EAE21FD8BD80070394B /* Subclassing.md */,
 			);
 			path = Inheritance;
 			sourceTree = "<group>";

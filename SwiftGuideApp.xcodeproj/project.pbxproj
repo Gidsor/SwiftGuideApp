@@ -269,6 +269,7 @@
 		C0D96EC021FD8BD80070394B /* OptionalChaining.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = OptionalChaining.md; sourceTree = "<group>"; };
 		C0D96EC121FD8BD80070394B /* OptionalChainingAsAlternativeForcedUnwrapping.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = OptionalChainingAsAlternativeForcedUnwrapping.md; sourceTree = "<group>"; };
 		C0D96EC221FD8BD80070394B /* DefiningModelClassesForOptionalChaining.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DefiningModelClassesForOptionalChaining.md; sourceTree = "<group>"; };
+		C0D96EC321FD8BD80070394B /* AccessingPropertiesThroughOptionalChaining.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AccessingPropertiesThroughOptionalChaining.md; sourceTree = "<group>"; };
 		C0E208C9218A21E500B6C377 /* WhileLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WhileLoops.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
@@ -635,6 +636,7 @@
 				C0D96EC021FD8BD80070394B /* OptionalChaining.md */,
 				C0D96EC121FD8BD80070394B /* OptionalChainingAsAlternativeForcedUnwrapping.md */,
 				C0D96EC221FD8BD80070394B /* DefiningModelClassesForOptionalChaining.md */,
+				C0D96EC321FD8BD80070394B /* AccessingPropertiesThroughOptionalChaining.md */,
 			);
 			path = OptionalChaining;
 			sourceTree = "<group>";

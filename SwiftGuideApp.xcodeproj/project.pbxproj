@@ -279,6 +279,7 @@
 		C0D96ECB21FD8BD80070394B /* HandlingErrors.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = HandlingErrors.md; sourceTree = "<group>"; };
 		C0D96ECC21FD8BD80070394B /* SpecifyingCleanupActions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = SpecifyingCleanupActions.md; sourceTree = "<group>"; };
 		C0D96ECE21FD8BD80070394B /* TypeCasting.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TypeCasting.md; sourceTree = "<group>"; };
+		C0D96ECF21FD8BD80070394B /* DefiningClassHierarchyTypeCasting.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = DefiningClassHierarchyTypeCasting.md; sourceTree = "<group>"; };
 		C0E208C9218A21E500B6C377 /* WhileLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WhileLoops.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
@@ -669,6 +670,7 @@
 			isa = PBXGroup;
 			children = (
 				C0D96ECE21FD8BD80070394B /* TypeCasting.md */,
+				C0D96ECF21FD8BD80070394B /* DefiningClassHierarchyTypeCasting.md */,
 			);
 			path = TypeCasting;
 			sourceTree = "<group>";

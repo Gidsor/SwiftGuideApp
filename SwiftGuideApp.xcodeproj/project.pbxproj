@@ -286,6 +286,7 @@
 		C0D96ED421FD8BD80070394B /* NestedTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NestedTypes.md; sourceTree = "<group>"; };
 		C0D96ED521FD8BD80070394B /* NestedTypesInAction.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NestedTypesInAction.md; sourceTree = "<group>"; };
 		C0D96ED621FD8BD80070394B /* ReferringToNestedTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ReferringToNestedTypes.md; sourceTree = "<group>"; };
+		C0D96ED821FD8BD80070394B /* Extensions.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Extensions.md; sourceTree = "<group>"; };
 		C0E208C9218A21E500B6C377 /* WhileLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WhileLoops.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
@@ -694,6 +695,14 @@
 			path = NestedTypes;
 			sourceTree = "<group>";
 		};
+		C0D96ED721FD8BD80070394B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C0D96ED821FD8BD80070394B /* Extensions.md */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		C0EDDC0B216B840C0098BBE8 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
@@ -717,6 +726,7 @@
 				C0D96EC821FD8BD80070394B /* ErrorHandling */,
 				C0D96ECD21FD8BD80070394B /* TypeCasting */,
 				C0D96ED321FD8BD80070394B /* NestedTypes */,
+				C0D96ED721FD8BD80070394B /* Extensions */,
 			);
 			path = Swift;
 			sourceTree = "<group>";

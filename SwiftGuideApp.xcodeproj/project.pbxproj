@@ -294,6 +294,7 @@
 		C0D96EDD21FD8BD80070394B /* Subscripts.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Subscripts.md; sourceTree = "<group>"; };
 		C0D96EDE21FD8BD80070394B /* NestedTypes.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = NestedTypes.md; sourceTree = "<group>"; };
 		C0D96EE021FD8BD80070394B /* Protocols.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Protocols.md; sourceTree = "<group>"; };
+		C0D96EE221FD8BD80070394B /* ProtocolSyntax.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ProtocolSyntax.md; sourceTree = "<group>"; };
 		C0E208C9218A21E500B6C377 /* WhileLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WhileLoops.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
@@ -720,6 +721,7 @@
 			isa = PBXGroup;
 			children = (
 				C0D96EE021FD8BD80070394B /* Protocols.md */,
+				C0D96EE221FD8BD80070394B /* ProtocolSyntax.md */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";

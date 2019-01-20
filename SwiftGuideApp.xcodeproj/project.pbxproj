@@ -303,6 +303,7 @@
 		C0D96EE821FD8BD80070394B /* Delegation.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Delegation.md; sourceTree = "<group>"; };
 		C0D96EE921FD8BD80070394B /* AddingProtocolConformanceWithExtension.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = AddingProtocolConformanceWithExtension.md; sourceTree = "<group>"; };
 		C0D96EEA21FD8BD80070394B /* ProtocolInheritance.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ProtocolInheritance.md; sourceTree = "<group>"; };
+		C0D96EEB21FD8BD80070394B /* ClassOnlyProtocols.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = ClassOnlyProtocols.md; sourceTree = "<group>"; };
 		C0E208C9218A21E500B6C377 /* WhileLoops.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = WhileLoops.md; sourceTree = "<group>"; };
 		C0EDDC03216B31480098BBE8 /* SwiftTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTutorials.swift; sourceTree = "<group>"; };
 		C0EDDC05216B31550098BBE8 /* PatternsTutorials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsTutorials.swift; sourceTree = "<group>"; };
@@ -738,6 +739,7 @@
 				C0D96EE821FD8BD80070394B /* Delegation.md */,
 				C0D96EE921FD8BD80070394B /* AddingProtocolConformanceWithExtension.md */,
 				C0D96EEA21FD8BD80070394B /* ProtocolInheritance.md */,
+				C0D96EEB21FD8BD80070394B /* ClassOnlyProtocols.md */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";
